@@ -16,8 +16,8 @@
 \newtoggle{FormatoApresentacaoTRUE}
 \newtoggle{IncluirBibliografiaNoCapituloTRUE}
 %Seta o flag - deixe true se for para gerar apresentação de aula e false para formato livro
-%\toggletrue{FormatoApresentacaoTRUE}
-\togglefalse{FormatoApresentacaoTRUE}
+\toggletrue{FormatoApresentacaoTRUE}
+%\togglefalse{FormatoApresentacaoTRUE}
 %\toggletrue{IncluirBibliografiaNoCapituloTRUE}
 \togglefalse{IncluirBibliografiaNoCapituloTRUE}
 
@@ -110,6 +110,7 @@
 \bibtex_command default
 \index_command default
 \float_placement h
+\float_alignment class
 \paperfontsize 12
 \spacing onehalf
 \use_hyperref true
@@ -202,41 +203,40 @@ status open
 
 \begin_layout Plain Layout
 
-% Veja fancyhdr.dvi para detalhes.
+% Definição do cabeçalho e rodapé usando o pacote fancyhdr
 \end_layout
 
 \begin_layout Plain Layout
 
-% O cabeçalho muda de acorda com o lado
+% para detalhes veja http://mirrors.ctan.org/macros/latex/contrib/fancyhdr/fancyhdr.pdf .
 \end_layout
 
 \begin_layout Plain Layout
 
-% L=left,
- R=right,
- E=even,
- O=odd
+% O cabeçalho fancyhead,
+ L=left,
+ C=Center R=right
 \end_layout
 
 \begin_layout Plain Layout
 
-%
+% Exemplos de uso:
+ 
 \backslash
-fancyhead[LE,RO]{Metodologia para Desenvolvimento do Projeto de Engenharia}
-\end_layout
-
-\begin_layout Plain Layout
-
-%
+thetitle titulo do documento 
 \backslash
-fancyhead[LO,RE]{LENEP/CCT/UENF}
+thepage numero do capítulo 
+\backslash
+rightmark nome da seção
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-fancyhead[L]{Metodologia para Desenvolvimento do Projeto de Engenharia}
+fancyhead[L]{
+\backslash
+rightmark}
 \end_layout
 
 \begin_layout Plain Layout
@@ -255,14 +255,14 @@ fancyhead[R]{}
 
 \begin_layout Plain Layout
 
-% o Rodapé 
+% O Rodapé fancyfoot
 \end_layout
 
 \begin_layout Plain Layout
 
 
 \backslash
-fancyfoot[L]{Professor André Duarte Bueno} 
+fancyfoot[L]{} 
 \end_layout
 
 \begin_layout Plain Layout
@@ -283,9 +283,27 @@ thepage}
 
 \begin_layout Plain Layout
 
+% Em documentos impressos frente e verso posso alterar formatação páginas 
+\end_layout
 
+\begin_layout Plain Layout
+
+% par E=even,
+ impar O=odd
+\end_layout
+
+\begin_layout Plain Layout
+
+% 
 \backslash
-pagenumbering{arabic}
+fancyhead[LE,RO]{Metodologia para Desenvolvimento do Projeto de Engenharia}
+\end_layout
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+fancyhead[LO,RE]{LENEP/CCT/UENF}
 \end_layout
 
 \end_inset
@@ -364,7 +382,9 @@ status open
 \begin_inset Graphics
 	filename imagens/Etapas/ProjetoEngenharia-Etapas-Geral-Resumido.png
 	lyxscale 50
-	width 100text%
+	width 80text%
+	height 100theight%
+	keepAspectRatio
 	special height=0.9\textheight
 
 \end_inset
@@ -588,6 +608,16 @@ literal "false"
 
 ),
  editores (
+\begin_inset CommandInset href
+LatexCommand href
+name "vscode"
+target "https://code.visualstudio.com/"
+literal "false"
+
+\end_inset
+
+,
+ 
 \begin_inset CommandInset href
 LatexCommand href
 name "kate"
@@ -1031,13 +1061,23 @@ Para entender os detalhes da metodologia pode olhar o modelo padrão para:
 \begin_deeper
 \begin_layout Itemize
 "Proposta de Desafio Tecnológico" disponibilizado em 
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset CommandInset href
 LatexCommand href
+name "https://github.com/ldsc/LDSC-ProjetoEngenharia-1"
 target "https://github.com/ldsc/LDSC-ProjetoEngenharia-1-PropostaDeDesafio-TituloDoDesafioTecnologico"
+literal "false"
 
 \end_inset
 
- (este documento segue um padrão Petrobras).
+ 
+\begin_inset Newline newline
+\end_inset
+
+(este documento segue um padrão Petrobras).
 \end_layout
 
 \begin_layout Itemize
@@ -1167,7 +1207,8 @@ github
 \end_deeper
 \begin_layout Description
 Nota:
- limite padrão de até 3 alunos por projeto.
+ limite padrão de até 2 alunos por projeto (mínimo de 10 classes,
+ 5 por aluno).
 \end_layout
 
 \begin_layout Itemize
@@ -1257,12 +1298,18 @@ Nota:
 \end_inset
 
 
+\size small
+
 \begin_inset CommandInset href
 LatexCommand href
+name "https://github.com/ldsc/ModeloDiretorio-Aluno-Bolsista.."
 target "https://github.com/ldsc/ModeloDiretorio-Aluno-Bolsista-TCC-IC-MSC-DSC-Projeto"
+literal "false"
 
 \end_inset
 
+
+\size default
 .
 \end_layout
 
@@ -2577,8 +2624,10 @@ features
 \emph default
  (
 \series bold
+\emph on
 BACKLOG
 \series default
+\emph default
 ):
  lista das funcionalidades que serão implementados.
 \end_layout
@@ -4600,7 +4649,7 @@ Os primeiros 4 meses estão relacionados as etapas realizadas na disciplina de I
 \begin_layout Itemize
 Note que temos duas defesas,
  a primeira esta associada a disciplina LEP - 01446:
- Projeto de Software Aplicado à Engenharia e a segunda é a defesa do TCC um ano depois.
+ Projeto de Software Aplicado à Engenharia e a segunda é a defesa do TCC um ano depois
 \end_layout
 
 \begin_layout Standard
@@ -4680,6 +4729,8 @@ Mês
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 8-10
 \end_layout
 
@@ -4689,6 +4740,8 @@ Mês
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 11-13
 \end_layout
 
@@ -4698,6 +4751,8 @@ Mês
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 14-16
 \end_layout
 
@@ -4707,6 +4762,8 @@ Mês
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 17-19
 \end_layout
 
@@ -4716,6 +4773,8 @@ Mês
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 20-22
 \end_layout
 
@@ -4725,6 +4784,8 @@ Mês
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 23-25
 \end_layout
 
@@ -4734,7 +4795,9 @@ Mês
 \begin_inset Text
 
 \begin_layout Plain Layout
-..36 (TCC)
+
+\size small
+36 (TCC)
 \end_layout
 
 \end_inset
@@ -5787,7 +5850,7 @@ X
 \begin_inset Text
 
 \begin_layout Plain Layout
-X
+x
 \end_layout
 
 \end_inset
@@ -5906,7 +5969,7 @@ Etapa 4.c6 - TCC
 \begin_inset Text
 
 \begin_layout Plain Layout
-X
+x
 \end_layout
 
 \end_inset
@@ -5915,7 +5978,7 @@ X
 \begin_inset Text
 
 \begin_layout Plain Layout
-X
+x
 \end_layout
 
 \end_inset
@@ -6366,7 +6429,7 @@ As versões finais devem ter documentos gerados em formatos compatíveis com sof
  temos de garantir que futuras equipes possam modificar/atualizar o projeto mesmo sem ter acesso aos softwares proprietários.
 \end_layout
 
-\begin_deeper
+\end_deeper
 \begin_layout Itemize
 Nota:
  Só use software proprietário se o mesmo tiver mecanismos para exportar os arquivos em formato que possa ser lido por um software livre.
@@ -6374,8 +6437,6 @@ Nota:
  Dê preferencia para imagens no formato png.
 \end_layout
 
-\end_deeper
-\end_deeper
 \begin_layout Standard
 \begin_inset ERT
 status open

@@ -16,8 +16,8 @@
 \newtoggle{FormatoApresentacaoTRUE}
 \newtoggle{IncluirBibliografiaNoCapituloTRUE}
 %Seta o flag - deixe true se for para gerar apresentação de aula e false para formato livro
-%\toggletrue{FormatoApresentacaoTRUE}
-\togglefalse{FormatoApresentacaoTRUE}
+\toggletrue{FormatoApresentacaoTRUE}
+%\togglefalse{FormatoApresentacaoTRUE}
 %\toggletrue{IncluirBibliografiaNoCapituloTRUE}
 \togglefalse{IncluirBibliografiaNoCapituloTRUE}
 
@@ -110,6 +110,7 @@
 \bibtex_command default
 \index_command default
 \float_placement h
+\float_alignment class
 \paperfontsize 12
 \spacing onehalf
 \use_hyperref false
@@ -258,12 +259,10 @@ status open
 
 \size large
 Metodologia para Desenvolvimento do Projeto de Engenharia
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
-\size default
-Versão 2025.1
+\begin_layout Standard
+\align center
 \begin_inset ERT
 status open
 
@@ -326,6 +325,19 @@ status open
 \begin_layout Plain Layout
 o valor de 4cm pode ser alterado,
  para que a distribuição fique mais uniforme
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
 \end_layout
 
 \end_inset

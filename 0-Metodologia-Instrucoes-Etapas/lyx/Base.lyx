@@ -16,8 +16,8 @@
 \newtoggle{FormatoApresentacaoTRUE}
 \newtoggle{IncluirBibliografiaNoCapituloTRUE}
 %Seta o flag - deixe true se for para gerar apresentação de aula e false para formato livro
-%\toggletrue{FormatoApresentacaoTRUE}
-\togglefalse{FormatoApresentacaoTRUE}
+\toggletrue{FormatoApresentacaoTRUE}
+%\togglefalse{FormatoApresentacaoTRUE}
 %\toggletrue{IncluirBibliografiaNoCapituloTRUE}
 \togglefalse{IncluirBibliografiaNoCapituloTRUE}
 
@@ -110,6 +110,8 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
+\float_placement class
+\float_alignment class
 \paperfontsize 10
 \spacing single
 \use_hyperref false
@@ -179,6 +181,67 @@
 status open
 
 \begin_layout Plain Layout
+Define o estilo padrão de listagens de código como sendo C++
+\end_layout
+
+\begin_layout Plain Layout
+para mudar escolha uma das opções:
+\end_layout
+
+\begin_layout Plain Layout
+C++ [C++]
+\end_layout
+
+\begin_layout Plain Layout
+(listagem linha no topo e abaixo,
+ toda colorida de acordo com palavra chave,
+ numerada)
+\end_layout
+
+\begin_layout Plain Layout
+out [saída no terminal]
+\end_layout
+
+\begin_layout Plain Layout
+(fundo colorido,
+ sem numeração)
+\end_layout
+
+\begin_layout Plain Layout
+Makefile 
+\end_layout
+
+\begin_layout Plain Layout
+(estilo de arquivo Makefile)
+\end_layout
+
+\begin_layout Plain Layout
+Gnuplot
+\end_layout
+
+\begin_layout Plain Layout
+(estilo de arquivo gnuplot)
+\end_layout
+
+\begin_layout Plain Layout
+bash (comandos de terminal)
+\end_layout
+
+\begin_layout Plain Layout
+make (arquivos makefile)
+\end_layout
+
+\begin_layout Plain Layout
+italico (itálico)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Manuais LATEX
 \end_layout
 
@@ -192,103 +255,6 @@ Cores para listagens
 
 \begin_layout Plain Layout
 http://latexcolor.com/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Veja fancyhdr.dvi para detalhes.
-\end_layout
-
-\begin_layout Plain Layout
-
-% O cabeçalho muda de acorda com o lado
-\end_layout
-
-\begin_layout Plain Layout
-
-% L=left,
- R=right,
- E=even,
- O=odd
-\end_layout
-
-\begin_layout Plain Layout
-
-%
-\backslash
-fancyhead[LE,RO]{Metodologia para Desenvolvimento do Projeto de Engenharia}
-\end_layout
-
-\begin_layout Plain Layout
-
-%
-\backslash
-fancyhead[LO,RE]{LENEP/CCT/UENF}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-fancyhead[L]{Metodologia para Desenvolvimento do Projeto de Engenharia}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-fancyhead[C]{}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-fancyhead[R]{}
-\end_layout
-
-\begin_layout Plain Layout
-
-% o Rodapé 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-fancyfoot[L]{} 
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-fancyfoot[C]{}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-fancyfoot[R]{
-\backslash
-thepage}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-thispagestyle{empty}
 \end_layout
 
 \end_inset
@@ -618,6 +584,11 @@ Como definir cores para
 \begin_layout Standard
 \begin_inset ERT
 status open
+
+\begin_layout Plain Layout
+
+% Definição de padrtão para códigos em C++
+\end_layout
 
 \begin_layout Plain Layout
 
@@ -1463,70 +1434,6 @@ color{azulclaro},extendedchars=true,basicstyle=
 footnotesize
 \backslash
 ttfamily}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Define o estilo padrão como sendo C++
-\end_layout
-
-\begin_layout Plain Layout
-para mudar escolha uma das opções:
-\end_layout
-
-\begin_layout Plain Layout
-C++ 
-\end_layout
-
-\begin_layout Plain Layout
-(listagem linha no topo e abaixo,
- toda colorida de acordo com palavra chave,
- numerada)
-\end_layout
-
-\begin_layout Plain Layout
-out 
-\end_layout
-
-\begin_layout Plain Layout
-(fundo colorido,
- sem numeração)
-\end_layout
-
-\begin_layout Plain Layout
-Makefile 
-\end_layout
-
-\begin_layout Plain Layout
-(estilo de arquivo Makefile)
-\end_layout
-
-\begin_layout Plain Layout
-Gnuplot 
-\end_layout
-
-\begin_layout Plain Layout
-(estilo de arquivo gnuplot)
-\end_layout
-
-\begin_layout Plain Layout
-bash (comandos de terminal)
-\end_layout
-
-\begin_layout Plain Layout
-make (arquivos makefile)
-\end_layout
-
-\begin_layout Plain Layout
-italico (itálico)
 \end_layout
 
 \end_inset

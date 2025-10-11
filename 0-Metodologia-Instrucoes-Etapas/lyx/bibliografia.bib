@@ -1,22 +1,22 @@
 % NAME: andre.bib (18/02/2002).Last Change (27/08/2023)
 %
-% Base BibX para referÍncias citadas em artigos
+% Base BibX para refer√™ncias citadas em artigos
 %
-% INSTRU«’ES:
-% 0- FIND para localizar as diferentes seÁıes use find ##
+% INSTRU√á√ïES:
+% 0- FIND para localizar as diferentes se√ß√µes use find ##
 % 1-Use o emacs ou um editor simples para editar este arquivo
-%   Pode acentuar normalmente, usando Á·,,, depois use o programa
+%   Pode acentuar normalmente, usando √ß√°,,, depois use o programa
 %   bibtool para converter para o formato tex.
 %   Para eliminar caracteris iso, e deixar somente ASCII.
 %     bibtool -r iso2tex -i iso.bib -o ascii.bib
 % 2-Use o emacs (menu BIBTEX) para verificar a consistencia das entradas
-% 3-Use o programa bibtool para verificar a consistÍncia das entradas
+% 3-Use o programa bibtool para verificar a consist√™ncia das entradas
 % 4-Use as entradas normalmente no Lyx ou em outro editor tex.
-% 5-PS: Verifique se os arquivos est„o no formato do Unix (use o programa dos2unix).
+% 5-PS: Verifique se os arquivos est√£o no formato do Unix (use o programa dos2unix).
 % 6-PS: Para converter este arquivo no formato unix para dos (use o programa unix2dos).
 % 7Para extrair as referencias de um dado documento 
 %   bibtool -x nomeDocumento.aux -o listareferencias.bib
-% 8-Para extrair as referencias com uma determinada express„o regular
+% 8-Para extrair as referencias com uma determinada express√£o regular
 %  bibtool -- select{"tex"}     allreferences.bib -o somereferences.bib
 
 %--------------------------------------------------------------------
@@ -24,59 +24,73 @@
 % Para facilitar a localizacao, use o format
 %----------Grupo 1
 % adb    - artigos pessoais
-%----------Grupo 2 ciclo b·sico - matem·tica, fÌsica, quÌmica - mÈtodos numÈricos
-% math   - artigos matem·ticos
-% numan  - artigos sobre mÈtodos numÈricos
-% prob   - artigos probabilidade, processos estoc·sticos
+%----------Grupo 2 ciclo b√°sico - matem√°tica, f√≠sica, qu√≠mica - m√©todos num√©ricos
+% math   - artigos matem√°ticos
+% numan  - artigos sobre m√©todos num√©ricos
+% prob   - artigos probabilidade, processos estoc√°sticos
 %----------Grupo 3 ciclo profissionalizante
-% engpet - engenharia de petrÛleo
-% dafo   - dano a formaÁ„o
+% engpet - engenharia de petr√≥leo
+% dafo   - dano a forma√ß√£o
 % me     - artigos multi-escala
 % hst    - artigos histerese
-% interp - InterpretaÁ„o
-% perc   - artigos percolaÁ„o 
+% interp - Interpreta√ß√£o
+% perc   - artigos percola√ß√£o 
 % perm   - artigos permeabilidade
 % petrofisica - artigos petrofisica
 % pm     - artigos sobre meios porosos
 % prob-inversos - problemas inversos
 %----------Grupo 4 analise e processamento de imagens
-% mev    - MicroscÛpio EletrÙnico
+% mev    - Microsc√≥pio Eletr√¥nico
 % microt - artigos micro tomografia
-% miotico - MicroscÛpio Ûtico
-% imgan  - artigos de an·lise de imagem
-% rec    - artigos reconstruÁ„o
+% miotico - Microsc√≥pio √≥tico
+% imgan  - artigos de an√°lise de imagem
+% rec    - artigos reconstru√ß√£o
 %----------Grupo 5 metodologia cientifica
 % Historia - Historia em geral
 % metcient- artigos e livros de metodologia cientifica
 % mod    - artigos de modelagem
-%----------Grupo 6 ciÍncias da computaÁ„o - programaÁ„o  
-% cc     - CiÍncia da computaÁ„o
-% graficos - Programas e livros sobre gr·ficos
-% prog   - genÈrico, aborda diversos assuntos de programaÁ„o;
+%----------Grupo 6 ci√™ncias da computa√ß√£o - programa√ß√£o  
+% cc     - Ci√™ncia da computa√ß√£o
+% graficos - Programas e livros sobre gr√°ficos
+% prog   - gen√©rico, aborda diversos assuntos de programa√ß√£o;
 % prog-algoritmos - algoritmos
 % prog-EngSof - Engenharia de Software
 % prog-uml - Modelagem UML
 % prog-cpp - C++
 % prog-bib  - Bibliotecas
-% prog-interface - Interface com usu·rios
+% prog-interface - Interface com usu√°rios
 % prog-paralela - Processamento paralelo e concorrente
-% prog-padroes Padrıes de projeto
-% prog-doc - DocumentaÁ„o de programas
+% prog-padroes Padr√µes de projeto
+% prog-doc - Documenta√ß√£o de programas
 % prog-test - Teste de programas
 % prog-debug - Debugagem de programas
-% prog-otimizacao - OtimizaÁ„o de programas
+% prog-otimizacao - Otimiza√ß√£o de programas
 % prog-HOWTO - Como fazer - eliminar!
-% prog-linux - programaÁ„o linux, especÌfica
+% prog-linux - programa√ß√£o linux, espec√≠fica
 % prog-xml - Colocar em prog-diversos? Coisas pouco utilizadas
 % projetos - projetos de engenharia
 % sl     - software livre
 %----------Grupo 7 Projetos de Engenharia
 % projetos
-%----------Grupo 8 InteligÍncia Artificial
+%----------Grupo 8 Intelig√™ncia Artificial
 % ia-conceitos
 % ia-redes
 % ia-bib
+%----------Grupo 9 Ferramentas
+% ferramentas-emacs
+%--------------------------------------------------------------------
+% Exemplos:
+%  author =       "W. W. Howells",
+%  author =       "G. B. Johnson and W. W. Howells and A. N. Other",
+%  author =       "Firstname Jones and Firstname Norman and Firstname Hazel and Firstname Robinson",
+%  author =       "sobrenome, nome",
+% Para preservar, isto √©, manter um nome use {Nome}
 
+% Defini√ß√£o de strings
+@string{LMPT   = {Laborat√≥rio de Meios Porosos e Propriedades Termof√≠sicas}}
+@String{UFSC   = {Universidade Federal de Santa Catarina}}
+@String{LENEP  = {Laborat√≥rio de Engenharia e Explora√ß√£o de Petr√≥leo}}
+@String{UENF   = {Universidade Estadual do Norte Fluminense}}
 
 %****************************************************************************
 %****************** % adb    - artigos pessoais
@@ -86,34 +100,35 @@
 % ## MESTRADO,  DOUTORADO, CONCURSOS  Andre
 %--------------------------------------------------------------------
 @mastersthesis{adb-mestrado,
-  author = {AndrÈ Duarte Bueno},
-  title  = {TransferÍncia de Calor e Umidade em Telhas: SimulaÁ„o e An·lise Experimental},
-  school = {Programa de PÛs-GraduaÁ„o em Engenharia Civil da Universidade Federal de Santa Catarina},
+  author = {Andr√© Duarte Bueno},
+  title  = {Transfer√™ncia de Calor e Umidade em Telhas: Simula√ß√£o e An√°lise Experimental},
+  school = {Programa de P√≥s-Gradua√ß√£o em Engenharia Civil da Universidade Federal de Santa Catarina},
   year  = {1994},
   type  = {Tese de Mestrado},
-  address = {FlorianÛpolis},
+  address = {Florian√≥polis},
   month  = {agosto},
   note  = {Nota},
-  key  = {TransferÍncia de Calor, Telhas, tiles, meios porosos, transport in porous media}
+  key  = {Transfer√™ncia de Calor, Telhas, tiles, meios porosos, transport in porous media}
 }
 
 @PhdThesis{adb-tese,
-  author =   {AndrÈ Duarte Bueno},
-  title =   {Estudo GeomÈtrico das RepresentaÁıes Tridimensionais da Estrutura Porosa e Grafo de Conex„o Serial Para a DeterminaÁ„o da Permeabilidade IntrÌnseca de Rochas-ReservatÛrio de PetrÛleo},
+  author =   {Andr√© Duarte Bueno},
+  title =   {Estudo Geom√©trico das Representa√ß√µes Tridimensionais da Estrutura Porosa e Grafo de Conex√£o Serial Para a Determina√ß√£o da Permeabilidade Intr√≠nseca de Rochas-Reservat√≥rio de Petr√≥leo},
   school =   {UFSC},
   year =   {2001},
   month =   {8},
-  key =   {rec-adb-tese, reconstruÁ„o, grafo, permeabilidade, rochas reservatÛrio}
+  key =   {rec-adb-tese, reconstru√ß√£o, grafo, permeabilidade, rochas reservat√≥rio}
 }
 
 % incluir memorial UENF
 % incluir projeto UENF
+
 @TechReport{adb-monografia-ufsc,
-  author =   {AndrÈ Duarte Bueno},
-  title =   {MÈtodo de ReconstruÁ„o da Gaussiana Truncada 2: An·lise das RepresentaÁıes Obtidas e Resultados},
+  author =   {Andr√© Duarte Bueno},
+  title =   {M√©todo de Reconstru√ß√£o da Gaussiana Truncada 2: An√°lise das Representa√ß√µes Obtidas e Resultados},
   institution =  {UFSC},
   year =   {2001},
-  key =   {rec-adb-monografia-ufsc, reconstruÁ„o, grafo, permeabilidade, rochas reservatÛrio}
+  key =   {rec-adb-monografia-ufsc, reconstru√ß√£o, grafo, permeabilidade, rochas reservat√≥rio}
 }
 
 %--------------------------------------------------------------------
@@ -123,11 +138,11 @@
 % ISSN
 % doi
 @Article{adb-TatianeRicardoMoralesBueno-2015,
-  author =   {TATIANE SILVA VIEIRA, and, JOS… RICARDO SIQUEIRA, and, ANDR… DUARTE BUENO, and, RIGOBERTO E. M. MORALES, and, VALDIR ESTEVAM },
+  author =   {TATIANE SILVA VIEIRA, and, JOS√â RICARDO SIQUEIRA, and, ANDR√â DUARTE BUENO, and, RIGOBERTO E. M. MORALES, and, VALDIR ESTEVAM },
   title =   {ANALYTICAL STUDY OF PRESSURE LOSSES AND FLUID VISCOSITY EFFECTS ON PUMP PERFORMANCE DURING MONOPHASE FLOW INSIDE AN ESP STAGE},
   journal =   {Journal of Petroleum Science and Engineering},
   year =   {2015},
-  key  = {BCS, Bombeio, Perda de Carga, Viscosidade, Fluxo Monof·sico}
+  key  = {BCS, Bombeio, Perda de Carga, Viscosidade, Fluxo Monof√°sico}
 }
 
 %Qualis B4 - EngIII 
@@ -136,7 +151,7 @@
 @article{adb-MarquesPereiraBueno2012,
    title =       {{A study of asphaltene-resin interactions}},
    journal =     {{Journal of the Brazilian Chemical Society}},
-   author=       {Marques, Luiz C. C. AND Pereira, Juliana O. AND Bueno, AndrÈ Duarte. AND Marques, Valdo S. AND Lucas, Elizabete F. AND Mansur, Claudia R. E. AND Machado, Andr\~A\copyright L. C. AND Gonz·lez, Gaspar},
+   author=       {Marques, Luiz C. C. AND Pereira, Juliana O. AND Bueno, Andr√© Duarte. AND Marques, Valdo S. AND Lucas, Elizabete F. AND Mansur, Claudia R. E. AND Machado, Andr\~A\copyright L. C. AND Gonz√°lez, Gaspar},
    ISSN =        {0103-5053},
    language =    {en},
    URL =         {http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-50532012001000017&nrm=iso},
@@ -151,9 +166,9 @@
 
 % Qualis B2 - EngIII
 @Article{adb-SlavaMitrofanovBueno2010,
-  author =   {Viatcheslav I. Priimenko AND Georgy Mitrofanov AND AndrÈ Duarte Bueno},
-  title =   {ComparaÁ„o da soluÁ„o completa do sistema de LamÈ com espectro de sismogramas},
-  journal =   {Revista Brasileira de GeofÌsica (Impresso)},
+  author =   {Viatcheslav I. Priimenko AND Georgy Mitrofanov AND Andr√© Duarte Bueno},
+  title =   {Compara√ß√£o da solu√ß√£o completa do sistema de Lam√© com espectro de sismogramas},
+  journal =   {Revista Brasileira de Geof√≠sica (Impresso)},
   year =   {2009},
   volume =   {27},
   number =   {s4},
@@ -161,14 +176,14 @@
   OPTmonth =   {},
   note =   {ISSN 0102-261X},
   annote =   {DOI 10.1590/s0102-261x2009000400002},
-  key  = {Sismograma, Sistema LamÈ}
+  key  = {Sismograma, Sistema Lam√©}
 }
 
 % ISSN 0950-9615 - LATES
 % ISSN 0950-2289
 % MASONRY INTERNATIONAL: JOURNAL OF THE BRITISH MASONRY SOCIETY (NONMEMBERS)
 @Article{adb-thirdmasonry,
-  author = {AndrÈ Duarte Bueno and Paulo Cesar Philippi and Roberto Lamberts},
+  author = {Andr√© Duarte Bueno and Paulo Cesar Philippi and Roberto Lamberts},
   title  = {Influence of Water Vapour Sorption on the Thermal Behavior of Mortar Samples},
   journal = {Proceedings of the Third Internacional Masonry Conference},
   year  = {1994},
@@ -176,140 +191,140 @@
   pages  = {2-54},
   month  = {March},
   note          = {ISSN 0950-2289},
-  key  = {AbsorÁ„o vapor, meio poroso, telhas}
+  key  = {Absor√ß√£o vapor, meio poroso, telhas}
 }
 
 %--------------------------------------------------------------------
 % ## Artigos em congressos Andre
 %--------------------------------------------------------------------
 @inproceedings{adb-zonaconforto,
-  author = {AndrÈ Duarte Bueno and  Roberto Lamberts},
-  title  = {Proposta de Zona de Conforto na Carta PsicomÈtrica},
-  publisher = {Anais do I Encontro Nacional de NormalizaÁ„o  Ligada ao Uso Racional de Energia e ao Conforto Ambiental em EdificaÁıes},
-  address = {FlorianÛpolis},
+  author = {Andr√© Duarte Bueno and  Roberto Lamberts},
+  title  = {Proposta de Zona de Conforto na Carta Psicom√©trica},
+  publisher = {Anais do I Encontro Nacional de Normaliza√ß√£o  Ligada ao Uso Racional de Energia e ao Conforto Ambiental em Edifica√ß√µes},
+  address = {Florian√≥polis},
   year  = {1991},
-  key  = {Zona de Conforto, transferÍncia de calor, carta psicomÈtrica}
+  key  = {Zona de Conforto, transfer√™ncia de calor, carta psicom√©trica}
 }
 
 @inproceedings{adb-ensaiostelhas,
-  author = {AndrÈ Duarte Bueno and Paulo Cesar Philippi and Roberto Lamberts},
-  title  = {AvaliaÁ„o do Comportamento Higro-TÈrmico de Telhas Cer‚micas em Ambiente Real},
+  author = {Andr√© Duarte Bueno and Paulo Cesar Philippi and Roberto Lamberts},
+  title  = {Avalia√ß√£o do Comportamento Higro-T√©rmico de Telhas Cer√¢micas em Ambiente Real},
   publisher = {5th International Seminar on Structural Masonry for Developing Countries},
-  address = {FlorianÛpolis},
+  address = {Florian√≥polis},
   pages  = {647-659},
   year  = {1994},
   month  = {October},
-  key  = {meios porosos, telhas cer‚micas, comportamento higro tÈrmico}  
+  key  = {meios porosos, telhas cer√¢micas, comportamento higro t√©rmico}  
 }
 
 @inproceedings{adb-higroscopicidade,
-  author = {AndrÈ Duarte Bueno and Paulo Cesar Philippi and Roberto Lamberts},
-  title  = {Higroscopicidade em Telhas de Cer‚mica: Efeitos Sobre o Comportamento TÈrmico},
+  author = {Andr√© Duarte Bueno and Paulo Cesar Philippi and Roberto Lamberts},
+  title  = {Higroscopicidade em Telhas de Cer√¢mica: Efeitos Sobre o Comportamento T√©rmico},
   publisher = {5th International Seminar on Structural Masonry for Developing Countries},
   pages  = {637-647},
-  address = {FlorianÛpolis},
+  address = {Florian√≥polis},
   year  = {1994},
   month  = {8},
-  key  = {meios porosos, transferÍncia de calor, telhas cer‚micas, comportamento higro tÈrmico}  
+  key  = {meios porosos, transfer√™ncia de calor, telhas cer√¢micas, comportamento higro t√©rmico}  
 }
 
 @inproceedings{adb-ensaiocampoencit,
-  author = {AndrÈ Duarte Bueno and Roberto Lamberts and JosÈ Antonio Bellini da Cunha Neto},
-  title  = {DeterminaÁ„o da Temperatura e do Conte˙do M·ssico de Umidade De Telhas Expostas ao Meio Ambiente},
-  publisher = {VI Congresso Brasileiro de Engenharia e CiÍncias TÈrmicas},
-  address = {FlorianÛpolis},
+  author = {Andr√© Duarte Bueno and Roberto Lamberts and Jos√© Antonio Bellini da Cunha Neto},
+  title  = {Determina√ß√£o da Temperatura e do Conte√∫do M√°ssico de Umidade De Telhas Expostas ao Meio Ambiente},
+  publisher = {VI Congresso Brasileiro de Engenharia e Ci√™ncias T√©rmicas},
+  address = {Florian√≥polis},
   year  = {1996},
   month  = {11},
-  key  = {meios porosos, transferÍncia de calor, telhas cer‚micas, comportamento higro tÈrmico}  
+  key  = {meios porosos, transfer√™ncia de calor, telhas cer√¢micas, comportamento higro t√©rmico}  
 }
 
 @inproceedings{adb-proptelhasencit,
-  author = {AndrÈ Duarte Bueno and JosÈ Antonio Bellini da Cunha Neto},
+  author = {Andr√© Duarte Bueno and Jos√© Antonio Bellini da Cunha Neto},
   year  = {1996},
-  title  = {DeterminaÁ„o de Propriedades Relacionadas ‡ TransferÍncia de Massa em Telhas Cer‚micas},
+  title  = {Determina√ß√£o de Propriedades Relacionadas √† Transfer√™ncia de Massa em Telhas Cer√¢micas},
   publisher = {Proceedings of the 6th Engineering and Thermal Sciences},
-  address = {FlorianÛpolis},
+  address = {Florian√≥polis},
   pages  = {171-176},
-  key  = {meios porosos, transferÍncia de calor, telhas cer‚micas, comportamento higro tÈrmico}  
+  key  = {meios porosos, transfer√™ncia de calor, telhas cer√¢micas, comportamento higro t√©rmico}  
 }
 
 @inproceedings{adb-imago-production2000,
-  author = {Marcos Cabral Damiani and Celso Peres Fernandes and AndrÈ Duarte Bueno and Luis Orlando Dos Santos and JosÈ Antonio Bellini da Cunha Neto and Paulo Cesar Philippi},
+  author = {Marcos Cabral Damiani and Celso Peres Fernandes and Andr√© Duarte Bueno and Luis Orlando Dos Santos and Jos√© Antonio Bellini da Cunha Neto and Paulo Cesar Philippi},
   title  = {Predicting Physical Properties of Reservoir Rocks from the Microstructural Analysis of Petrographic Thin Sections},
-  publisher = {Produccion 2000 / Aplicaciones de la Ciencia en la IngenierÌa de PetrÛleo},
-  address = {Produccion 2000 - Aplicaciones de la ciencia en la ingenierÌa de petrÛleo},
+  publisher = {Produccion 2000 / Aplicaciones de la Ciencia en la Ingenier√≠a de Petr√≥leo},
+  address = {Produccion 2000 - Aplicaciones de la ciencia en la ingenier√≠a de petr√≥leo},
   year  = {2000},
   month  = {May},
-  key  = {meios porosos, transferÍncia de calor, telhas cer‚micas, comportamento higro tÈrmico}  
+  key  = {meios porosos, transfer√™ncia de calor, telhas cer√¢micas, comportamento higro t√©rmico}  
 }
 
 @inproceedings{adb-twofase,
-  author = {Paulo Cesar Philippi and Fabio Santana Magnani and AndrÈ Duarte Bueno},
+  author = {Paulo Cesar Philippi and Fabio Santana Magnani and Andr√© Duarte Bueno},
   title  = {Two Phase Equilibrium Distribution in Three-Dimensional Porous Microstructures},
-  publisher = {Produccion 2000 - Aplicaciones de la Ciencia en la  IngenierÌa de PetrÛleo},
-  address = {Produccion 2000 - Aplicaciones de la ciencia en la ingenierÌa de petrÛleo},
+  publisher = {Produccion 2000 - Aplicaciones de la Ciencia en la  Ingenier√≠a de Petr√≥leo},
+  address = {Produccion 2000 - Aplicaciones de la ciencia en la ingenier√≠a de petr√≥leo},
   year  = {2000},
   month  = {May},
-  key  = {meios porosos, fluxo bif·sico, an·lise de imagens}  
+  key  = {meios porosos, fluxo bif√°sico, an√°lise de imagens}  
 }
 
 @inproceedings{adb-workshoprio2000,
-  author = {Paulo Cesar Philippi and Marcos Cabral Damiani and Celso Peres Fernandes and AndrÈ Duarte Bueno and Luis Orlando Dos Santos and JosÈ Antonio Bellini Da Cunha Neto},
+  author = {Paulo Cesar Philippi and Marcos Cabral Damiani and Celso Peres Fernandes and Andr√© Duarte Bueno and Luis Orlando Dos Santos and Jos√© Antonio Bellini Da Cunha Neto},
   title  = {Characterization of Reservoir Rocks from Image Analysis On Imago Software},
-  publisher = {Workshop-AplicaÁ„o da Inform·tica ‡  Engenharia},
+  publisher = {Workshop-Aplica√ß√£o da Inform√°tica √†  Engenharia},
   address = {Rio de Janeiro},
   year  = {2000},
   month  = {8},
-  key  = {meios porosos, fluxo bif·sico, an·lise de imagens, processamento de imagens}  
+  key  = {meios porosos, fluxo bif√°sico, an√°lise de imagens, processamento de imagens}  
 }
 
 @inproceedings{adb-Reconstrucao3D-gt2,
-  author = {AndrÈ Duarte Bueno and Luis Orlando Dos Santos and Celso Peres Fernandes and Paulo Cesar Philippi},
-  title  = {ReconstruÁ„o Tridimensional da Micro-Estrutura de Rochas ReservatÛrio a Partir de L‚minas Finas},
-  publisher = {IX Congresso Brasileiro de Engenharia e CiÍncias  TÈrmicas - ENCIT 2002},
-  address = {Caxamb˙ - MG - Brasil},
+  author = {Andr√© Duarte Bueno and Luis Orlando Dos Santos and Celso Peres Fernandes and Paulo Cesar Philippi},
+  title  = {Reconstru√ß√£o Tridimensional da Micro-Estrutura de Rochas Reservat√≥rio a Partir de L√¢minas Finas},
+  publisher = {IX Congresso Brasileiro de Engenharia e Ci√™ncias  T√©rmicas - ENCIT 2002},
+  address = {Caxamb√∫ - MG - Brasil},
   pages         = {12},
   year  = {2002},
   note          = {CIT02-0671},
-  key  = {rec-adb-Reconstrucao3D-gt2, meios porosos, fluxo bif·sico, an·lise de imagens, processamento de imagens, reconstruÁ„o 3D}  
+  key  = {rec-adb-Reconstrucao3D-gt2, meios porosos, fluxo bif√°sico, an√°lise de imagens, processamento de imagens, reconstru√ß√£o 3D}  
 }
 
 @inproceedings{adb-GrafoConexaoSerial,
-  author = {AndrÈ Duarte Bueno and  Paulo Cesar Philippi},
-  title  = {Modelo do Grafo de Conex„o Serial para DeterminaÁ„o da Permeabilidade de Rochas ReservatÛrio de PetrÛleo}, 
-  publisher = {IX Congresso Brasileiro de Engenharia e CiÍncias  TÈrmicas - ENCIT 2002},
-  address = {Caxamb˙ - MG - Brasil},
+  author = {Andr√© Duarte Bueno and  Paulo Cesar Philippi},
+  title  = {Modelo do Grafo de Conex√£o Serial para Determina√ß√£o da Permeabilidade de Rochas Reservat√≥rio de Petr√≥leo}, 
+  publisher = {IX Congresso Brasileiro de Engenharia e Ci√™ncias  T√©rmicas - ENCIT 2002},
+  address = {Caxamb√∫ - MG - Brasil},
   pages         = {12},
   year  = {2002},
   note          = {CIT02-0668},
-  key  = {grafo, meios porosos, fluxo bif·sico, an·lise de imagens, processamento de imagens, reconstruÁ„o 3D}  
+  key  = {grafo, meios porosos, fluxo bif√°sico, an√°lise de imagens, processamento de imagens, reconstru√ß√£o 3D}  
 }
 
 @inproceedings{adb-PermeabilidadeRelativa,
-  author = {AndrÈ Duarte Bueno and Fabio Santana Magnani and Paulo Cesar Philippi},
-  title  = {MÈtodo para DeterminaÁ„o da Permeabilidade Relativa de Rochas ReservatÛrio de PetrÛleo AtravÈs da An·lise de Imagens ReconstruÌdas},
-  publisher = {IX Congresso Brasileiro de Engenharia e CiÍncias  TÈrmicas - ENCIT 2002},
-  address = {Caxamb˙ - MG - Brasil},
+  author = {Andr√© Duarte Bueno and Fabio Santana Magnani and Paulo Cesar Philippi},
+  title  = {M√©todo para Determina√ß√£o da Permeabilidade Relativa de Rochas Reservat√≥rio de Petr√≥leo Atrav√©s da An√°lise de Imagens Reconstru√≠das},
+  publisher = {IX Congresso Brasileiro de Engenharia e Ci√™ncias  T√©rmicas - ENCIT 2002},
+  address = {Caxamb√∫ - MG - Brasil},
   pages         = {12},
   year  = {2002},
   note          = {CIT02-0672},
-  key  = {rec-adb-PermeabilidadeRelativa, meios porosos, fluxo bif·sico, an·lise de imagens, processamento de imagens, reconstruÁ„o 3D}    
+  key  = {rec-adb-PermeabilidadeRelativa, meios porosos, fluxo bif√°sico, an√°lise de imagens, processamento de imagens, reconstru√ß√£o 3D}    
 }
 
 @inproceedings{adb-119-Propetro-kr,
-  author = {AndrÈ Duarte Bueno and Paulo Cesar Philippi},
-  title  = {UtilizaÁ„o do Grafo de Conex„o Serial Para DeterminaÁ„o da Permeabilidade Relativa de Rochas ReservatÛrio},
-  publisher = {2 Congresso Brasileiro de P\&D em PetrÛleo e G·s},
+  author = {Andr√© Duarte Bueno and Paulo Cesar Philippi},
+  title  = {Utiliza√ß√£o do Grafo de Conex√£o Serial Para Determina√ß√£o da Permeabilidade Relativa de Rochas Reservat√≥rio},
+  publisher = {2 Congresso Brasileiro de P\&D em Petr√≥leo e G√°s},
   address = {Rio de Janeiro, Brasil},
   pages         = {6},
   year  = {2002},
   month  = {junho},
-  key  = {rec-adb-119-Propetro-kr, meios porosos, fluxo bif·sico, an·lise de imagens, processamento de imagens, reconstruÁ„o 3D}    
+  key  = {rec-adb-119-Propetro-kr, meios porosos, fluxo bif√°sico, an√°lise de imagens, processamento de imagens, reconstru√ß√£o 3D}    
 }
 
 @manual{adb-prog-paralela-threads6,
-  author = {AndrÈ Duarte Bueno},
-  title  = {IntroduÁ„o ao Processamento Paralelo e ao Uso de Clusters, Parte I: Filosofia},
+  author = {Andr√© Duarte Bueno},
+  title  = {Introdu√ß√£o ao Processamento Paralelo e ao Uso de Clusters, Parte I: Filosofia},
   URL           = {http://www.lenep.uenf.br/~bueno/Artigos/117-IntroducaoProgramacaoParalelaECluster-P1.pdf},
   year  = {2002},
   month         = {11},
@@ -317,8 +332,8 @@
 }
 
 @manual{adb-prog-paralela-threads7,
-  author = {AndrÈ Duarte Bueno},
-  title  = {IntroduÁ„o ao Processamento Paralelo e ao Uso de Clusters, Parte II: Threads},
+  author = {Andr√© Duarte Bueno},
+  title  = {Introdu√ß√£o ao Processamento Paralelo e ao Uso de Clusters, Parte II: Threads},
   URL           = {http://www.lenep.uenf.br/~bueno/Artigos/118-IntroducaoProgramacaoParalelaECluster-P2.pdf},
   year  = {2002},
   month         = {11},
@@ -326,326 +341,605 @@
 }
 
 @inproceedings{adb-126-ENCIT2006-modelosencrustracao,
-  author = {Tiago Ribeiro Schaewer and AndrÈ Duarte Bueno and Pavel Bedrikovetsky},
-  title  = {Estudo das RepresentaÁıes Tridimensionais Encrustradas com os Algoritmos Pore-lining, Pore-filling e Pore-bridging},
+  author = {Tiago Ribeiro Schaewer and Andr√© Duarte Bueno and Pavel Bedrikovetsky},
+  title  = {Estudo das Representa√ß√µes Tridimensionais Encrustradas com os Algoritmos Pore-lining, Pore-filling e Pore-bridging},
   URL       = {http://www.lenep.uenf.br/~bueno/Artigos},
-  address = {Curitiba - Paran·},
+  address = {Curitiba - Paran√°},
   pages         = {10},
   year  = {2006},
   month  = {dezembro}
 }
 
 @inproceedings{adb-127-ENCIT2006-modelagem,
-  author = {Tiago Ribeiro Schaewer and AndrÈ Duarte Bueno and Pavel Bedrikovetsky},
-  title  = {Modelagem e SimulaÁ„o da IncrustraÁ„o por Sulfato de B·rio em RepresentaÁıes Tridimensionais da Rocha ReservatÛrio: Efeitos Sobre a Permeabilidade e Dano de FormaÁ„o},
+  author = {Tiago Ribeiro Schaewer and Andr√© Duarte Bueno and Pavel Bedrikovetsky},
+  title  = {Modelagem e Simula√ß√£o da Incrustra√ß√£o por Sulfato de B√°rio em Representa√ß√µes Tridimensionais da Rocha Reservat√≥rio: Efeitos Sobre a Permeabilidade e Dano de Forma√ß√£o},
   URL     = {http://www.lenep.uenf.br/~bueno/Artigos},
-  address = {Curitiba - Paran·},
+  address = {Curitiba - Paran√°},
   pages         = {10},
   year  = {2006},
   month  = {dezembro},
-  key    = {Modelagem, SimulaÁ„o, Dano a FormaÁ„o, RepresentaÁıes Tridimensionais }
+  key    = {Modelagem, Simula√ß√£o, Dano a Forma√ß√£o, Representa√ß√µes Tridimensionais }
 }
 
 @inproceedings{adb-128-ENCIT2006-SoftwareSail,
-  author = {Tiago Ribeiro Schaewer and AndrÈ Duarte Bueno and Pavel Bedrikovetsky},
-  title  = {C·lculo do Dano de FormaÁ„o em Rochas ReservatÛrio Utilizando TÈcnicas de An·lise de Imagens: O Software Sail},
+  author = {Tiago Ribeiro Schaewer and Andr√© Duarte Bueno and Pavel Bedrikovetsky},
+  title  = {C√°lculo do Dano de Forma√ß√£o em Rochas Reservat√≥rio Utilizando T√©cnicas de An√°lise de Imagens: O Software Sail},
   publisher = {http://www.lenep.uenf.br/~bueno/Artigos},
-  address = {Curitiba - Paran·},
+  address = {Curitiba - Paran√°},
   pages         = {10},
   year  = {2006},
   month  = {dezembro},
-  key    = {Modelagem, SimulaÁ„o, Software, Sail }
+  key    = {Modelagem, Simula√ß√£o, Software, Sail }
 }
 
 @inproceedings{adb-129-RioOilGas-EncrustracaoComAnaliseDeImagens,
-  author = {Tiago Ribeiro Schaewer and AndrÈ Duarte Bueno and Pavel Bedrikovetsky},
-  title  = {DETERMINA«√O DOS EFEITOS DA INCRUSTA«√O NA PERMEABILIDADE DE ROCHAS RESERVAT”RIO COM USO DE M…TODOS DE AN¡LISE DE IMAGENS},
+  author = {Tiago Ribeiro Schaewer and Andr√© Duarte Bueno and Pavel Bedrikovetsky},
+  title  = {DETERMINA√á√ÉO DOS EFEITOS DA INCRUSTA√á√ÉO NA PERMEABILIDADE DE ROCHAS RESERVAT√ìRIO COM USO DE M√âTODOS DE AN√ÅLISE DE IMAGENS},
   publisher = {Rio Oil \& Gas Expo and Conference 2006},
   address = {Rio de Janeiro - RJ},
   pages         = {10},
   year  = {2006},
   month  = {novembro},
-  key    = {Modelagem, SimulaÁ„o, Software, Sail, IncrustaÁ„o, Rochas reservatÛrio }
+  key    = {Modelagem, Simula√ß√£o, Software, Sail, Incrusta√ß√£o, Rochas reservat√≥rio }
 }
 
 @inproceedings{adb-133-COB085218-Eneida-DEVELOPMENTOFASEGMENTATIONMETHOD,
-  author = {Eneida Arendt and AndrÈ Duarte Bueno },
+  author = {Eneida Arendt and Andr√© Duarte Bueno },
   title  = {DEVELOPMENT OF A SEGMENTATION METHOD FOR ANALISYS OF CAMPOS BASIN TYPICAL RESERVOIR ROCKS},
   publisher = {COBEM},
   address = {Gramado - RS},
   pages         = {10},
   year  = {2008},
   month  = {novembro},
-  key    = {Modelagem, SimulaÁ„o, Software, Rochas reservatÛrio, SegmentaÁ„o, BinarizaÁ„o }
+  key    = {Modelagem, Simula√ß√£o, Software, Rochas reservat√≥rio, Segmenta√ß√£o, Binariza√ß√£o }
  }
 
  @inproceedings{adb-134-COB090116-Eneida-ImageAnalysisSegmentationMethods,
-  author = {Eneida Arendt and AndrÈ Duarte Bueno },
+  author = {Eneida Arendt and Andr√© Duarte Bueno },
   title  = {IMAGE ANALYSIS OF RESERVOIRS ROCK - RESULTS OF SEGMENTATION USING STATISTICAL METHODS},
   publisher = {COBEM},
   address = {Gramado - RS},
   pages         = {10},
   year  = {2009},
   month  = {novembro},
-  key    = {Modelagem, SimulaÁ„o, Software, Rochas reservatÛrio, SegmentaÁ„o, BinarizaÁ„o }
+  key    = {Modelagem, Simula√ß√£o, Software, Rochas reservat√≥rio, Segmenta√ß√£o, Binariza√ß√£o }
  }
 
 @inproceedings{adb-135-COB090116-Leandro-RelativePermeabilityUsingImageAnalysis,
-  author = {Leandro Puerari and AndrÈ Duarte Bueno },
+  author = {Leandro Puerari and Andr√© Duarte Bueno },
   title  = {RELATIVE PERMEABILITY DETERMINATION OF RESERVOIR ROCKS USING IMAGE ANALYSIS METHODS},
   publisher = {COBEM},
   address = {Gramado - RS},
   pages         = {10},
   year  = {2009},
   month  = {novembro},
-  key    = {Modelagem, SimulaÁ„o, Software, Rochas reservatÛrio, Permeabilidade Relativa }
+  key    = {Modelagem, Simula√ß√£o, Software, Rochas reservat√≥rio, Permeabilidade Relativa }
 }
 
 @inproceedings{adb-136-COB090849-Rafael-DeterminationOfSitesAndBonds,
-  author = {Rafael Borgate de Souza Mendes and AndrÈ Duarte Bueno },
+  author = {Rafael Borgate de Souza Mendes and Andr√© Duarte Bueno },
   title  = {DETERMINATION OF THE DISTRIBUTION OF SITES AND BONDS OF PERCOLATION NETWORKS USING THE METHOD OF THE OPENINGDILATION},
   publisher = {COBEM},
   address = {Gramado - RS},
   pages         = {10},
   year  = {2009},
   month  = {novembro},
-  key    = {Modelagem, SimulaÁ„o, Software, Rochas reservatÛrio, DistribuiÁ„o de Poros, SÌtios e LigaÁıes}
+  key    = {Modelagem, Simula√ß√£o, Software, Rochas reservat√≥rio, Distribui√ß√£o de Poros, S√≠tios e Liga√ß√µes}
 }
 
 %--------------------------------------------------------------------
 % ## Manuais Andre
 %--------------------------------------------------------------------
 @manual{adb-software-SAIL1,
-  author	= {AndrÈ Duarte Bueno and Tiago Ribeiro Schaewer},
-  title		= {Manual do Usu·rio do SAIL Software de An·lise de Imagens Livre},
-  organization	= {LDSC - LaboratÛrio de Desenvolvimento de Software CientÌfico},
-  address	= {MacaÈ},
+  author	= {Andr√© Duarte Bueno and Tiago Ribeiro Schaewer},
+  title		= {Manual do Usu√°rio do SAIL Software de An√°lise de Imagens Livre},
+  organization	= {LDSC - Laborat√≥rio de Desenvolvimento de Software Cient√≠fico},
+  address	= {Maca√©},
   year		= {2006},
-  key    = {Modelagem, SimulaÁ„o, Software, SAIL, Manuais }
+  key    = {Modelagem, Simula√ß√£o, Software, SAIL, Manuais }
 }
 
 @manual{adb-prog-apostilaprogramacao-v03,
-  author = {AndrÈ Duarte Bueno},
-  title  = {Apostila de ProgramaÁ„o Orientada a Objeto},
-  organization = {UFSC-EMC-LaboratÛrio de Meios Porosos e Propriedades  TermofÌsicas},
-  address = {FlorianÛpolis},
+  author = {Andr√© Duarte Bueno},
+  title  = {Apostila de Programa√ß√£o Orientada a Objeto},
+  organization = {UFSC-EMC-Laborat√≥rio de Meios Porosos e Propriedades  Termof√≠sicas},
+  address = {Florian√≥polis},
   year  = {1997},
-  key    = {ProgramaÁ„o, C++, Desenvolvimento Software }
+  key    = {Programa√ß√£o, C++, Desenvolvimento Software }
 }
 
 @manual{adb-prog-manualanaimp,
-  author = {AndrÈ Duarte Bueno},
-  title  = {ANAIMP-Programa de An·lise de Imagens de Meios Porosos},
-  organization = {UFSC-EMC-LaboratÛrio de Meios Porosos e Propriedades  TermofÌsicas},
-  address = {FlorianÛpolis},
+  author = {Andr√© Duarte Bueno},
+  title  = {ANAIMP-Programa de An√°lise de Imagens de Meios Porosos},
+  organization = {UFSC-EMC-Laborat√≥rio de Meios Porosos e Propriedades  Termof√≠sicas},
+  address = {Florian√≥polis},
   year  = {1998},
-  key    = {Modelagem, SimulaÁ„o, Software, ANAIMP, Manuais }
+  key    = {Modelagem, Simula√ß√£o, Software, ANAIMP, Manuais }
 }
 
 @manual{adb-prog-manualliblmpt,
-  author = {AndrÈ Duarte Bueno},
+  author = {Andr√© Duarte Bueno},
   title  = {{LIB\_LMPT} Biblioteca de Classes Para Estudos Aplicados em  Meios Porosos},
-  organization = {UFSC-EMC-LaboratÛrio de Meios Porosos e Propriedades  TermofÌsicas},
-  address = {FlorianÛpolis},
+  organization = {UFSC-EMC-Laborat√≥rio de Meios Porosos e Propriedades  Termof√≠sicas},
+  address = {Florian√≥polis},
   year  = {1998},
-  key    = {Modelagem, SimulaÁ„o, Software, Biblioteca LIB_LDSC, Biblioteca LIB_LMPT }
+  key    = {Modelagem, Simula√ß√£o, Software, Biblioteca LIB_LDSC, Biblioteca LIB_LMPT }
 }
 
 
 %--------------------------------------------------------------------
-% ## N„o publicado Andre
+% ## N√£o publicado Andre
 %--------------------------------------------------------------------
 @unpublished{adb-prog-simulacaotelha,
-  author = {AndrÈ Duarte Bueno and Paulo Cesar Philippi},
-  title  = {SimulaÁıes da TransferÍncia de Calor e Umidade, em Telhas Expostas ao Meio Ambiente},
+  author = {Andr√© Duarte Bueno and Paulo Cesar Philippi},
+  title  = {Simula√ß√µes da Transfer√™ncia de Calor e Umidade, em Telhas Expostas ao Meio Ambiente},
   year  = {1996},
   key  = {Heat and Mass Transfer in Tiles, porous media, mass  transfer},
   note          = {Incompleto}
 }
 
 %--------------------------------------------------------------------
-% ## RelatÛrios Andre
+% ## Relat√≥rios Andre
 %--------------------------------------------------------------------
-% FALTAM RELAT”RIOS PRHANP e diversos relatÛrios de projetos!
+% FALTAM RELAT√ìRIOS PRHANP e diversos relat√≥rios de projetos!
 @techreport{adb-rel2005,
-  author = {AndrÈ Duarte Bueno},
-  title  = {RelatÛrio do Projeto: Desenvolvimento de Algoritmos e Programa para DeterminaÁ„o da Permeabilidade Relativa de Meios Porosos com uso dos MÈtodos - ConfiguraÁıes de EquilÌbrio e Grafo de Conex„o Serial.},
-  institution = {LaboratÛrio De Engenharia e ExploraÁ„o de PetrÛleo- LENEP},
+  author = {Andr√© Duarte Bueno},
+  title  = {Relat√≥rio do Projeto: Desenvolvimento de Algoritmos e Programa para Determina√ß√£o da Permeabilidade Relativa de Meios Porosos com uso dos M√©todos - Configura√ß√µes de Equil√≠brio e Grafo de Conex√£o Serial.},
+  institution = {Laborat√≥rio De Engenharia e Explora√ß√£o de Petr√≥leo- LENEP},
   year  = {2005},
-  type  = {RelatÛrio},
+  type  = {Relat√≥rio},
   number = {1},
-  key    = {Modelagem, SimulaÁ„o, Software,  Desenvolvimento de Algoritmos, Programa, Permeabilidade Relativa . Meios Porosos , ConfiguraÁıes de EquilÌbrio , Grafo de Conex„o Serial}
+  key    = {Modelagem, Simula√ß√£o, Software,  Desenvolvimento de Algoritmos, Programa, Permeabilidade Relativa . Meios Porosos , Configura√ß√µes de Equil√≠brio , Grafo de Conex√£o Serial}
 }
 
 @techreport{adb-rel2003,
-  author = {Fernando S. Moraes and AndrÈ Duarte Bueno},
-  title  = {RelatÛrio Individual do Projeto: InferÍncia Sismica El·stica Aplicada a Problemas de CaracterizaÁ„o de ReservatÛrios},
-  institution = {LaboratÛrio De Engenharia e ExploraÁ„o de PetrÛleo- LENEP},
+  author = {Fernando S. Moraes and Andr√© Duarte Bueno},
+  title  = {Relat√≥rio Individual do Projeto: Infer√™ncia Sismica El√°stica Aplicada a Problemas de Caracteriza√ß√£o de Reservat√≥rios},
+  institution = {Laborat√≥rio De Engenharia e Explora√ß√£o de Petr√≥leo- LENEP},
   year  = {2003},
-  type  = {RelatÛrio},
+  type  = {Relat√≥rio},
   number = {1},
-  key = {InferÍncia Sismica , CaracterizaÁ„o de ReservatÛrios}
+  key = {Infer√™ncia Sismica , Caracteriza√ß√£o de Reservat√≥rios}
 }
 
 @techreport{adb-rel2002,
-  author = {AndrÈ Duarte Bueno},
-  title  = {RelatÛrio Individual do Projeto: PrediÁ„o de Propriedades PetrofÌsicas de Rochas ReservatÛrio},
-  institution = {LaboratÛrio de Meio Porosos e Propriedades  TermofÌsicas - LMPT},
+  author = {Andr√© Duarte Bueno},
+  title  = {Relat√≥rio Individual do Projeto: Predi√ß√£o de Propriedades Petrof√≠sicas de Rochas Reservat√≥rio},
+  institution = {Laborat√≥rio de Meio Porosos e Propriedades  Termof√≠sicas - LMPT},
   year  = {2002},
-  type  = {RelatÛrio},
+  type  = {Relat√≥rio},
   number = {1},
-  key  = { PrediÁ„o de Propriedades. PetrofÌsica, Rochas ReservatÛrio}
+  key  = { Predi√ß√£o de Propriedades. Petrof√≠sica, Rochas Reservat√≥rio}
 }
 
 @techreport{adb-rel2000-estudopredicao,
   author = {Andre Duarte Bueno},
-  title  = {RelatÛrio Projeto: Estudo Para PrediÁ„o de Permeabilidade a Partir de An·lise de Imagens },
-  institution = {LaboratÛrio de Meio Porosos e Propriedades  TermofÌsicas - LMPT},
+  title  = {Relat√≥rio Projeto: Estudo Para Predi√ß√£o de Permeabilidade a Partir de An√°lise de Imagens },
+  institution = {Laborat√≥rio de Meio Porosos e Propriedades  Termof√≠sicas - LMPT},
   year  = {1999},
-  type  = {RelatÛrio},
+  type  = {Relat√≥rio},
   number = {1},
-  key  = {PrediÁ„o de Propriedades, PetrofÌsica, Rochas ReservatÛrio, An·lise de Imagens }
+  key  = {Predi√ß√£o de Propriedades, Petrof√≠sica, Rochas Reservat√≥rio, An√°lise de Imagens }
 }
 
 @techreport{adb-rel1999-MetSof,
-  author = {AndrÈ Duarte Bueno},
-  title  = {RelatÛrio Projeto: M{È}todos e Software de  An·lise de Imagens Aplicados a RecuperaÁ„o de  PetrÛleo},
-  institution = {LaboratÛrio de Meio Porosos e Propriedades  TermofÌsicas - LMPT},
+  author = {Andr√© Duarte Bueno},
+  title  = {Relat√≥rio Projeto: M{√©}todos e Software de  An√°lise de Imagens Aplicados a Recupera√ß√£o de  Petr√≥leo},
+  institution = {Laborat√≥rio de Meio Porosos e Propriedades  Termof√≠sicas - LMPT},
   year  = {1999},
-  type  = {RelatÛrio},
+  type  = {Relat√≥rio},
   number = {1},
-  key  = {PrediÁ„o de Propriedades, PetrofÌsica, Rochas ReservatÛrio, An·lise de Imagens }
+  key  = {Predi√ß√£o de Propriedades, Petrof√≠sica, Rochas Reservat√≥rio, An√°lise de Imagens }
 }
 
 @techreport{adb-rel2003-InfBay,
-  author = {AndrÈ Duarte Bueno},
-  title  = {RelatÛrio Projeto: InferÍncia Sismica El·stica Aplicada a Problemas de CaracterizaÁ„o de ReservatÛrios},
-  institution = {LaboratÛrio de Engenharia e ExploraÁ„o de PetrÛleo - LENEP},
+  author = {Andr√© Duarte Bueno},
+  title  = {Relat√≥rio Projeto: Infer√™ncia Sismica El√°stica Aplicada a Problemas de Caracteriza√ß√£o de Reservat√≥rios},
+  institution = {Laborat√≥rio de Engenharia e Explora√ß√£o de Petr√≥leo - LENEP},
   year  = {203},
-  type  = {RelatÛrio},
+  type  = {Relat√≥rio},
   number = {1},
-  key  = {CaracterizaÁ„o de ReservatÛrios}
+  key  = {Caracteriza√ß√£o de Reservat√≥rios}
 }
 
 @techreport{adb-leandro,
-  author = {AndrÈ Duarte Bueno},
-  title  = {RelatÛrio Projeto: LaboratÛrio Virtual PetrofÌsica},
-  institution = {LaboratÛrio de Engenharia e ExploraÁ„o de PetrÛleo - LENEP},
+  author = {Andr√© Duarte Bueno},
+  title  = {Relat√≥rio Projeto: Laborat√≥rio Virtual Petrof√≠sica},
+  institution = {Laborat√≥rio de Engenharia e Explora√ß√£o de Petr√≥leo - LENEP},
   year  = {2010},
-  type  = {RelatÛrio},
+  type  = {Relat√≥rio},
   number = {1},
-  key  = {PrediÁ„o de Propriedades, PetrofÌsica, Rochas ReservatÛrio, An·lise de Imagens, Software, C++ }
+  key  = {Predi√ß√£o de Propriedades, Petrof√≠sica, Rochas Reservat√≥rio, An√°lise de Imagens, Software, C++ }
 }
 
 @techreport{adb-rel2006-PavelThemis,
-  author	= {AndrÈ Duarte Bueno},
-  title		= {RelatÛrio Projeto: Modelagem Laboratorial e Matem·tica da PrecipitaÁ„o de Sulfato de B·rio em Projetos de InjeÁ„o de ¡gua},
-  institution	= {LaboratÛrio de Engenharia e ExploraÁ„o de PetrÛleo - LENEP},
+  author	= {Andr√© Duarte Bueno},
+  title		= {Relat√≥rio Projeto: Modelagem Laboratorial e Matem√°tica da Precipita√ß√£o de Sulfato de B√°rio em Projetos de Inje√ß√£o de √Ågua},
+  institution	= {Laborat√≥rio de Engenharia e Explora√ß√£o de Petr√≥leo - LENEP},
   year		= {2006},
-  type		= {RelatÛrio},
+  type		= {Relat√≥rio},
   number	= {1},
-  note          = {DeterminaÁ„o dos Efeitos da IncrustaÁ„o na Permeabilidade de Rochas ReservatÛrio com uso de MÈtodos de An·lise de Imagens},
-  key = {RelatÛrio, Modelagem Laboratorial, Modelagem  Matem·tica , Sulfato de B·rio , InjeÁ„o de ¡gua}
+  note          = {Determina√ß√£o dos Efeitos da Incrusta√ß√£o na Permeabilidade de Rochas Reservat√≥rio com uso de M√©todos de An√°lise de Imagens},
+  key = {Relat√≥rio, Modelagem Laboratorial, Modelagem  Matem√°tica , Sulfato de B√°rio , Inje√ß√£o de √Ågua}
 }
+
 
 %--------------------------------------------------------------------
 % Livros andre
 %--------------------------------------------------------------------
 @Book{adb-prog-apostilaprogramacao-v04,
-  author =   {AndrÈ Duarte Bueno},
+  author =   {Andr√© Duarte Bueno},
   editor =   {Revista do Linux},
-  title =   {Apostila de ProgramaÁ„o Orientada a Objeto em C++ - UML-STL-GNU/Linux},
+  title =   {Apostila de Programa√ß√£o Orientada a Objeto em C++ - UML-STL-GNU/Linux},
   publisher =   {Revista do Linux},
   year =   {2002},
   edition =   {0.4},
   month =   {9},
-  note =   {DistribuÌdo em CDROM}
+  note =   {Distribu√≠do em CDROM}
 }
 
 @Book{adb-prog-livroCpp,
-  author =   {AndrÈ Duarte Bueno},
-  title =   {ProgramaÁ„o Orientada a Objeto com C++ - Aprenda a Programar em Ambiente Multiplataforma com Software Livre},
+  author =   {Andr√© Duarte Bueno},
+  title =   {Programa√ß√£o Orientada a Objeto com C++ - Aprenda a Programar em Ambiente Multiplataforma com Software Livre},
   publisher =   {Novatec},
   year =   {2003},
-  address =   {S„o Paulo},
+  address =   {S√£o Paulo},
   edition =   {1},
-  key =   {ProgramaÁ„o Orientada a Objeto, C++, Multiplataforma, Software Livre }
+  key =   {Programa√ß√£o Orientada a Objeto, C++, Multiplataforma, Software Livre }
 }
 
 @Book{adb-prog-livroCpp2nd,
-  author =   {AndrÈ Duarte Bueno},
-  title =   {ProgramaÁ„o Orientada a Objeto com C++ - Aprenda a Programar em Ambiente Multiplataforma com Software Livre},
-  publisher =   {N„o Publicado de forma impressa},
+  author =   {Andr√© Duarte Bueno},
+  title =   {Programa√ß√£o Orientada a Objeto com C++ - Aprenda a Programar em Ambiente Multiplataforma com Software Livre},
+  publisher =   {N√£o Publicado de forma impressa},
   year =   {2008},
   edition =   {2},
-  key =   {ProgramaÁ„o Orientada a Objeto, C++, Multiplataforma, Software Livre }
+  key =   {Programa√ß√£o Orientada a Objeto, C++, Multiplataforma, Software Livre }
 }
 
 @Book{adb-prog-livroCpp3nd,
-  author =   {AndrÈ Duarte Bueno},
-  title =   {ProgramaÁ„o Orientada a Objeto com C++ Moderno - Aprenda a Programar em Ambiente Multiplataforma com Software Livre},
-  publisher =   {N„o Publicado de forma impressa},
+  author =   {Andr√© Duarte Bueno},
+  title =   {Programa√ß√£o Orientada a Objeto com C++ Moderno - Aprenda a Programar em Ambiente Multiplataforma com Software Livre},
+  publisher =   {N√£o Publicado de forma impressa},
   year =   {2022},
   edition =   {3},
-  key =   {ProgramaÁ„o Orientada a Objeto, C++, Multiplataforma, Software Livre }
+  key =   {Programa√ß√£o Orientada a Objeto, C++, Multiplataforma, Software Livre }
 }
 
 @Book{adb-prog-ApostilaCalculadorasHP,
-  author =   {AndrÈ Duarte Bueno},
-  title =   {Calculadoras CientÌficas RPN Program·veis - Breve HistÛrico e Exemplos de Uso},
-  publisher =   {N„o Publicado de forma impressa},
+  author =   {Andr√© Duarte Bueno},
+  title =   {Calculadoras Cient√≠ficas RPN Program√°veis - Breve Hist√≥rico e Exemplos de Uso},
+  publisher =   {N√£o Publicado de forma impressa},
   year =   {2014},
-  key =   {Calculadoras Program·veis, Calculadoras, RPN , HistÛrico , HP}
+  key =   {Calculadoras Program√°veis, Calculadoras, RPN , Hist√≥rico , HP}
 }
 
 
 %--------------------------------------------------------------------
-% LENEP - Setor de Geo-Inform·tica - Documentos do setor
-% ## Geo-Inform·tica
+% LENEP - Setor de Geo-Inform√°tica - Documentos do setor
+% ## Geo-Inform√°tica
 %--------------------------------------------------------------------
+@TechReport{Geo-Info-projSl,
+  author =   {Andr√© Duarte Bueno and Alexandre S√©rvulo and Luciano Botelho and Roseane Missagia and Abel Carrasquilla and Viatslava Priimenko },
+  title =   {Projeto Integrado de Migra√ß√£o para Software Livre},
+  institution =  {LENEP},
+  year =   {2004},
+  URL =   {http://www.lenep.uenf.br/~geoinformatica/02-ProgramaDoSetorDeGeoInformatica/ProjetoMigracaoParaSoftwareLivre.pdf},
+  key = {Setor de modelagem matem√°tica computacional}
+}
+
+@TechReport{Geo-Info-estrutura,
+  author =   {Andr√© Duarte Bueno and Alexandre S√©rvulo and Luciano Botelho and Roseane Missagia and Abel Carrasquilla and Viatslava Priimenko },
+  title =   {Estrutura e Funcionamento do Setor de Geo-Inform√°tica do LENEP},
+  institution =  {LENEP},
+  year =   {2004},
+  URL =   {http://www.lenep.uenf.br/~geoinformatica/01-EstruturaDoSetor},
+  key = {Setor de modelagem matem√°tica computacional}
+}
+
+@TechReport{Geo-Info-atividades2004,
+  author =   {Andr√© Duarte Bueno and Alexandre S√©rvulo and Luciano Botelho and Roseane Missagia and Abel Carrasquilla and Viatslava Priimenko },
+  title =   {Programa do Setor de Geo-inform√°tica para o Ano de 2004},
+  institution =  {LENEP},
+  year =   {2004},
+  URL =   {http://www.lenep.uenf.br/~geoinformatica/02-ProgramaDoSetorDeGeoInformatica},
+  key = {Setor de modelagem matem√°tica computacional}
+}
+
+@TechReport{Geo-Info-termocompromisso,
+  author =   {Andr√© Duarte Bueno et all.},
+  title =   {Termo de Compromisso do Usu√°rio},
+  institution =  {LENEP},
+  year =   {2004},
+  URL =   {http://www.lenep.uenf.br/~geoinformatica},
+  key = {Setor de modelagem matem√°tica computacional}
+}
+
+@TechReport{Geo-Info-apresentacaosetor,
+  author =   {Andr√© Duarte Bueno et all.},
+  title =   {Apresenta√ß√£o do Setor: Estrutura e Funcionamento do Setor de Geo-Inform√°tica e Programa√ß√£o de Atividades Para o ano de 2004},
+  institution =  {LENEP},
+  year =   {2004},
+  URL =   {http://www.lenep.uenf.br/~geoinformatica},
+  key = {Setor de modelagem matem√°tica computacional}
+}
 
 %--------------------------------------------------------------------
 % ## Mestrados
 %--------------------------------------------------------------------
+@MastersThesis{mestrado-pieritz,
+  author = {Romeu Andr√© Pieritz},
+  title  = {Desenvolvimento das T√©cnicas do Gr√°fico da Linha Mediana e da Binariza√ß√£o por Regi√µes Conexas
+    Aplicadas √† Caracteriza√ß√£o Geom√©trica de  meios Porosos},
+  school = {Programa de P√≥s-Gradua√ß√£o em Engenharia  Mec√¢nica da Universidade Federal de Santa Catarina},
+  year  = {1994},
+  type  = {Disserta√ß√£o de Mestrado},
+  address = {Florianopolis}
+}
+
+@MastersThesis{mestrado-celso,
+  author = {Celso Peres Fernandes},
+  title  = {Estudo dos Processos de Condensa√ß√£o e Migra√ß√£o de Umidade em Meios Porosos Consolidados. An√°lise Experimental de uma Argamassa de Cal e Cimento},
+  school = {Programa de P√≥s-Gradua√ß√£o em Engenharia Mec√¢nica da Universidade Federal de Santa Catarina},
+  year  = {1990},
+  type  = {Disserta√ß√£o de Mestrado},
+  address = {Florian√≥polis},
+  month  = {8},
+  note  = {Nota},
+  key  = {Transfer√™ncia de Calor, Telhas }
+}
+
+@MastersThesis{mestrado-yunes,
+  author = {Pablo Rosento Yunes},
+  title  = {Determina√ß√£o da Distribui√ß√£o de Poros de uma Argamassa de Cimento e Cal Usando as Isotermas de Equil√≠brio e Dados de Microscopia Eletr√¥nica},
+  school = {Programa de P√≥s-Gradua√ß√£o em Engenharia Mec√¢nica-UFSC},
+  year  = {1993},
+  type  = {Disserta√ß√£o de Mestrado},
+  address = {Florian√≥polis}
+}
+
 @MastersThesis{mestrado-TiagoSchaewer,
   author = {Tiago Ribeiro Schaewer},
-  title  = {DeterminaÁ„o dos Efeitos da IncrustaÁ„o na Permeabilidade de Rochas ReservatÛrio com uso de MÈtodos de An·lise de Imagens},
-  school = {Programa de PÛs-GraduaÁ„o em Engenharia de ReservatÛrio e de ExploraÁ„o de PetrÛleo - UENF},
+  title  = {Determina√ß√£o dos Efeitos da Incrusta√ß√£o na Permeabilidade de Rochas Reservat√≥rio com uso de M√©todos de An√°lise de Imagens},
+  school = {Programa de P√≥s-Gradua√ß√£o em Engenharia de Reservat√≥rio e de Explora√ß√£o de Petr√≥leo - UENF},
   year  = {2006},
-  type  = {DissertaÁ„o de Mestrado},
-  address = {MacaÈ}
+  type  = {Disserta√ß√£o de Mestrado},
+  address = {Maca√©}
+}
+
+@MastersThesis{filipe-themis,
+  author = 	 {Filipe Augusto Torres},
+  title = 	 {Metodologia/Planejamento de montagem de laborat√≥rio para determina√ß√£o do dano de forma√ß√£o em sistemas sob inje√ß√£o de √°gua},
+  school = 	 {Universidade Estadual do Norte Fluminense},
+  year = 	 {2006},
+  OPTannote = 	 {}
+}
+
+@MastersThesis{mestrado-DeGasperi,
+  author =   {P. M. S. De Gasperi},
+  title =   {Estimativa de Propriedades Petrof√≠sicas Atrav√©s da Reconstru√ß√£o 3D do Meio Poroso a Partir da An√°lise de Imagens},
+  school =   {Universidade Estadual de Campinas},
+  year =   {1999},
+  address =   {Campinas}
 }
 
 %--------------------------------------------------------------------
 % ## Teses
 %--------------------------------------------------------------------
+@PhdThesis{lucchesi,
+  author = 	 {Luiz Geraldo do Carmo Lucchesi Loures},
+  title = 	 {Infer√™ncia de Porosidade em Reservat√≥rio de Petr√≥leo a Partir de M√∫ltiplos Dados de Po√ßo e Superf√≠cie},
+  school = 	 {Universidade Estadual do Norte Fluminense - UENF},
+  year = 	 {2001},
+  month = 	 {junho}
+}
+
+@PhdThesis{tese-Fens,
+  author = 	 {Theodoor Wouter Fens},
+  title = 	 {Petrophysical Properties of Rock Samples Using Image Analysis Techniques},
+  school = 	 {Technische Universiteit Delft},
+  year = 	 {2000}
+}
+
+@PhDThesis{tese-nathan,
+  author = {Nathan  Mendes},
+  title  = {Modelos Para Previs√£o da Transfer√™ncia de Calor e de Umidade em Elementos Porosos de Edifica√ß√µes},
+  school = {Universidade Federal de Santa Catarina, Programa de P√≥s-Gradua√ß√£o em Engenharia Mec√¢nica},
+  year  = {1997},
+  type  = {Tese de Doutoramento},
+  address = {Florian√≥polis},
+  month  = {8}
+}
+
+@PhDThesis{tese-liang,
+  author = {Liang Zhirong},
+  Title  = {Computer Generation and Application of 3-D Reconstructed Porous Structure: From 2-D Images to the Prediction of Permeability},
+  school = {Programa de P√≥s-Gradua√ß√£o em Engenharia de  Produ√ß√£o da Universidade Federal de Santa Catarina},
+  year  = {1997},
+  type  = {Tese de Doutorado},
+  address = {Florian√≥polis}
+}
+
+@PhDThesis{tese-henor,
+  author = {Henor A. Souza},
+  title  = {Estudo dos Processos de Fixa√ß√£o e  Transfer√™ncia Isot{√©}rmica de Umidade em Meios Porosos Heterog√™nios},
+  school = {Programa de P√≥s-Gradua√ß√£o em Engenharia  Mec√¢nica - Universidade Federal de Santa Catarina},
+  year  = {1993},
+  type  = {Tese de Doutoramento},
+  address = {Florian√≥polis}
+}
+
+@PhDThesis{tese-bellini,
+  author = {Jos√© Antonio Bellini da Cunha Neto},
+  title  = {Transport D'Humidit√© en Mat√©riau Poreux en  Pr√©sence D'un Gradient de Temp√©rature. Caract√©risation Exp√©rimentale D'un B√©ton Cellulaire},
+  school = {Universit√© Joseph Fourier},
+  year  = {1992},
+  type  = {Th√©se de Doctorat},
+  address = {Grenoble}
+}
+
+@PhDThesis{tese-celso,
+  author = {Celso Peres Fernandes},
+  title  = {Caracteriza√ß√£o Morfotopol√≥gica de  Espa√ßos Porosos: Reconstitui√ß√£o Multiescala e Simula√ß√£o de Processos de Invas√£o de  Fluidos n√£o Molhantes},
+  school = {Programa de P√≥s-Gradua√ß√£o em Engenharia Mec√¢nica da Universidade Federal de Santa Catarina},
+  year  = {1994},
+  type  = {Tese de Doutoramento},
+  address = {Florian√≥polis},
+  key           = {me-tese-celso}
+}
+
+@PhdThesis{tese-magnani,
+  author =   {Fabio Santana Magnani},
+  title =   {Determina√ß√£o das Configura√ß√µes de Equil√≠brio em Meios Porosos Indeform√°veis},
+  school =   {Programa de P√≥s-Gradua√ß√£o em Engenharia Mec√¢nica, Universidade Federal de Santa Catarina},
+  year =   {1996},
+  address =   {Florian√≥polis}
+}
 
 %--------------------------------------------------------------------
-% ## MÈtodo do esqueleto, grafo,...  
+% ## M√©todo do esqueleto, grafo,...  
 %--------------------------------------------------------------------
+@Book{grafo-graphviz,
+  author =   { Lambert M. Surhone},
+  title =   {Graphviz},
+  publisher =   {Betascript Publishing},
+  title =   {Graphviz},
+  year =   {2010},
+  key = {grafos, esqueletos}
+}
+@Book{grafo-graphAnalysis,
+  author =   { Yingxia Shao and Bin Cui  },
+  title =   {Large-Scale Graph Analysis: System, Algorithm and Optimization},
+  publisher =   {Springer},
+  year =   {2020},
+  key = {grafos, esqueletos}
+}
+
+@Book{grafo-rabuske,
+  author =   {M. A. Rabuske},
+  publisher =   {Editora da UFSC},
+  title =   {Introdu√ß√£o a Teoria dos Grafos},
+  publisher =   {Editora da UFSC},
+  year =   {1992},
+  address =   {Florian√≥polis},
+  key = {grafos, esqueletos}
+}
+
+@Book{grafo-trudeau,
+  author =   {Richard J. Trudeau},
+  title =   {Introduction to Graph Theory},
+  publisher =   {Dover},
+  year =   {1994},
+  key = {grafos, esqueletos}
+}
+
+@Book{grafo-chartrand,
+  author =   {Gary Chartrand},
+  title =   {Introductory Graph Theory},
+  publisher =   {Dover},
+  year =   {1985},
+  key = {grafos, esqueletos}
+}
 
 %--------------------------------------------------------------------
-% ## MÈtodo do esqueleto, grafo,...  
+% ## M√©todo do esqueleto, grafo,...  
 %--------------------------------------------------------------------
+
+@Article{ske-ma,
+  author = {C. M. Ma},
+  title  = {A 3D Fully Parallel Thinning Algorithm for Generating Medical Faces},
+  journal = {Patt. Recog. Lett},
+  volume = {16},
+  pages  = {83-87},
+  year  = {1995},
+  key = {grafos, esqueletos}
+}
+
+@Article{ske-ma-thinning,
+  author = {C. M. Ma},
+  title  = {On Topology Preservation in 3D Thinning},
+  journal = {CVGIP: Image understanding},
+  volume = {59},
+  pages  = {328-339},
+  year  = {1994},
+  key = {grafos, esqueletos}
+}
 
 % --------------------------------------------------------------------
 % ## LMPT artigos do pessoal do LMPT
 %--------------------------------------------------------------------
 
+@inproceedings{celso-multiescala-simulacao,
+  author = {Celso Peres Fernandes and Paulo Cesar Philippi and Jean Francois Daian and Fabio Santana Magnani},
+  year  = {1995},
+  title  = {Simula√ß√£o de Processos em Estruturas Porosas Reconstitu√≠das. Parte II: Sistemas Multiescalas},
+  publisher = {Proceedings of the XXII Meeting on Porous Media, Edited by Jos{√©} Vladimir de Oliveira},
+  address = {Montreal},
+  pages  = {85-92},
+  key = {sistemas multiescala}
+}
+
+%****************************************************************************
+%****************** %----------Grupo 2 ciclo b√°sico - matem√°tica, f√≠sica, qu√≠mica - m√©todos num√©ricos
+%****************************************************************************
+
 %--------------------------------------------------------------------
-% ## Matem·tica
+% ## Matem√°tica
 %--------------------------------------------------------------------
 
+@Book{math-bell,
+  author =   {W. W. Bell},
+  title =   {Special Functions for Scientists and Engineers},
+  publisher =   {Dover},
+  year =   {2004},
+  key = {matem√°tica, fun√ß√µes especiais}
+}
+
+@Book{math-papoulis,
+  author = {A. Papoulis},
+  title  = {Probability, Random Variables , and Stochastic Processes},
+  publisher = {McGraw-Hill},
+  year  = {1965},
+  note  = {ISBN},
+  key           = {prob-math-papoulis,  matem√°tica, estat√≠stica }
+}
+
+@Book{math-dettman,
+  author =   {John W. Dettman},
+  title =   {Mathematical Methods in Physics and Engineering},
+  publisher =   {Dover},
+  year =   {1988},
+  key  = {engenharia,  matem√°tica, estat√≠stica }
+}
+
+@Book{math-hwei,
+  author = {P. H. Hwei},
+  title  = {Applied Fourier Analysis},
+  publisher = {Harcourt Brace},
+  year  = {1984},
+  address = {Sam Diego},
+  note  = {ISBN},
+  key  = {engenharia,  matem√°tica, estat√≠stica, an√°lise fourier }
+}
+
+@Book{math-sneddon,
+  author = {I. N. Sneddon },
+  title  = {Fourier Transform},
+  publisher = {Dover},
+  year  = {1995},
+  address = {New York},
+  key  = {engenharia,  matem√°tica, estat√≠stica, an√°lise fourier }
+}
 
 %--------------------------------------------------------------------
-% ## MÈtodos numÈricos
+% ## M√©todos num√©ricos
 %--------------------------------------------------------------------
 @Book{numan-rabinowitz,
   author =   {Anthony Ralston, Philip Rabinowitz},
   title =   {A First Course in Numerical Analysis},
   publisher =   {McGraw-Hill Companies },
   year =   {1978},
-  key  = {matem·tica, mÈtodos numÈricos}
+  key  = {matem√°tica, m√©todos num√©ricos}
 }
 
 @Book{numan-hildebrand,
@@ -658,7 +952,7 @@
   address = {Toronto},
   edition = {1rd},
   note  = {ISBN},
-  key  = {matem·tica, mÈtodos numÈricos}
+  key  = {matem√°tica, m√©todos num√©ricos}
 }
 
 @Book{numan-germund,
@@ -666,7 +960,7 @@
   title =   {Numerical Methods},
   publisher =   {Dover},
   year =   {2003},
-  key  = {matem·tica, mÈtodos numÈricos}
+  key  = {matem√°tica, m√©todos num√©ricos}
 }
 
 @Book{numan-joe,
@@ -675,7 +969,7 @@
   publisher =   {Marcel Dekker},
   edition =   {2},
   year =   {2018},
-  key  = {matem·tica, mÈtodos numÈricos}
+  key  = {matem√°tica, m√©todos num√©ricos}
 }
 
 @Book{numan-hamming,
@@ -683,22 +977,22 @@
   title =   {Numerical Methods for Scientists and Engineers},
   publisher =   {Dover},
   year =   {1987},
-  key  = {matem·tica, mÈtodos numÈricos}
+  key  = {matem√°tica, m√©todos num√©ricos}
 }
 
 %--------------------------------------------------------------------
-% ## MÈtodos numÈricos - Solver / Matrizes
+% ## M√©todos num√©ricos - Solver / Matrizes
 %--------------------------------------------------------------------
 
 %--------------------------------------------------------------------
-% ## MÈtodos numÈricos - EquaÁıes Diferenciais
+% ## M√©todos num√©ricos - Equa√ß√µes Diferenciais
 %--------------------------------------------------------------------
 @Book{numan-pde1,
   author =   {Mark S. Gockenbach},
   title =   {Partial Differential Equations: Analytical and Numerical Methods},
   publisher =   {Soc for Industrial \& Applied Math},
   year =   {2002},
-  key  = {matem·tica, mÈtodos numÈricos, equaÁıes diferenciais}
+  key  = {matem√°tica, m√©todos num√©ricos, equa√ß√µes diferenciais}
 }
 
 @Book{numan-ode1,
@@ -706,11 +1000,11 @@
   title =   {An Introduction to Ordinary Differential Equations},
   publisher =   {Dover},
   year =   {1989},
-  key  = {matem·tica, mÈtodos numÈricos, equaÁıes diferenciais}
+  key  = {matem√°tica, m√©todos num√©ricos, equa√ß√µes diferenciais}
 }
 
 %--------------------------------------------------------------------
-% ## MÈtodos numÈricos - FunÁıes especiais/matem·ticas
+% ## M√©todos num√©ricos - Fun√ß√µes especiais/matem√°ticas
 %--------------------------------------------------------------------
 @Book{numan-parker,
   author = {J. R. Parker},
@@ -719,7 +1013,7 @@
   year  = {1997},
   address = {New York},
   note  = {ISBN},
-  key  = {matem·tica, mÈtodos numÈricos, analise imagens, processamento imagens}
+  key  = {matem√°tica, m√©todos num√©ricos, analise imagens, processamento imagens}
 }
 
 @Book{numan-shammas,
@@ -728,19 +1022,20 @@
   publisher = {MacGraw-Hill},
   year  = {1997},
   address = {New York},
-  key  = {matem·tica, mÈtodos numÈricos, C++, C, Cientistas, Engenharia}
+  key  = {matem√°tica, m√©todos num√©ricos, C++, C, Cientistas, Engenharia}
 }
 
+
 %--------------------------------------------------------------------
-% ## MÈtodos numÈricos - volumes finitos
+% ## M√©todos num√©ricos - volumes finitos
 %--------------------------------------------------------------------
 @book{numan-maliska,
   author = {C. R. Maliska},
-  title  = {TransferÍncia de Calor e Mec‚nica dos FluÌdos Computacional},
+  title  = {Transfer√™ncia de Calor e Mec√¢nica dos Flu√≠dos Computacional},
   publisher = {LTC},
   year  = {2004},
   note  = {ISBN 978-8521613961},
-  key  = {matem·tica, mÈtodos numÈricos, volumes finitos}
+  key  = {matem√°tica, m√©todos num√©ricos, volumes finitos}
 }
 
 %--------------------------------------------------------------------
@@ -753,7 +1048,7 @@
   year  = {1984},
   series = {series},
   note  = {ISBN},
-  key  = {matem·tica, estatÌstica, Engenharia}
+  key  = {matem√°tica, estat√≠stica, Engenharia}
 }
 
 @Book{prob-barry,
@@ -761,8 +1056,9 @@
   title =   {Stochastic Modeling : Analysis & Simulation},
   publisher =   {Dover },
   year =   {2003},
-  key  = {matem·tica, estatÌstica, Engenharia}
+  key  = {matem√°tica, estat√≠stica, Engenharia}
 }
+
 
 %****************************************************************************
 %****************** %----------Grupo 3 ciclo profissionalizante
@@ -773,71 +1069,604 @@
 %--------------------------------------------------------------------
 
 @Book{engpet-engReservatorio,
-  author = 	 {Adalberto JosÈ Rosa and Renato Souza Carvalho and JosÈ Antonio Daniel Xavier},
-  title = 	 {Engenharia de ReservatÛrios de PetrÛleo},
-  publisher = 	 {InterciÍncia},
+  author = 	 {Adalberto Jos√© Rosa and Renato Souza Carvalho and Jos√© Antonio Daniel Xavier},
+  title = 	 {Engenharia de Reservat√≥rios de Petr√≥leo},
+  publisher = 	 {Interci√™ncia},
   year = 	 {2006},
-  key  = {Engenharia reservatÛrio}
+  key  = {Engenharia reservat√≥rio}
 }
 
 @Article{petroleo-geral1,
   author =   {MILANI, E. J. and BRANDAO, J. A. S. L. and ZALAN, P. V},
-  title =   {PetrÛleo na margem continental brasileira: geologia, exploraÁ„o, resultados e perspectivas.},
+  title =   {Petr√≥leo na margem continental brasileira: geologia, explora√ß√£o, resultados e perspectivas.},
   journal =   {Rev. Bras. Geof},
   year =   {2000},
   volume =   {18},
   OPTpages =   {352-396},
   annote =   {ISSN 0102-261X},
-  key  = {geologia, exploraÁ„o}
+  key  = {geologia, explora√ß√£o}
 }
 
+
 %--------------------------------------------------------------------
-% ## dafo - Dano a formaÁ„o
+% ## dafo - Dano a forma√ß√£o
 %--------------------------------------------------------------------
+@Article{dafo-deepbedfilt,
+  author = 	 {Pavel G. Bedrikovetsky and Dan Marchesin and Farid Salom√£o Shecaira and Antonio Luis Serra and E. Resende},
+  title = 	 {Characterization of Deep Bed Filtration System from Laboratory Pressure Drop Measurements},
+  journal = 	 {Journal of Petroleum Science and Engineering},
+  year = 	 {2001},
+  volume = 	 {64},
+  number = 	 {3},
+  pages = 	 {167-177},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+@Article{dafo-wallbrown,
+  author = 	 {C. Wall and R. J. C. Brown},
+  title = 	 {The Determination of Pore-Size Distributions from Sorption Isotherms and Mercury Penetration in Interconnected Pores: The Application of Percolation Theory},
+  journal = 	 {Journal of Colloid and Interface Science},
+  year = 	 {1981},
+  volume = 	 {1},
+  number = 	 {1},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+@Article{dafo-herzig-leclerc,
+  author = 	 {Herzig, J.P. and Leclerc, D.M. and Goff, P. le},
+  title = 	 {Flow of Suspensions through Porous Media - Application to Deep Filtration.},
+  journal = 	 {Industrial and Engineering Chemistr},
+  year = 	 {1970},
+  volume = 	 {62},
+  number = 	 {5},
+  pages = 	 {8-35},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+@Article{dafo-sahimi,
+  author = 	 {Imdakm, A. O. and Sahimi, M},
+  title = 	 {Transport of large particles in flow through porous media},
+  journal = 	 {Physical Review A},
+  year = 	 {1987},
+  volume = 	 {36},
+  pages = 	 {5304-5309},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+@Article{dafo-rege-fogler,
+  author = 	 {Rege, S. D., Fogler, H. S},
+  title = 	 {Network model for straining dominated particle entrapment in porous media},
+  journal = 	 {Chemical Engineering Science},
+  year = 	 {1987},
+  volume = 	 {42(7)},
+  pages = 	 {1553-1564},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+
+@Article{dafo-sharma-yortsos,
+  author = 	 {Sharma, M. M. and Yortsos, Y. C},
+  title = 	 {Transport of Particulate Suspensions in Porous Media: Model Formulation},
+  journal = 	 {Jounral AIChe},
+  year = 	 {1987},
+  volume = 	 {33(10)},
+  number = 	 {1636},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+
+@Article{dafo-sharma-yortsos2,
+  author = 	 {Sharma, M. M. and Yortsos, Y. C},
+  title = 	 {A network model for deep bed filtration processes},
+  journal = 	 {Jounral AIChe},
+  year = 	 {1987},
+  volume = 	 {33(10)},
+  number = 	 {1644-1653},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+
+@Article{dafo-sharma-yortsos3,
+  author = 	 {Sharma, M. M. and Yortsos, Y. C},
+  title = 	 {Fines migration in porous media},
+  journal = 	 {Jounral AIChe},
+  year = 	 {1987},
+  volume = 	 {33(10)},
+  number = 	 {1654-1662},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+@Article{dafo-kosvintsev,
+  author = 	 {Kosvintsev, S. and Holdich, R.G. and Cumming, I.W. and Starov, V.M},
+  title = 	 {Modelling of dead-end microfiltration with pore blocking and cake formation},
+  journal = 	 {Journal of Membrane Science},
+  year = 	 {2002},
+  volume = 	 {208},
+  number = 	 {181-192},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+
+@Article{dafo-asantos-pavel,
+  author = 	 {Adriano Santos and Pavel Bedrikovetsky},
+  title = 	 {Size Exclusion Mechanism during Particulate Suspension Transport in Porous Media: Stochastic and Averaged Equations},
+  journal = 	 {Computation and Applied Mathematics},
+  year = 	 {2004},
+  volume = 	 {23},
+  number = 	 {2-3},
+  pages = 	 {259-284},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+
+@Article{dafo-asantos-pavel2,
+  author = 	 {Adriano Santos and Pavel Bedrikovetsky},
+  title = 	 {A Stochastic Model for Particulate Suspension Flow in Porous Media},
+  journal = 	 {Transport in Porous Media},
+  year = 	 {2006},
+  volume = 	 {62},
+  number = 	 {1},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+@InProceedings{dafo-pang-sharma,
+  author = 	 {Pang, S. and Sharma, M.M},
+  title = 	 {A Model for Predicting Injectivity Decline in Water Injection Wells},
+  pages = 	 {25-28},
+  year = 	 {1997},
+  publisher =    {69th Annual Technical Conference and Exhibition held in New Orleans},
+  note = 	 {SPE paper 28489},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+@InProceedings{dafo-suri-Sharma,
+  author = 	 {Suri, A. and Sharma, M},
+  title = 	 {Strategies for Sizing Particles in Drilling and Completion Fluids. },
+  pages = 	 {},
+  year = 	 {2004},
+  publisher =    {SPE paper 87676},
+  note = 	 {},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+@InProceedings{dafo-wennberg-Sharma,
+  author = 	 {Wennberg, K. I. and Sharma, M},
+  title = 	 {Determination of the Filtration Coefficient and the Transition Time for Water Injection Wells},
+  pages = 	 {},
+  year = 	 {1997},
+  publisher =    {SPE paper 38181},
+  note = 	 {},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
+
+@PhdThesis{dafo-asantos,
+  author = 	 {Adriano Santos},
+  title = 	 {Modelo estoc√°stico para a exclus√£o pelo tamanho durante o transporte de suspens√µes particuladas em meios porosos},
+  school = 	 {Pontif√≠cia Universidade Cat√≥lica do Rio de Janeiro},
+  year = 	 {2005},
+  key = 	 {Departamento de Engenharia Civil},
+  OPTtype = 	 {},
+  OPTaddress = 	 {},
+  OPTmonth = 	 {},
+  OPTnote = 	 {136p},
+  OPTannote = 	 {},
+  key  = {Engenharia reservat√≥rio, dano √† forma√ß√£o}
+}
 
 %--------------------------------------------------------------------
 % ## Multi-escala
 %--------------------------------------------------------------------
 
+@inproceedings{me-daian92,
+  author = {Jean  Francois Daian},
+  year  = {1992},
+  title  = {From Pore-Size Distribution To Moisture Transport Properties: Particular Problems For Large Pore-Size
+    Distributions},
+  publisher = {IDS'92. 8th Int. Drying Symp},
+  address = {Montreal},
+  pages  = {19},
+  key  = {Engenharia reservat√≥rio, multiescala, Distribui√ß√£o tamanho poros}
+}
 
 %--------------------------------------------------------------------
-% ## FenÙmenos de Histerese
+% ## Fen√¥menos de Histerese
+%--------------------------------------------------------------------
+@Article{Pavel-hysteresys,
+  author =   {B.Plohr and D. Marchesin and Pavel Bedrikovetsky and P. Krause},
+  title =   {Modeling hysteresys in porous media flow via relaxation},
+  journal =   {Computacional Geosciences},
+  year =   {2001},
+  volume =   {5},
+  pages =   {225-256},
+  key  = {Engenharia reservat√≥rio, histerese}
+}
+
+@Article{Pavel-WAG,
+  author =   {Pavel Bedrikovetsky},
+  title =   {WAG Displacements of Oil-Condensates Accounting for Hydrocarbon Ganglia},
+  journal =   {Transport in Porous Media},
+  year =   {2003},
+  volume =   {52},
+  pages =   {229-266},
+  key  = {Engenharia reservat√≥rio, histerese}
+}
+
+%--------------------------------------------------------------------
+% % interp - Interpreta√ß√£o
 %--------------------------------------------------------------------
 
+%--------------------------------------------------------------------
+% ## PERCOLA√á√ÉO
+%--------------------------------------------------------------------
+@Article{perc-ioannidis-chatzis,
+  author = {M. Ioannidis and I. Chatzis},
+  title  = {Network Modeling of Pore Structure and Transport Properties of Porous Media},
+  journal = {Chem. Eng. Sci},
+  volume = {48},
+  pages  = {.951-972},
+  year  = {1993},
+  key  = {Engenharia reservat√≥rio, percola√ß√£o, meios porosos}
+}
 
-%--------------------------------------------------------------------
-% % interp - InterpretaÁ„o
-%--------------------------------------------------------------------
+@article{perc-hammersley,
+  author = {J. M. Hammersley},
+  title  = {Origins of Percolation Theory},
+  journal = {Anais of the Israel Physical Society},
+  volume = {5},
+  year  = {1983},
+  key  = {Engenharia reservat√≥rio, percola√ß√£o, meios porosos}
+}
 
-%--------------------------------------------------------------------
-% ## PERCOLA«√O
-%--------------------------------------------------------------------
+@Article{perc-hoshen-kopelman,
+  author = {J. Hoshen and R. Kopelman},
+  title  = {Percolation and Cluster Distribution. I. Cluster Multiple Labeling Technique and Critical Concentration Algorithm},
+  journal = {Physical Review B},
+  volume = {8},
+  pages  = {3438-3445},
+  year  = {1976},
+  key  = {Engenharia reservat√≥rio, percola√ß√£o, meios porosos}
+}
 
+@Book{perc-staufer,
+  author = {D. Staufer},
+  title  = {Introduction of Percolation Theory},
+  publisher = {Taylor and Francis},
+  year  = {1985},
+  address = {Londres},
+  key  = {Engenharia reservat√≥rio, percola√ß√£o, meios porosos}
+}
+
+@article{perc-wall-brown,
+  author = {G. C. Wall and R. J. C. Brown},
+  title  = {The Determination of Pore-Size Distribuitions from Sorption Isotherms and Mercury Penetration in Interconnected Pores: The Application of Percolation Theory},
+  journal = {Journal of Colloid and Interface Science},
+  year  = {1981},
+  volume = {82},
+  number = {1},
+  month  = {July},
+  key  = {Engenharia reservat√≥rio, percola√ß√£o, meios porosos}
+}
+
+@Article{perc-broadben-ham,
+  author =   {S. R. Broadbent and Hammersley},
+  title =   {Percolation Processes I: Crystals and Mazes},
+  journal =   {Journal of the American Chemical Society},
+  year =   {1957},
+  volume =   {73},
+  pages =   {p.629-641},
+  key  = {Engenharia reservat√≥rio, percola√ß√£o, meios porosos}
+}
 
 %--------------------------------------------------------------------
 % % petrofisica
 %--------------------------------------------------------------------
 
+@Article{petrofisica-dunham,
+  author =   {Dunham, R.J},
+  title =   {Classification of carbonates rocks according to depositional texture},
+  journal =   {Amer. Assoc. Petrol. Geol Symp. Mem. 1},
+  year =   {1962},
+  pages =   {108-121},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o}
+}
+
+@Book{petrofisica-folk,
+  author =   {Folk, R.L},
+  title =   {Petrology of sedimentary rocks},
+  publisher =   {Hemphill's},
+  year =   {1968},
+  address =   {Austin},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o}
+}
+
+
+@Book{petrofisica-suguioK,
+  author =   {Suguio, K},
+  title =   {Dicionario de Geologia Sedimentar e √Åreas Afins},
+  publisher =   {Editora Bertrand Brasil},
+  year =   {1998},
+  note =   {p. 620 - 623},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o}
+}
 
 %--------------------------------------------------------------------
 % ## MEIOS POROSOS - Permeabilidade
 %--------------------------------------------------------------------
+@book{imgan-adler92,
+  author = {P. M. Adler},
+  title  = {Porous Media: Geometry and Transports},
+  publisher = {Butterworth-Heinemann},
+  year  = {1992},
+  address = {New York},
+  edition = {1rd},
+  note  = {ISBN},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@Article{pm-santos3,
+  author =   {Luis Orlando Emerich dos Santos and Paulo Cesar Philipp},
+  title =   {Lattice-gas model based on field mediators for immiscible fluids},
+  journal =   {Physical Review E},
+  year =   {2002},
+  volume =   {65},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@InProceedings{pm-perm-santos-lg,
+  author =   {Luis Orlando Emerich dos Santos and Paulo Cesar Philippi and Marcos Cabral Damiani},
+  title =   {Lattice Gas Methods For Predicting Intrinsic Permeability Of Porous Media},
+  year =   {2000},
+  publisher =   {Encit - 2000},
+  address =   {Porto Alegre},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@InProceedings{pm-perm-santos-lg2,
+  author =   {Luis Orlando Emerich dos Santos and Paulo Cesar Philippi and M C.Damiani},
+  title =   {A Boolean Lattice Gas Method For Predicting Intrinsic Permeability of Porous Medias},
+  year =   {May 08-12-2000},
+  publisher =   {Produccion 2000 - Aplicaciones de la ciencia en la ingenier√≠a de petr√≥leo},
+  address =   {Produccion 2000 - Aplicaciones de la ciencia en la ingenier√≠a de petr√≥leo},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@InProceedings{pm-perm-santos-lg-jpse,
+  author =   {Luis Orlando Emerich Santos and Paulo Cesar Philippi and Marcos Cabral Damiani and Celso Peres Fernandes},
+  title =   {Using Three-Dimensional Reconstructed Microstructures For Predicting Intrinsic Permeability 
+                  of Reservoir- Rocks Based on a Boolean Lattice Gas Method},
+  year =   {2002},
+  editor =   {Journal of Petroleum Science and Engineering-JPSE},
+  publisher =    {Journal of Petroleum Science and Engineering-JPSE},
+  pages =   {p109-124},
+  volume =   {35},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@Article{pm-singh-moh,
+  author =   {P. Singh and K.Mohanty},
+  title =   {Permeability of Spatially Correlated Porous Media},
+  journal =   {Chemical Engineering Science},
+  year =   {2000},
+  volume =   {55},
+  pages =   {p5393-5403},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@Article{pm-ioannidis-kwiecien-chatzis,
+  author =   {M. A. Ioannidis and M.J. Kwiecien and I. Chatzis},
+  title =   {Statistical Analysis of The Porous Microstructure as a Method for Estimating Reservoir Permeability},
+  journal =   {J.Pet.Sci.Eng},
+  year =   {1996},
+  volume =   {16},
+  pages =   {pp.251-261},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@Article{liang-permeability,
+  author = {Liang Zhirong and Paulo Cesar Philippi and Celso Peres Fernandes and Fabio Santana Magnani},
+  title  = {Prediction of Permeability of Porous Media Based on 3-D Pore Skeleton Network of Reconstructed Porous Structure},
+  journal = {Int. J. Multiphase Flow},
+  year  = {1997},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@Article{liang-permeability2,
+  author = {Liang Zhirong and Paulo Cesar Philippi and Celso Peres Fernandes and Fabio Santana Magnani},
+  title  = {Prediction of Permeability from the Skeleton of 3D pore structure},
+  journal = {SPE Reservoir Eval},
+  year  = {1999},
+  volume = {2},
+  pages  = {161-168},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@Article{liang-permeability3,
+  author = {Liang Zhirong and Celso Peres Fernandes and Fabio Santana Magnani and Paulo Cesar Philippi},
+  title  = {A Reconstruction Technique of 3-D Porous Media by using Image Analysis and Using Fourier Transform},
+  journal = {Journal of Petroleum Science and Engineering},
+  year  = {1998},
+  volume = {21},
+  pages  = {273-283},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@Article{pm-BerrymanBlair,
+  author =   {J. G. Berryman and S.C. Blair. },
+  title =   {Use of Digital Image Analysis to Estimate Fluid Permeability of Porous Material: Application of Two-Point Correlation Functions },
+  journal =   {J.Appl.Phys},
+  year =   {1986},
+  volume =   {60},
+  number =   {pp.1930-1938},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+
+@Article{philippi-microstructure,
+  author = {Paulo Cesar Philippi and Pablo Rosendo Yunes and Celso Peres Fernandes and Fabio Santana Magnani},
+  title  = {The Microstructure of Porous Building Materials: Study of a Cement and Lime Mortar},
+  journal = {Transport in Porous Media},
+  volume = {14},
+  pages  = {219-245},
+  year  = {1994},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@Article{magnani-confeq,
+  author = {Fabio Santana Magnani and Paulo Cesar Philippi and Liang Zhirong and Celso Peres Fernandes},
+  title  = {Modelling Two-Phase Equilibrium in Three-Dimensional Porous Microstructures},
+  journal = {Int. J. Multiphase Flow},
+  year  = {2000},
+  volume = {26},
+  pages  = {99-123},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+@Article{philippi-souza,
+  author = {Paulo Cesar Philippi and Henor A. Souza},
+  title  = {Modelling Moisture Distribution and Isothermal Trasfer in  a Heterogeneous Porous Material},
+  journal = {Int. J. Multiphase Flow},
+  volume = {21},
+  pages  = {667-691},
+  year  = {1995},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@InProceedings{pieritz-philippi,
+  author = {Romeu Andr√© Pieritz and Paulo Cesar Philippi},
+  title  = {The Generalised Median Line Graphics Thechnique in Porous Media Geometry Characterization},
+  publisher = {Internacional Conference on Quality Control by Artificial Vision},
+  address = {Le Creusot-France},
+  year  = {1995},
+  pages  = {110-118},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
 
 %--------------------------------------------------------------------
 % ## MEIOS POROSOS
 %--------------------------------------------------------------------
+@Article{pm-sahimi-flowphen,
+  author =   {M. Sahimi},
+  title =   {Flow Phenomena in Rocks: From continuum Models to Fractal, Percolation, Cellular Automata,and Simulating Annealing},
+  journal =   {Reviews of Modern Physics},
+  year =   {1993},
+  volume =   {65},
+  pages =   {pp1393-1534},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@Article{pm-philip-de-vries,
+  author = {J. R. Philip and D. R. De Vries},
+  title  = {Moisture Movement in Porous Media Under Temperature Gradients},
+  journal = {Trans. Am. Geophysical Union},
+  volume = {38},
+  pages  = {222-232},
+  year  = {1957},
+  month  = {April},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@Book{pm-hidrologia-pinto,
+  author = {N. L. S. Pinto and A. C. Holtz and J. A.Martins and F. L. S.Gomide},
+  title  = {Hidrologia Basica},
+  publisher = {Edgard Blucher},
+  year  = {1976},
+  address = {S√£o Paulo},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@Article{pm-koplik-cond,
+  author = {J. Koplik and C. Lin and M. Vermette},
+  title  = {Conductivity and Permeability From Microgeometry},
+  journal = {J. Appl. Phys},
+  volume = {56},
+  pages  = {3127-3131},
+  year  = {1984},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@Book{pm-hidraulica-neves,
+  author = {E. T. Neves},
+  title  = {Curso de Hidraulica},
+  publisher = {Ed. Globo},
+  year  = {1960},
+  address = {Rio de Janeiro},
+  edition = {8},
+  note  = {ISBN},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@article{pm-De-Vries58,
+  author = {D. A. De Vries},
+  title  = {Simultaneous Transfer of Heat and Moisture in Porous Media},
+  journal = {Transaction American Geoquimical Union},
+  volume = {8},
+  pages  = {909-916},
+  year  = {1958},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@book{pm-dullien92,
+  author = {F. A. L. Dullien},
+  title  = {Porous Media - Fluid Transport and Pore Structure},
+  publisher = {Academic Press},
+  year  = {1992},
+  address = {San Diego},
+  edition = {1rd},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@article{pm-everet_haynes,
+  author = {D. H. Everet and J. M Haynes},
+  title  = {Model Studies of Capillary Condensation I. Cylindrical Pore Model with Zero Contact Angle},
+  journal = {Journal of Coloidal and Interface Science},
+  volume = {38, N¬∞ 1},
+  pages  = {691--712},
+  year  = {1972},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@book{pm-Bear,
+  Author = {J. Bear},
+  Title  = {Dinamics of Fluids in Porous Media},
+  publisher = {American Elsevier},
+  year  = {1972},
+  series = {series},
+  address = {New York},
+  edition = {1rd},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
+
+@book{pm-caputo-solos,
+  author = {H. P. Caputo},
+  title  = {Mec√¢nica dos Solos e Suas Aplica√ß√µes},
+  publisher = {Livros T{√©}cnicos e Cientificos},
+  year  = {1987},
+  address = {S√£o Paulo.},
+  edition = {4rd},
+  note  = {ISBN},
+  volume = {1},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, permeabilidade}
+}
 
 %--------------------------------------------------------------------
-% ## MÈtodos experimentais
+% ## M√©todos experimentais
 %--------------------------------------------------------------------
+@InProceedings{pm-brakel-mercurypor,
+  author =   {V. J. Brakel and S Modry and M Svata},
+  title =   {Mercury Porosimetry: State of the Art},
+  pages =   {p.1},
+  year =   {1981},
+  publisher =   {Powder Technology},
+  volume =   {v.29},
+  key  = {Engenharia reservat√≥rio, meios porosos, petrof√≠sica, caracteriza√ß√£o, porosimetria a merc√∫rio, histerese}
+}
 
 %--------------------------------------------------------------------
 % ## Problemas Inversos 
 %--------------------------------------------------------------------
 
 @Book{prob-inversos-fundamentos,
-  author = 	 {AntÙnio JosÈ da Silva Neto and Francisco Duarte Moura Neto},
-  title = 	 {Problemas Inversos - Conceitos Fundamentais e AplicaÁıes},
+  author = 	 {Ant√¥nio Jos√© da Silva Neto and Francisco Duarte Moura Neto},
+  title = 	 {Problemas Inversos - Conceitos Fundamentais e Aplica√ß√µes},
   publisher = 	 {Editora UERJ},
   year = 	 {2005},
   key  = {Engenharia , problemas inversos}
@@ -845,19 +1674,72 @@
 
 %****************************************************************************
 %****************************************************************************
-%****************** An·lise de imagens
+%****************** An√°lise de imagens
 %****************************************************************************
 %--------------------------------------------------------------------
-% ## mev    - MicroscÛpio EletrÙnico
+% ## mev    - Microsc√≥pio Eletr√¥nico
 %--------------------------------------------------------------------
+@Book{mev-Gomes,
+  author =   {Celso B.Gomes et all},
+  ALTeditor =   {Pr√≥-Men√©rio},
+  title =   {T√©cnicas Anal√≠ticas Instrumentais Aplicadas √† Geologia},
+  publisher =   {Edgard Blucher},
+  year =   {1984},
+  OPTannote =   {Livro da Prof. Mar√≠lia},
+  key  = {Engenharia , meios porosos, petrof√≠sica, caracteriza√ß√£o, microsc√≥pio eletr√¥nico}
+}
+
+@Book{mev-Angelo,
+  author =   {Angelo Fernando Padilha and Francisco Ambrozio Filho},
+  title =   {T√©nicas de An√°lise Micro Estrutural},
+  publisher =   {hemus},
+  year =   {1984},
+  OPTannote =   {Livro da Prof. Mar√≠lia},
+  key  = {Engenharia , meios porosos, petrof√≠sica, caracteriza√ß√£o, microsc√≥pio eletr√¥nico}
+}
 
 %--------------------------------------------------------------------
 % ## Microtomografia
 %--------------------------------------------------------------------
+@Article{microt-spanne,
+  author = {P. Spanne and J. F. Thovert and C. J. Jacquin and W. B. Lindquist and K. W. Jones and P. M. Adler},
+  title  = {Synchroton Computed Microtomograph of Porous Media: Topology and Transports},
+  journal = {Phys. Rev. Let},
+  pages  = {2001-2004},
+  key  = {Engenharia , meios porosos, petrof√≠sica, caracteriza√ß√£o, microsc√≥pio eletr√¥nico, microtomografia}
+}
+ 
+@Article{microt-coles,
+  author = {M. E. Coles and R. D. Haslett and P. Spanne and W. E. Soll and E. L. Muegge and K. W. Jones},
+  title  = {Pore Level Imaging of Fluid Transport Using Syncrotron X-ray microtomography},
+  journal = {JPSE},
+  volume        = {19},
+  pages  = {p.55-63},
+  year          = {1998},
+  key  = {Engenharia , meios porosos, petrof√≠sica, caracteriza√ß√£o, microsc√≥pio eletr√¥nico, microtomografia}
+}
+
+@Article{microt-hazlett,
+  author = {R. D. Hazlett},
+  title  = {Simulation of Capillary-Dominated Displacements in Microtomographic Images of Reservior Rocks},
+  journal = {Transport in Porous Media},
+  volume = {21-35},
+  year  = {1995},
+  key  = {Engenharia , meios porosos, petrof√≠sica, caracteriza√ß√£o, microsc√≥pio eletr√¥nico, microtomografia}
+}
 
 %--------------------------------------------------------------------
-% ## miotico - MicroscÛpio Ûtico
+% ## miotico - Microsc√≥pio √≥tico
 %--------------------------------------------------------------------
+
+@Book{miotico-fujimori,
+  author =   {Shiguemi Fujimori and Yeda Andrade Ferreira},
+  title =   {Introdu√ß√£o ao Uso do Microsc√≥pio Petrogr√°fico},
+  publisher =   {UFBA},
+  year =   {1985},
+  OPTannote =   {Livro da Prof. Mar√≠lia},
+  key  = {Engenharia , meios porosos, petrof√≠sica, caracteriza√ß√£o, microsc√≥pio √≥tico}
+}
 
 %--------------------------------------------------------------------
 % ## Softwares para graficos
@@ -866,21 +1748,21 @@
 % Analise de imagens (softwares)
 
 @book{imgan-gimp-guiadousuario,
-  author = {AndrÈ Milani},
-  title  = {Gimp Guia do Usu·rio},
+  author = {Andr√© Milani},
+  title  = {Gimp Guia do Usu√°rio},
   publisher = {novatec},
   year  = {2005},
-  address = {S„o Paulo},
-  key  = {Software, gr·fico, imagens, gimp}
+  address = {S√£o Paulo},
+  key  = {Software, gr√°fico, imagens, gimp}
 }
 
 @book{imgan-gimp-pocket,
   author = {Sven Neumann},
   title  = {GIMP Pocket Reference},
-  publisher = {O¥Reilly},
+  publisher = {O¬¥Reilly},
   year  = {2000},
   address = {Sebastopol - CA},
-  key  = {Software, gr·fico, imagens, gimp}
+  key  = {Software, gr√°fico, imagens, gimp}
 }
 
 @book{imgan-gimp-grokking,
@@ -888,15 +1770,15 @@
   title  = {Grokking the GIMP},
   publisher = {Que},
   year  = {2000},
-  key  = {Software, gr·fico, imagens, gimp}
+  key  = {Software, gr√°fico, imagens, gimp}
 }
 
 @book{imgan-gimp-bible,
   author = {Stephanie Cottrell Bryant and Tillman Hodgson and Bryan Livingston},
-  title  = {GIMP for LinuxÆ Bible},
+  title  = {GIMP for Linux¬Æ Bible},
   publisher = {John Wiley \& Sons},
   year  = {2000},
-  key  = {Software, gr·fico, imagens, gimp}
+  key  = {Software, gr√°fico, imagens, gimp}
 }
 
 //parei aqui aquiaqui precisa adicionar key = {} facilita encontrar material!
@@ -1002,7 +1884,7 @@ Reservoir Quality},
 @book{imgan-bush-scaner,
   author = {David Busch},
   title  = {Scanner para IBM PC},
-  publisher = {Livros T{È}cnicos e Cientificos},
+  publisher = {Livros T{√©}cnicos e Cientificos},
   year  = {1992},
   series = {},
   address = {Rio de Janeiro},
@@ -1012,7 +1894,7 @@ Reservoir Quality},
 
 @TechReport{imgan-moschetto,
   author = {C. Moschetto},
-  title  = {CaractÈrisation de la Structure Poreuse des MatÈriaux par Analyse d'Images: Apport des Distances DiscrÈtes ‡ la Morphologie MathÈmatique},
+  title  = {Caract√©risation de la Structure Poreuse des Mat√©riaux par Analyse d'Images: Apport des Distances Discr√©tes √† la Morphologie Math√©matique},
   institution = {Grenoble},
   year  = {1991},
   type  = {Rapport de Stage}
@@ -1054,7 +1936,7 @@ Reservoir Quality},
 
 @book{imgan-faconj,
   author = {J. Facon},
-  title  = {Morfologia Matem·tica: Teoria e Exemplos},
+  title  = {Morfologia Matem√°tica: Teoria e Exemplos},
   publisher = {PUC PR},
   year  = {1996},
   address = {Curitiba},
@@ -1064,7 +1946,7 @@ Reservoir Quality},
 
 @book{imgan-gomes-velho,
   author = {J. Gomes and L. Velho},
-  title  = {ComputaÁ„o Gr·fica :Imagem},
+  title  = {Computa√ß√£o Gr√°fica :Imagem},
   publisher = {INPA-SBM},
   year  = {1994},
   address = {Rio de Janeiro},
@@ -1102,29 +1984,147 @@ Reservoir Quality},
 }
 
 @Book{imgan-pedrine,
-  author =   { HÈlio Pedrini },
-  title =   {Processamento e An·lise de Imagens (MC940)},
+  author =   { H√©lio Pedrini },
+  title =   {Processamento e An√°lise de Imagens (MC940)},
   publisher =   {Unicamp},
   year =   {2012},
   volume =   {1}
 }
 
 %--------------------------------------------------------------------
-% ## An·lise de imagens em outras ·reas
+% ## An√°lise de imagens em outras √°reas
 %--------------------------------------------------------------------
 
+@Book{imgan-med1,
+  author =   {Richard A.R},
+  title =   {Three-Dimensional Biomedical Imaging},
+  publisher =   {John Wiley \& Sons},
+  year =   {1998},
+  volume =   {1}
+}
+
+@Book{imgan-med2,
+  author =   {Mattoso L. P. and Perdig√£o F},
+  title =   {Tomografia Computadorizada do Abdomem},
+  publisher =   {Sarvier},
+  year =   {1987},
+  address =   {S√£o Paulo}
+}
+
+@Book{imgan-med3,
+  author =   {Peggy Woodward et al.},
+  title =   {MRI For Thechnologists},
+  publisher =   {McGraw-Hill},
+  year =   {2001},
+  address =   {New York}
+}
+
 %--------------------------------------------------------------------
-% ## ReconstruÁ„o
+% ## Reconstru√ß√£o
 %--------------------------------------------------------------------
  
+@article{celso-rec-multiescala,                   
+  author = {Celso Peres Fernandes and Fabio Santana Magnani and Paulo Cesar Philippi and Jean Francois Daian},
+  title  = {Multi-scale Geometrical Reconstitution of Porous  Structures},
+  journal = {Physical Review E},
+  volume = {54},
+  pages  = {1734-1741},
+  year  = {1996},
+  editor = {Edited by Irwin Oppenheim}
+}
+
+@article{rec-quiblier84,
+  author = {J. A. Quiblier},
+  title  = {A New Three Dimensional Modelling Technique for Studying Porous Media},
+  journal = {Journal of Colloidal and Interface Science},
+  year  = {1984},
+  volume = {98},
+  pages  = {84-102}
+}
+
+
+@PhDThesis{tese-joshi,
+  author = {M. Y. Joshi},
+  title  = {A Class of Stochastic Models for Porous Media},
+  school = {University of Kansas},
+  year  = {1974},
+  type  = {Ph.D. Thesis},
+  address = {Lawrence, U.S.A}
+}
+
+
+@InProceedings{rec-ioannidis-fomfact,
+  author = {M. Ioannidis and M. Kwiecien and I. Chatzis},
+  title  = {Computer Generation and Application of a 3-D Model Porous Media: From Pore-Level Geostatistics to the Estimation of Formation Factor},
+  publisher = {Petroleum Computer Conference},
+  address = {Houston},
+  year  = {1995}
+}
+
+@Article{rec-kwiecien-rec,
+  author = {M. J. Kwiecien and I. F. Macdonald and F. A. L. Dullien},
+  title  = {Three Dimensional Reconstruction of Porous Media From Serial Section Data},
+  journal = {Journal of Microscopy},
+  volume = {159},
+  pages  = {343-349},
+  year  = {1990}
+}
+
+@inproceedings{rec-esferassobrepostas,
+  author = {Luis Orlando Dos Santos and  Paulo Cesar Philippi and Celso Peres Fernandes and Henrique C. De Gaspari},
+  title  = {Reconstru√ß√£o Tridimensional de Microestruturas Porosas com o M√©todo das Esferas Sobrepostas},
+  publisher = {IX Congresso Brasileiro de Engenharia e Ci√™ncias  T{√©}rmicas - ENCIT 2002},
+  address = {Caxamb√∫ - MG - Brasil},
+  pages         = {12},
+  year  = {2002}
+}
+
+
+@Article{rec-ioannidis-On-the-geometry-and-topology-of-3D,
+  author	= {M. Ioannidis and I. Chatzis},
+  title		= {On the Geometry and Topology of 3D Stochastic Porous Media},
+  journal	= {Journal of Colloid and Interface Science},
+  volume	= {229},
+  pages		= {323-334},
+  year		= {2000}
+}
+
+@Article{rec-oren-bakke,
+  author	= {P. E. Oren and S. Bakke},
+  title		= {Process Based Reconstruction of Sandstones and Prediction of Transport Properties},
+  journal	= {Transport in Porous Media},
+  volume	= {46},
+  pages		= {311-343},
+  year		= {2002}
+}
+
+@PhDThesis{tese-kameda,
+  author	= {A. Kameda},
+  Title		= {Permeability Evolution in Sandstone: Digital Rock Approach},
+  school	= {Stanford University},
+  year		= {2004},
+  type		= {Tese de Doutorado}
+}
+
+@PhDThesis{tese-keeham,
+  author	= {Y. Keehm},
+  Title		= {Computatinal Rock Physics: Transport Properties in Porous Media and Applications},
+  school	= {Stanford University},
+  year		= {2003},
+  type		= {Tese de Doutorado}
+}
+
+%****************************************************************************
+%****************** %----------Grupo 5 metodologia cientifica
+%****************************************************************************
 
 %--------------------------------------------------------------------
 % ## Historia
 %--------------------------------------------------------------------
 @Book{Historia-NascimentoFisica,
-  author =   {JosÈ Maria Filardo Bassalo},
+  author =   {Jos√© Maria Filardo Bassalo},
   editor =   {Editora UFPA},
-  title =   {Nascimentos da FÌsica},
+  title =   {Nascimentos da F√≠sica},
   year =   {1996}
 }
 
@@ -1133,37 +2133,37 @@ Reservoir Quality},
 %--------------------------------------------------------------------
 @Misc{metcient-LaudemiraSilvaRabelo,
   author =   {Laudemira Silva Rabelo},
-  title =   {Estruturra e Regras Para ElaboraÁ„o de Artigos CientÌficos},
+  title =   {Estruturra e Regras Para Elabora√ß√£o de Artigos Cient√≠ficos},
   url =   {http://www2.ouvidoria.pe.gov.br/c/document_library/get_file?p_l_id=199119&folderId=201492&name=DLFE-17772.pdf}
 }
 
 @Book{metcient-Koche,
-  author =   {JosÈ Carlos Koche},
-  editor =   {Fundamentos de Metodologia CientÌfica - teoria da ciÍncia e iniciaÁ„o ‡ pesquisa},
+  author =   {Jos√© Carlos Koche},
+  editor =   {Fundamentos de Metodologia Cient√≠fica - teoria da ci√™ncia e inicia√ß√£o √† pesquisa},
   publisher =   {Vozes},
   year =   {2007},
   edition =   {24},
-  address =   {PetrÛpolis/RJ}
+  address =   {Petr√≥polis/RJ}
 }
 
 @Book{metcient-Aidil,
   author =   {Aidil Jesus da Silveira Barros e Neide Aparecida de Souza Lehfeld},
   editor =   {Prentice Hall},
-  title =   {Fundamentos de Metodologia CientÌfica},
+  title =   {Fundamentos de Metodologia Cient√≠fica},
   year =   {2007},
-  edition =   {3 EdiÁ„o},
-  address =   {S„o Paulo}
+  edition =   {3 Edi√ß√£o},
+  address =   {S√£o Paulo}
 }
 
 @Book{metcient-MiltonVargas1,
   author =   {Milton Vargas},
-  editor =   {Revista de educaÁ„o & tecnologia},
-  title =   {TÈcnica, Tecnologia e CiÍncia}
+  editor =   {Revista de educa√ß√£o & tecnologia},
+  title =   {T√©cnica, Tecnologia e Ci√™ncia}
 }
 
 @Book{metcient-MiltonVargas2,
   author =   {Milton Vargas},
-  title =   {Metodologia da Pesquisa TecnolÛgica},
+  title =   {Metodologia da Pesquisa Tecnol√≥gica},
   publisher =   {Globo},
   year =   {1985},
   address =   {Rio de Janeiro}
@@ -1171,19 +2171,19 @@ Reservoir Quality},
 
 @Book{metcient-KarlPopper,
   author =   {Karl Popper},
-  editor =   {Editora da Universidade de S„o Paulo},
-  title =   {A lÛgica da pesquisa cientÌfica},
+  editor =   {Editora da Universidade de S√£o Paulo},
+  title =   {A l√≥gica da pesquisa cient√≠fica},
   publisher =   {Editora Cultrix},
   year =   {2013},
-  address =      {S„o Paulo, SP},
+  address =      {S√£o Paulo, SP},
   note =   {ISBN-13: 9788531612503}
 }
 
 @Book{metcient-Weatherall,
   author =   {M. Weatherall},
   editor =   {USP},
-  title =   {MÈtodo CientÌfico},
-  publisher =   {Editora PolÌgono},
+  title =   {M√©todo Cient√≠fico},
+  publisher =   {Editora Pol√≠gono},
   year =   {1970}
 }
 
@@ -1197,8 +2197,8 @@ Reservoir Quality},
 
 @Book{metcient-UFPR,
   author =   {UFPR},
-  editor =   {Instituto Paranaense de Desenvolvimento EconÙmico e Social},
-  title =   {RedaÁ„o e EditoraÁ„o},
+  editor =   {Instituto Paranaense de Desenvolvimento Econ√¥mico e Social},
+  title =   {Reda√ß√£o e Editora√ß√£o},
   publisher =   {Ed. da UFPR},
   edition =   {2000},
   address =   {Curitiba}
@@ -1207,23 +2207,23 @@ Reservoir Quality},
 @Book{metcient-Bransford,
   author =   {John D. Bransford et all},
   editor =   {Ed. SENAC},
-  title =   {Como as Pessoas Aprendem: CÈrebro, Mente, ExperiÍncia e Escola},
+  title =   {Como as Pessoas Aprendem: C√©rebro, Mente, Experi√™ncia e Escola},
   year =   {2007},
   address =   {SP}
 }
 
 @Book{metcient-ClaudioMouraCastro,
   author =   {Claudio de Moura de Castro},
-  title =   {A Pr·tica da Pesquisa},
+  title =   {A Pr√°tica da Pesquisa},
   publisher =   {McGraw-Hill},
   year =   {1977},
   edition =   {1}
 }
 
 @Book{metcient-Zanin,
-  author =   {SÙnia Elisete Rampazzo & Fernanda Zanin Mota CorrÍa},
+  author =   {S√¥nia Elisete Rampazzo & Fernanda Zanin Mota Corr√™a},
   editor =   {Habilis},
-  title =   {Desmistificando a Metodologia CientÌfica - Guia Pr·tico Para ProduÁ„o de Trabalhos AcadÍmicos },
+  title =   {Desmistificando a Metodologia Cient√≠fica - Guia Pr√°tico Para Produ√ß√£o de Trabalhos Acad√™micos },
   publisher =   {},
   year =   {2008},
   edition =   {1},
@@ -1240,23 +2240,23 @@ Reservoir Quality},
 
 @Book{metcient-ReinaldoPolito,
   author =   {Reinaldo Polito},
-  title =   {Superdicas para Falar em P˙blico},
+  title =   {Superdicas para Falar em P√∫blico},
   publisher =   {Saraiva},
   year =   {2005},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{metcient-VanessaFreitas,
   author =   {Vanessa Freitas},
-  title =   {Como Falar em P˙blico},
+  title =   {Como Falar em P√∫blico},
   publisher =   {Editora Universo dos Livros},
   year =   {2005},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{metcient-DaleCarnegie,
   author =   {Dale Carnegie},
-  title =   {Como falar em p˙blico e Influenciar Pessoas no Mundo dos NegÛcios},
+  title =   {Como falar em p√∫blico e Influenciar Pessoas no Mundo dos Neg√≥cios},
   publisher =   {Record},
   year =   {2010},
   edition =   {46}
@@ -1265,7 +2265,7 @@ Reservoir Quality},
 @Book{metcient-RobertBarras,
   author =   {Robert Barras},
   editor =   {USP},
-  title =   {Os Cientistas Precisam Escrever: Guia de RedaÁ„o para Cientistas Engenheiros e Estudantes},
+  title =   {Os Cientistas Precisam Escrever: Guia de Reda√ß√£o para Cientistas Engenheiros e Estudantes},
   publisher =   {Ed.USP},
   year =   {1979}
 }
@@ -1274,7 +2274,7 @@ Reservoir Quality},
 @Book{metcient-MarceloGleiser,
   author =   {Marcelo Gleiser},
   editor =   {Record},
-  title =   {A ilha do conhecimento: Os limites da ciÍncia e a busca por sentido},
+  title =   {A ilha do conhecimento: Os limites da ci√™ncia e a busca por sentido},
   publisher =   {Record},
   year =   {2014},
   note = {ISBN-13: 978-8501052773}
@@ -1323,18 +2323,18 @@ Reservoir Quality},
 }
 
 %****************************************************************************
-%****************** %----------Grupo 6 ciÍncias da computaÁ„o - programaÁ„o  
+%****************** %----------Grupo 6 ci√™ncias da computa√ß√£o - programa√ß√£o  
 %****************************************************************************
 
 %--------------------------------------------------------------------
-% ## CiÍncias da computaÁ„o
+% ## Ci√™ncias da computa√ß√£o
 %--------------------------------------------------------------------
 @book{cc-laira,
   author	= {L.V. Toscani and P.A.S. Veloso},
-  title		= {Complexidade de algoritmos : an·lise, projeto e mÈtodos},
+  title		= {Complexidade de algoritmos : an√°lise, projeto e m√©todos},
   publisher	= {Sagra},
   year		= {2002},
-  address	= {S„o Paulo},
+  address	= {S√£o Paulo},
   edition	= {1}  
 }
 
@@ -1415,7 +2415,7 @@ Hardware/Software Interface},
 
 @Article{Educ-TISE97,
   author =   {Milene Selbach Silveira},
-  title =   {ExperiÍncias no Desenvolvimento de Software Educativo na PUCRS},
+  title =   {Experi√™ncias no Desenvolvimento de Software Educativo na PUCRS},
   journal =   {Taller Internacional de Software Educativo},
   year =   {1997}
 }
@@ -1431,7 +2431,7 @@ Hardware/Software Interface},
 @Article{Educ-fis,
   author =   {Fiolhas, Carlos and Trindade, Jorge},
   title =   {Physics in the computer: the computer as a tool in the education and the learning of physical sciences},
-  journal =   {Revista Brasileira de Ensino de FÌsica},
+  journal =   {Revista Brasileira de Ensino de F√≠sica},
   year =   {2003},
   key =   {ISSN 0102-4744},
   volume =   {25},
@@ -1442,8 +2442,8 @@ Hardware/Software Interface},
 
 
 @Misc{Educ-ClassificacaoSoftwareEducativo,
-  author =   {F·bia Magali Santos Vieira},
-  title =   {ClassificaÁ„o de softwares educacionais},
+  author =   {F√°bia Magali Santos Vieira},
+  title =   {Classifica√ß√£o de softwares educacionais},
   month =   {},
   year =   {},
   note =   {UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL - UFRGS},
@@ -1488,12 +2488,12 @@ Hardware/Software Interface},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - C++ - BEM B·sico 
+% ## Programa√ß√£o - C++ - BEM B√°sico 
 %--------------------------------------------------------------------
 % INCOMPLETO
 @book{prog-cpp-introducaoCPP-elsevier,
-  author =   {AntÙnio Mendes},
-  title=        {IntroduÁ„o ‡ ProgramaÁ„o Orientada a Objetos Com C++},
+  author =   {Ant√¥nio Mendes},
+  title=        {Introdu√ß√£o √† Programa√ß√£o Orientada a Objetos Com C++},
   isbn=         {9788535211030},
   url=          {http://books.google.com.br/books?id=DR2JcVMK8lAC},
   publisher=    {Elsevier Brasil},
@@ -1503,7 +2503,7 @@ Hardware/Software Interface},
 @Book{prog-cpp-RobertoPacheco,
   author =   {Pacheco Roberto and Montenegro Fernando},
   publisher =   {Ciencia Moderna},
-  title =   {OrientaÁ„o a Objetos em C++},
+  title =   {Orienta√ß√£o a Objetos em C++},
   year =   {1994},
   address =   {Rio de Janeiro}
 }
@@ -1518,11 +2518,11 @@ Hardware/Software Interface},
 }
 
 %--------------------------------------------------------------------
-% ## Livros ProgramaÁ„o ## HOWTO
+% ## Livros Programa√ß√£o ## HOWTO
 %--------------------------------------------------------------------
 
 @InCollection{prog-wikipedia,
-  author =   {V·rios autores},
+  author =   {V√°rios autores},
   title =   {Wikipedia - http://pt.wikipedia.org/wiki},
   publisher=     {Wikipedia},
   booktitle =   {Wikipedia},
@@ -1597,7 +2597,7 @@ Hardware/Software Interface},
 }
 
 %-------------------------------------------------------------------- 
-% ## ProgramaÁ„o - Revista do Linux - programaÁ„o para linux
+% ## Programa√ß√£o - Revista do Linux - programa√ß√£o para linux
 %-------------------------------------------------------------------- 
 
 @Book{prog-progFerGNU,
@@ -1636,7 +2636,7 @@ Hardware/Software Interface},
 
 @Book{prog-linux-rdl-cluster,
   author =   {Guilherme Wunsch Manika},
-  title =   {Super-Computador a PreÁo de Banana},
+  title =   {Super-Computador a Pre√ßo de Banana},
   publisher =   {Revista do Linux},
   year =   {1999},
   volume =   {2},
@@ -1645,7 +2645,7 @@ Hardware/Software Interface},
 
 @Book{prog-linux-vi,
   author =   {Voelho R.S.A},
-  title =   {Editor vi - Guia de Consulta R·pida},
+  title =   {Editor vi - Guia de Consulta R√°pida},
   publisher =   {Novatec},
   year =   {2002},
   volume =   {1}
@@ -1653,8 +2653,8 @@ Hardware/Software Interface},
 
 
 @Book{prog-linux-rdl-expreg1,
-  author =   {AurÈlio M. Jargas},
-  title =   {Expressıes Regulares},
+  author =   {Aur√©lio M. Jargas},
+  title =   {Express√µes Regulares},
   publisher =   {Revista do Linux},
   year =   {1999},
   volume =   {3},
@@ -1662,25 +2662,25 @@ Hardware/Software Interface},
 }
 
 @Book{prog-linux-expreg,
-  author =   {AurÈlio M. Jargas},
-  title =   {Expressıes Regulares - Guia de Consulta R·pida},
+  author =   {Aur√©lio M. Jargas},
+  title =   {Express√µes Regulares - Guia de Consulta R√°pida},
   publisher =   {Novatec},
   year =   {2001},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{prog-linux-expreg-5ed,
-  author =   {AurÈlio M. Jargas},
-  title =   {Expressıes Regulares:  Uma Abordagem Diversita},
+  author =   {Aur√©lio M. Jargas},
+  title =   {Express√µes Regulares:  Uma Abordagem Diversita},
   publisher =   {Novatec},
   year =   {2016},
-  address =   {S„o Paulo},
+  address =   {S√£o Paulo},
   edition = {5}
 }
 
 @Book{prog-linux-expreg-introducao,
   author =   {Michael Fitzgerald},
-  title =   {IntroduÁ„o ‡s Expressıes Regulares},
+  title =   {Introdu√ß√£o √†s Express√µes Regulares},
   publisher =   {O'Reylly},
   year =   {2012},
   edition = {1}
@@ -1714,7 +2714,7 @@ Hardware/Software Interface},
 %/////////////
 @Book{prog-linux-24h,
   author = {Warren Gay},
-  title  = {Aprenda em 24 Horas ProgramaÁ„o para Linux},
+  title  = {Aprenda em 24 Horas Programa√ß√£o para Linux},
   publisher     = {Campus},
   year  = {1999}
 }
@@ -1742,9 +2742,9 @@ Hardware/Software Interface},
 }
 
 %-------------------------------------------------------------------- 
-% ## ProgramaÁ„o - LISP - ELISP - emacs
+% ## Programa√ß√£o - LISP - ELISP - emacs
 %-------------------------------------------------------------------- 
-% EdiÁ„o de texto
+% Edi√ß√£o de texto
 @Book{prog-linux-emacs-pocket,
   author = {Debra Cameron},
   title  = {GNU Emacs Pocket Reference},
@@ -1796,14 +2796,28 @@ Hardware/Software Interface},
   month =   {November},
   year  = {2015}
 }
-@Book{prog-linux-emacs-,
-  author = {},
-  title  = {},
-  publisher = {},
-  edition =   {},
-  month =   {},
-  year  = {}
+
+@article{prog-linux-emacs-RichardStallman,
+  author = {Richard Stallman},
+  title  = {EMACS: The Extensible, Customizable Display Editor},
+  publisher = {ACM Conference on Text Processing},
+  year  = {1981}
 }
+
+@article{prog-linux-emacs-grep-unix,
+  author = { Christopher Kelty},
+  title  = {EmacsGrepAndUnix},
+  publisher = {https://www.emacswiki.org/emacs/EmacsGrepAndUnix},
+  year  = {2006}
+}
+
+@article{prog-linux-emacs-evolucao-processador-texto,
+  author = { Christopher Kelty},
+  title  = {A influ√™ncia e a evolu√ß√£o do processador de texto},
+  publisher = {},
+  year  = {2006}
+}
+
 %LISP - Lisp
 @Book{prog-linux-Lisp-PeterSeibel,
   author = {
@@ -1831,12 +2845,12 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - UML 
+% ## Programa√ß√£o - UML 
 %--------------------------------------------------------------------
 
 @Article{revista-inform-3-2006,
   author =   {Danielle Fernandes Parga},
-  title =   {IntroduÁ„o a Java},
+  title =   {Introdu√ß√£o a Java},
   journal =   {Revista inform},
   year =   {2006},
   pages =   {10-19}, 
@@ -1844,7 +2858,7 @@ Peter Seibel},
 }
 
 @Article{revista-inform-3-2006-XP,
-  author = 	 {VinÌcius Teles},
+  author = 	 {Vin√≠cius Teles},
   title = 	 {EXtreme Programming},
   journal = 	 {Revista inform},
   year = 	 {2006},
@@ -1879,8 +2893,8 @@ Peter Seibel},
 
 @Book{prog-UML-pratico,
   author = {Alexandre Veloso de Matos},
-  title  = {UML - Pr·tico e descomplicado},
-  publisher = {…rica},
+  title  = {UML - Pr√°tico e descomplicado},
+  publisher = {√ârica},
   year  = {2002},
   address = {Rio de Janeiro}
 }
@@ -1895,7 +2909,7 @@ Peter Seibel},
 
 @Book{prog-UML-Booch-Rumbaugh-Jacobson-2000,
   author = {Grady Booch and James Rumbaugh and Ivar Jacobson},
-  title  = {UML - Guia do Usu·rio},
+  title  = {UML - Guia do Usu√°rio},
   publisher = {Edit. Campus},
   year  = {2000},
   address = {Rio de Janeiro}
@@ -1909,10 +2923,10 @@ Peter Seibel},
 
 @Book{prog-UML-guiaConsulta,
   author =   {Douglas Marcos Da Silva },
-  title =   {UML - Guia De Consulta R·pida},
+  title =   {UML - Guia De Consulta R√°pida},
   publisher =   {Novatec},
   year =   {2001},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{prog-UML-Winblad,
@@ -1921,7 +2935,7 @@ Peter Seibel},
   publisher =   {Makron Books},
   year =   {1993},
   volume =   {1},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 @Book{prog-UML-Winblad2,
   author =   {Ann L. Winblad, et alli.},
@@ -1933,9 +2947,9 @@ Peter Seibel},
 @Book{prog-UML-CoadYourdan,
   author =   {Peter Coad and Edward Yourdon},
   publisher =   {Campus},
-  title =   {An·lise Orientada a Objeto},
+  title =   {An√°lise Orientada a Objeto},
   year =   {1993},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{prog-UML-MartimFowler,
@@ -1944,13 +2958,13 @@ Peter Seibel},
   title =   {UML Essencial},
   edition = {3},
   year =   {2005},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{prog-UML-Aplic,
   author =   {Ana Cristina Melo},
   publisher =   {Brasport},
-  title =   {Desenvolvendo AplicaÁıes com UML - Do conceitual ‡ implementaÁ„o},
+  title =   {Desenvolvendo Aplica√ß√µes com UML - Do conceitual √† implementa√ß√£o},
   year =   {2004},
   address =   {Rio de Janeiro}
 }
@@ -1958,9 +2972,9 @@ Peter Seibel},
 @Book{prog-UML-Pratica,
   author =   {Gileanes T. A. Guedes},
   publisher =   {novatec},
-  title =   {UML Uma Abordagem Pr·tica},
+  title =   {UML Uma Abordagem Pr√°tica},
   year =   {2018},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{prog-UML-GrahamLee,
@@ -2003,8 +3017,18 @@ Peter Seibel},
  edition =   {2}
 }
 
+@Book{prog-UML-RaulSidneiWazlawick, 
+  author =   {Raul Sidnei Wazlawick },
+  publisher =   {LTC},
+  title =   {An√°lise e design orientados a objetos para sistemas de informa√ß√£o: modelagem com UML, OCL e IFML },
+  year =   {2022},
+  note =   {ISBN-13: },
+  note = {sistema acad√™mico uenf}
+ edition =   {3}
+}
+
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - EngSoft - Engenharia de software
+% ## Programa√ß√£o - EngSoft - Engenharia de software
 %--------------------------------------------------------------------
 @Book{prog-EngSoft-Nico,
   author =   {Nico Loubser},
@@ -2048,9 +3072,9 @@ Peter Seibel},
 @Book{prog-UML-MartimMcClure,
   author =   {James Martin and  Carma McClure},
   publisher =   {MacGraw-Hill},
-  title =   {TÈcnicas Estruturadas e  CASE},
+  title =   {T√©cnicas Estruturadas e  CASE},
   year =   {1993},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{prog-UML-Sonerville,
@@ -2058,7 +3082,7 @@ Peter Seibel},
   publisher =   {MacGraw-Hill},
   title =   {Engenharia de Software},
   year =   {1993},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{prog-EngSof-Pressman,
@@ -2073,7 +3097,7 @@ Peter Seibel},
 @Book{prog-EngSoft,
   author =   {Denis Alcides Rezende},
   publisher =   {Brasport},
-  title =   {Engenharia de Software e Sistemas de InformaÁ„o},
+  title =   {Engenharia de Software e Sistemas de Informa√ß√£o},
   year =   {2002},
   address =   {Rio de Janeiro}
 }
@@ -2095,10 +3119,10 @@ Peter Seibel},
 
 @Book{prog-EngSoft-RUP,
   author =   {Phillippe Kruchten},
-  publisher =   {CiÍncia Moderna},
-  title =   {IntroduÁ„o ao RUP - Rational Unified Process},
+  publisher =   {Ci√™ncia Moderna},
+  title =   {Introdu√ß√£o ao RUP - Rational Unified Process},
   year =   {2003},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{prog-EngSoft-Agil1,
@@ -2106,6 +3130,13 @@ Peter Seibel},
   publisher =   {Prentice Hall},
   title =   {Agile Software Development, Principles, Patterns, and Practices},
   year =   {2002}
+}
+
+@Book{prog-EngSoft-DesSofAgilLimpo,
+  author =   {Robert C. Martin},
+  publisher =   {Alta Books},
+  title =   {Desenvolvimento √°gil Limpo: de Volta √†s Origens},
+  year =   {2020}
 }
 
 @book{prog-EngSoft-Agil1-cockburn2002agile,
@@ -2117,11 +3148,11 @@ Peter Seibel},
 }
 
 @Book{prog-EngSoft-XP,
-  author = 	 {VinÌcius Teles},
+  author = 	 {Vin√≠cius Teles},
   publisher = 	 {Novatec},
   title = 	 {Extreme Programming},
   year = 	 {2004},
-  address = 	 {S„o Paulo}
+  address = 	 {S√£o Paulo}
 }
 
 @Book{prog-EngSoft-XP2,
@@ -2172,7 +3203,7 @@ Peter Seibel},
 }
 
 @Book{prog-EngSoft-PERT-CPM,
-  author =   {Zigmundo Salom„o Cukierman},
+  author =   {Zigmundo Salom√£o Cukierman},
   publisher =   {LTC},
   title =   {O Modelo PERT/CPM Aplicado a Gerenciamento de Projetos},
   year =   {2009},
@@ -2228,7 +3259,7 @@ Peter Seibel},
 }
 
 @book{prog-EngSoft-fowler2004refatoraccao,
-  title=         {RefatoraÁ„o: AperfeiÁoamento e Projeto},
+  title=         {Refatora√ß√£o: Aperfei√ßoamento e Projeto},
   author=        {Fowler, Martin},
   year=          {2004},
   publisher=     {Bookman}
@@ -2249,8 +3280,56 @@ Peter Seibel},
   publisher=     {Pearson Education}
 }
 
+@book{prog-EngSoft-martin2008clean-pt,
+  title=         {C√≥digo Limpo: Habilidades Pr√°ticas do Agile Software},
+  author=        {Martin, Robert C},
+  year=          {2008},
+  publisher=     {Alta Books},
+  edition =      {1}
+}
+@book{prog-EngSoft-martin2012-o-codificador-limpo,
+  title=         {O Codificador Limpo - Um c√≥digo de conduta para programadores profissionais},
+  author=        {Martin, Robert C},
+  year=          {2012},
+  publisher=     {Alta Books},
+  edition =      {1}
+}
+
+@book{prog-EngSoft-arquitetura-NealFord,
+  title=         {Arquitetura de Software: as Partes Dif√≠ceis: An√°lises Modernas de Trade-off Para Arquiteturas Distribu√≠das},
+  author=        {Neal Ford, Mark Richards, Pramod Sadalage, Zhamak Dehghani},
+  year=          {2024},
+  publisher=     {Alta Books},
+  edition =      {1}
+}
+
+@book{prog-EngSoft-arquitetura-MarkRichards,
+  title=         {Fundamentos da Arquitetura de Software: uma Abordagem de Engenharia: 1},
+  author=        {Mark Richards and Neal Ford},
+  year=          {2024},
+  publisher=     {Alta Books},
+  edition =      {1}
+}
+
+@book{prog-EngSoft-arquitetura-CppSoftwareDesign,
+  title=         {C++ Software Design: Design Principles and Patterns for High-Quality Software},
+  author=        { Klaus Iglberger },
+  year=          {2022},
+  publisher=     {O Reilly},
+  edition =      {1}
+}
+
+@book{prog-EngSoft-arquitetura-BeautifulCpp,
+  title=         {Beautiful C++: 30 Core Guidelines for Writing Clean, Safe, and Fast Code},
+  author=        { J Davidson and Kate Gregory },
+  year=          {2021},
+  publisher=     {O Reilly},
+  isbn =         {978-0137647842},
+  edition =      {1}
+}
+
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - C++ - Normal/Cl·ssicos
+% ## Programa√ß√£o - C++ - Normal/Cl√°ssicos
 %--------------------------------------------------------------------
 @Book{prog-cpp-DeitelDeitel2,
   author =   {H.M. Deitel and P.J. Deitel},
@@ -2299,6 +3378,18 @@ Peter Seibel},
   publisher={Pearson Prentice Hall}
 }
 
+
+@book{prog-cpp-deitel2022c++,
+  title={C++20 for Programmers: An Objetcs-Natural Approach},
+  author={Deitel, P.J. and Deitel, H.M.},
+  isbn={},
+  lccn={978-0136905691},
+  series={Deitel series},
+  url={https://books.google.com/books?id=XPXOEAAAQBAJ&printsec=frontcover&dq=C%2B%2B20+for+Programmers:+An+Objects-Natural+Approach&hl=pt-BR&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwjg7pqqhYmJAxVQqpUCHTEOKbsQ6AF6BAgLEAI},
+  year={2022},
+  publisher={Pearson Prentice Hall}
+}
+
 @book{prog-cpp-stroustrup2009programming,
   title={Programming: Principles and Practice Using C++},
   author={Stroustrup, B.},
@@ -2310,6 +3401,7 @@ Peter Seibel},
   year={2009},
   publisher={Addison-Wesley}
 }
+
 @book{prog-cpp-stroustrup2014programmingPrinciples,
   title={Programming: Principles and Practice Using C++},
   author={Stroustrup, B.},
@@ -2321,6 +3413,39 @@ Peter Seibel},
   year={2014},
   publisher={Addison-Wesley},
   edition =   {2}
+}
+@book{prog-cpp-stroustrup2024programmingPrinciples,
+  title={Programming: Principles and Practice Using C++},
+  author={Stroustrup, B.},
+  number={},
+  isbn={},
+  lccn={},
+  series={},
+  url={},
+  year={2024},
+  publisher={Addison-Wesley},
+  edition =   {3}
+}
+@book{prog-cpp-stroustrup2025programmingPrinciples-pt,
+  title={Princ√≠pios e Pr√°ticas de Programa√ß√£o em C++},
+  author={Stroustrup, B.},
+  number={},
+  isbn={},
+  lccn={},
+  series={},
+  url={},
+  year={2025},
+  publisher={Bookman},
+  edition =   {3}
+}
+
+@Book{prog-cpp-stroustrup-tour3,
+  author = 	 {Stroustroup Bjarn},
+  title = 	 {A Tour of C++},
+  publisher = 	 {Addison Wesley},
+  edition = 	 {3},
+  year = 	 {2022},
+  annotate =     {}
 }
 
 @Book{prog-cpp-savitch-3nd,
@@ -2362,8 +3487,17 @@ Peter Seibel},
   year		= {2003}
 }
 
+@Book{prog-cpp-Dmitrovic,
+  author =   {Slobodan Dmitrovic},
+  title =   {Modern C++ for Absolute Beginners},
+  publisher =   {Apress},
+  year =   {2023},
+  volume =   {1},
+  edition =   {1}
+}
+
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - C++ - Intermedi·rio
+% ## Programa√ß√£o - C++ - Intermedi√°rio
 %--------------------------------------------------------------------
 
 @Book{prog-cpp-Stroustrup3,
@@ -2377,7 +3511,7 @@ Peter Seibel},
 
 @book{prog-cpp-stroustrup2013c++,
   title={The C++ Programming Language},
-  author={Stroustrup, B.},
+  author={Stroustrup Bjarne},
   isbn={9780133522853},
   url={http://books.google.com.br/books?id=PSUNAAAAQBAJ},
   year={2013},
@@ -2420,10 +3554,10 @@ Peter Seibel},
 
 @Book{prog-cpp-Sutter04,
   author = 	 {Herb Sutter},
-  title = 	 {ProgramaÁ„o AvanÁada em C++},
+  title = 	 {Programa√ß√£o Avan√ßada em C++},
   publisher = 	 {Pearson - Mahron Books},
   year = 	 {2006},
-  annotate =     {Aborda programaÁ„o efetivamente avanÁada em C++. … a traduaÁ„o do libro Exceptional C++ Style}
+  annotate =     {Aborda programa√ß√£o efetivamente avan√ßada em C++. √â a tradua√ß√£o do libro Exceptional C++ Style}
 }
 
 @Book{prog-cpp-effectivecpp,
@@ -2453,6 +3587,15 @@ Peter Seibel},
   lccn={},
   url={},
   year={2014},
+  publisher={O'Reilly}
+}
+@book{prog-cpp-C++ModernoEEficaz,
+  title={C++ Modenor e Eficaz: 42 Formas Espec√≠ficas de Aprimorar seu uso de C++11 e C++14},
+  author={Scott Meyers},
+  isbn={},
+  lccn={},
+  url={},
+  year={2016},
   publisher={O'Reilly}
 }
 
@@ -2531,7 +3674,7 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - C++ - AvanÁado
+% ## Programa√ß√£o - C++ - Avan√ßado
 %--------------------------------------------------------------------
 @Book{prog-cpp-C++-Boost-regex,
   author = 	 {John Maddock},
@@ -2568,7 +3711,7 @@ Peter Seibel},
 
 @Book{prog-cpp-C++-Boost,
   author = 	 {Beyond the C++ Standard Library: An Introduction to Boost},
-  title = 	 {Bjˆrn Karlsson},
+  title = 	 {Bj√∂rn Karlsson},
   publisher = 	 {Addison-Wesley},
   year = 	 {2005}
 }
@@ -2581,7 +3724,7 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - C++ - Para engenheiros
+% ## Programa√ß√£o - C++ - Para engenheiros
 %--------------------------------------------------------------------
 @book{prog-cpp-bronson2012c++,
   title={C++ for Engineers and Scientists},
@@ -2626,7 +3769,7 @@ Peter Seibel},
 
 @Book{prog-cpp-algoritmos,
   author = 	 {James Paul Holloway },
-  title = 	 {IntroduÁ„o ‡ ProgramaÁ„o para Engenharia},
+  title = 	 {Introdu√ß√£o √† Programa√ß√£o para Engenharia},
   publisher = 	 {LTC},
   year = 	 {2006}
 }
@@ -2639,8 +3782,8 @@ Peter Seibel},
 
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - C++ - Para engenheiros - Processamento Gr·ficos - 
-% CÛdigos para an·lise de imagens
+% ## Programa√ß√£o - C++ - Para engenheiros - Processamento Gr√°ficos - 
+% C√≥digos para an√°lise de imagens
 %--------------------------------------------------------------------
 @book{prog-cpp-pozrikidis2007introduction,
   title={Introduction to C++ Programming and Graphics},
@@ -2668,12 +3811,12 @@ Peter Seibel},
   isbn={},
   lccn={},
   url={},
-  year={2017},
+  year={2023},
   publisher={Packit}
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - C++ - AvanÁado - Templates
+% ## Programa√ß√£o - C++ - Avan√ßado - Templates
 %--------------------------------------------------------------------
 
 
@@ -2718,11 +3861,11 @@ Peter Seibel},
 
 @InProceedings{prog-cpp-ornelas,
   author =   {Ornellas M.D et all.},
-  title =   {ProgramaÁ„o GenÈrica com C++ e STL},
+  title =   {Programa√ß√£o Gen√©rica com C++ e STL},
   year =   {2002},
   editor =   {Esauto},
-  address =   {VitÛria},
-  publisher =    {Anais da II Escola de Inform·tica}
+  address =   {Vit√≥ria},
+  publisher =    {Anais da II Escola de Inform√°tica}
 }
 
 @book{prog-cpp-alexandrescu2001modern,
@@ -2747,7 +3890,7 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - STL
+% ## Programa√ß√£o - STL
 %--------------------------------------------------------------------
 @Book{prog-STL-Bil,
   author =   {Bill Weinaman },
@@ -2805,7 +3948,7 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - C++ - Estilo Referencia
+% ## Programa√ß√£o - C++ - Estilo Referencia
 %--------------------------------------------------------------------
 @Book{prog-cpp-nutshell,
   author =   {Ray Lischner},
@@ -2817,7 +3960,7 @@ Peter Seibel},
 @Book{prog-cpp-Stroustrup1,
   author =   {Ellis Margaret and Stroustrup Bjarne},
   publisher =   {Campus},
-  title =   {C++ Manual de ReferÍncia Comentado},
+  title =   {C++ Manual de Refer√™ncia Comentado},
   year =   {1993}
 }
 
@@ -2842,7 +3985,7 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o em GNU/Linux
+% ## Programa√ß√£o em GNU/Linux
 %-------------------------------------------------------------------- 
 
 % Geral
@@ -2852,12 +3995,12 @@ Peter Seibel},
 % Manual do gcc gnu
  
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o Bibliotecas
+% ## Programa√ß√£o Bibliotecas
 %--------------------------------------------------------------------
 % Manual libtool da gnu
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - Debug
+% ## Programa√ß√£o - Debug
 %--------------------------------------------------------------------
 @Book{prog-debug,
   author =   {Ann R. Ford and Toby J. Teorey},
@@ -2870,7 +4013,7 @@ Peter Seibel},
 % gdb manual
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - OtimizaÁ„o
+% ## Programa√ß√£o - Otimiza√ß√£o
 %--------------------------------------------------------------------
 % gprof manual
 % valgrid
@@ -2885,11 +4028,11 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - DistribuiÁ„o de software
+% ## Programa√ß√£o - Distribui√ß√£o de software
 %--------------------------------------------------------------------
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o e DocumentaÁ„o 
+% ## Programa√ß√£o e Documenta√ß√£o 
 %--------------------------------------------------------------------
 @Manual{prog-doxgen,
   title =   {doxygen Manual},
@@ -2910,17 +4053,17 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - Teste de software
+% ## Programa√ß√£o - Teste de software
 %--------------------------------------------------------------------
 @Book{prog-teste-rodrigues,
-  author =   {Emerson Rios, Trayah˙ Rodrigues},
+  author =   {Emerson Rios, Trayah√∫ Rodrigues},
   title =   {Projeto e Engenharia de Software - Teste de Software},
   publisher =   {Alta Books},
   year =   {2004}
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - Portabilidade e Multiplataforma  (ferramentas)
+% ## Programa√ß√£o - Portabilidade e Multiplataforma  (ferramentas)
 %--------------------------------------------------------------------
 
 @Book{prog-cpp-linux,
@@ -2964,13 +4107,23 @@ Peter Seibel},
   author =   {Gordon Matzigkeit and Alexandre Oliva and Thomas Tanner and Gary V. Vaughan},
   title =   {GNU libtool},
   publisher =   {Free Software Foundation},
-  year =   {2005},
+  year =   {2024},
   volume =   {1},
-  edition =   {1.5.20}
+  edition =   {2}
+}
+
+@Book{prog-Multiplataforma-cmake-ModernCmakeForCpp,
+  author =   {Rafal Swidzinski},
+  title =   {Modern CMake for C++ - Second Edition: Effortlessly build cutting-edge C++ code and deliver high-quality solutions},
+  publisher =   {},
+  year =   {2024},
+  volume =   {1},
+  edition =   {2},
+  month =   {5}
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o -  Controle de Versıes
+% ## Programa√ß√£o -  Controle de Vers√µes
 %--------------------------------------------------------------------
 @Book{prog-linux-cvs,
   author = {Per Cederqvist},
@@ -2982,7 +4135,7 @@ Peter Seibel},
 
 @InCollection{revistaprogramar-git,
   author =   {Caio Proiete},
-  title =   {Git: Controlo de Versıes Para Pequenos e Grandes Projectos},
+  title =   {Git: Controlo de Vers√µes Para Pequenos e Grandes Projectos},
   booktitle =   {Revista Portugal a Programar},
   year =   {2011},
   volume =   {29},
@@ -3000,7 +4153,7 @@ Peter Seibel},
   note = { ISBN-13 : 978-1449316389}
 }
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o Paralela
+% ## Programa√ß√£o Paralela
 %--------------------------------------------------------------------
 @book{prog-paralela-mattson2005patterns,
   title={Patterns for Parallel Programming},
@@ -3014,7 +4167,7 @@ Peter Seibel},
 }
 
 @Booklet{prog-paralela-siqueira,
-  title = 	 {ProgramaÁ„o Paralela e DistribuÌda.},
+  title = 	 {Programa√ß√£o Paralela e Distribu√≠da.},
   author = 	 {Frank Siqueira},
   howpublished = {http://www.inf.ufsc.br/~frank/INE5645/},
   address = 	 {http://www.inf.ufsc.br/~frank/INE5645/},
@@ -3024,8 +4177,8 @@ Peter Seibel},
 
 % Livro do Bolsista do Adolfo - Rodrigo
 @Book{prog-paralela-SistDist,
-  author = 	 {Uir· Ribeiro},
-  title = 	 {Sistemas DistribuÌdos: Desenvolvendo AplicaÁıes de Alta Performance no Linux},
+  author = 	 {Uir√° Ribeiro},
+  title = 	 {Sistemas Distribu√≠dos: Desenvolvendo Aplica√ß√µes de Alta Performance no Linux},
   publisher = 	 {AXCEL},
   year = 	 {2005},
 }
@@ -3041,8 +4194,8 @@ Peter Seibel},
 }
 
 @Misc{prog-paralela-Angelo,
-  author =   {Fernanda ¬ngelo},
-  title =   {Supercomputadores substituem grid na Petrobr·s},
+  author =   {Fernanda √Çngelo},
+  title =   {Supercomputadores substituem grid na Petrobr√°s},
   url =   {http://computerworld.uol.com.br}
 }
 
@@ -3087,7 +4240,7 @@ Peter Seibel},
 
 @Book{prog-paralela-pitanga2,
   author =   {Marcos Pitanga},
-  title =   {ComputaÁ„o em Cluster - Construindo Supercomputadores com Linux},
+  title =   {Computa√ß√£o em Cluster - Construindo Supercomputadores com Linux},
   publisher =   {Brasport},
   year =   {2004}
 }
@@ -3095,7 +4248,7 @@ Peter Seibel},
 @Book{prog-linux-cluster,
   author =   {Charles Bookman},
   title =   {Agrupamento de computadores e cluster},
-  publisher =   {CiÍncia Moderna},
+  publisher =   {Ci√™ncia Moderna},
   year =   {2003}
 }
 
@@ -3127,8 +4280,8 @@ Peter Seibel},
 }
 
 @Book{prog-paralela-sistemasDistribuidos,
-  author = {Uir· Ribeiro},
-  title  = {Sistemas DistribuÌdos - Desenvolvendo AplicaÁıes de Alta Performance no LINUX},
+  author = {Uir√° Ribeiro},
+  title  = {Sistemas Distribu√≠dos - Desenvolvendo Aplica√ß√µes de Alta Performance no LINUX},
   publisher     = {AXCEL},
   year  = {2005}
 }
@@ -3308,9 +4461,9 @@ Peter Seibel},
 }
 
 @MastersThesis{prog-paralela-pvm95,
-  author =   {Luciano JosÈ Senger},
-  title =   {AvaliaÁ„o de Desempenho do PVM-W95},
-  school =   {USP-S„o Carlos},
+  author =   {Luciano Jos√© Senger},
+  title =   {Avalia√ß√£o de Desempenho do PVM-W95},
+  school =   {USP-S√£o Carlos},
   year =   {1997}
 }
 
@@ -3318,7 +4471,7 @@ Peter Seibel},
   author = {Clovis Raimundo Maliska Junior},
   title  = {Programing Manual},
   organization = {ESSS},
-  address = {FlorianÛpolis},
+  address = {Florian√≥polis},
   year  = {1996}
 }
 
@@ -3326,12 +4479,12 @@ Peter Seibel},
   author = {Clovis Raimundo Maliska Junior},
   title  = {Reference Manual},
   organization = {ESSS},
-  address = {FlorianÛpolis},
+  address = {Florian√≥polis},
   year  = {1996}
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - C
+% ## Programa√ß√£o - C
 %--------------------------------------------------------------------
 @Book{prog-kernighanRitchie,
   author = 	 {Brian W. Kernighan and Dennis M. Ritchie},
@@ -3342,7 +4495,7 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - Plugins - 
+% ## Programa√ß√£o - Plugins - 
 %--------------------------------------------------------------------
 
 @manual{prog-plugin-landmark-dws,
@@ -3354,11 +4507,11 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - XML
+% ## Programa√ß√£o - XML
 %--------------------------------------------------------------------
 @Book{prog-xml-xslt,
   author =   {Michael Kay},
-  title =   {XSLT - ReferÍncia do programador},
+  title =   {XSLT - Refer√™ncia do programador},
   publisher =   {Alta Books},
   year =   {2002},
   edition =   {2},
@@ -3370,7 +4523,7 @@ Peter Seibel},
   publisher =   {Makron Books},
   title =   {C++ XML},
   year =   {2002},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @book{prog-xml-cpp-arciniegas2002c++,
@@ -3385,22 +4538,22 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o SHELL
+% ## Programa√ß√£o SHELL
 %--------------------------------------------------------------------
 @Book{prog-SHELL,
   author =   {Julio Cezar Neves},
   publisher =   {Brasport},
-  title =   {ProgramaÁ„o Shell Linux},
+  title =   {Programa√ß√£o Shell Linux},
   year =   {2003},
   address =   {Rio de Janeiro}
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o Banco de dados
+% ## Programa√ß√£o Banco de dados
 %--------------------------------------------------------------------
 
 @Article{BD-comparacao,
-  author =   {Geraldo Zimbr„o},
+  author =   {Geraldo Zimbr√£o},
   title =   {Sistemas Gerenciadores de Bancos de Dados Livres},
   journal =   {SQL Magazine},
   year =   {2004},
@@ -3408,7 +4561,7 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o  prog-interface
+% ## Programa√ß√£o  prog-interface
 %--------------------------------------------------------------------
 @Book{prog-interface-joelspolsky,
   author =   {Joel Spolsky},
@@ -3420,7 +4573,7 @@ Peter Seibel},
 % Human Guide Interface - gnome
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o Ambiente desenvolvimento
+% ## Programa√ß√£o Ambiente desenvolvimento
 %--------------------------------------------------------------------
 @Book{prog-linux-kdevelop-user,
   author = {Ralf Nolden and Kdevelop-Team},
@@ -3431,7 +4584,7 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - prog-qt
+% ## Programa√ß√£o - prog-qt
 %--------------------------------------------------------------------
 @Book{prog-qt-Ben,
   author =    {Ben Coepp},
@@ -3498,15 +4651,15 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - Java
+% ## Programa√ß√£o - Java
 %--------------------------------------------------------------------
-% ProgramaÁ„o
+% Programa√ß√£o
 %teste
 @Book{prog-JAVA-Patrick,
   author =   {Patrick Naughton},
   title =   {Dominando JAVA},
   year =   {1996},
-  address =   {S„o Paulo},
+  address =   {S√£o Paulo},
 }
 
 @Book{prog-JAVA-Deitel,
@@ -3518,7 +4671,7 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - prog-algoritmos
+% ## Programa√ß√£o - prog-algoritmos
 %--------------------------------------------------------------------
 
 @Book{prog-algoritmos-thomas,
@@ -3539,7 +4692,7 @@ Peter Seibel},
 
 @Book{prog-algoritmos-Boente,
   author = 	 {Alfredo Boente},
-  title = 	 {ConstruÁ„o de Algoritmos},
+  title = 	 {Constru√ß√£o de Algoritmos},
   publisher = 	 {Saraiva},
   year = 	 {2006},
 }
@@ -3553,13 +4706,13 @@ Peter Seibel},
 
 @Article{prog-Furlan,
   author =   {Marco A. Furlan de Souza},
-  title =   {Algortitmos e lÛgica da programaÁ„o},
+  title =   {Algortitmos e l√≥gica da programa√ß√£o},
   journal =   {Cengage Learning},
   year =   {2019}
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - prog-bib bibliotecas
+% ## Programa√ß√£o - prog-bib bibliotecas
 %--------------------------------------------------------------------
 
 
@@ -3570,7 +4723,7 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - prog-bib bibliotecas - BOOST
+% ## Programa√ß√£o - prog-bib bibliotecas - BOOST
 %--------------------------------------------------------------------
 @book{prog-bib-demming2010introduction,
   title={Introduction to the Boost C++ Libraries: Foundations},
@@ -3602,7 +4755,7 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - prog-html
+% ## Programa√ß√£o - prog-html
 %--------------------------------------------------------------------
 
 @Book{prog-html-Carvalho,
@@ -3613,35 +4766,35 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - prog-Windows
+% ## Programa√ß√£o - prog-Windows
 %--------------------------------------------------------------------
 @Book{prog-cppw-Papas,
   author =   {Chris H. Pappas and William H. Murray},
   publisher =   {Mac-Graw Hill},
   title =   {Turbo C++ Completo e Total},
   year =   {1993},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{prog-cppw-BenEzzel,
   author =   {Ben Ezzel},
-  publisher =   {CiÍncia Moderna},
-  title =   {ProgramaÁ„o em Turbo C++: Uma Abordagem Orientada a Objeto},
+  publisher =   {Ci√™ncia Moderna},
+  title =   {Programa√ß√£o em Turbo C++: Uma Abordagem Orientada a Objeto},
   year =   {1991},
   address =   {Rio de Janeiro}
 }
 
 @Book{prog-cppw-BenEzzel2,
   author =   {Ben Ezzel},
-  publisher =   {CiÍncia Moderna},
-  title =   {ProgramaÁ„o Gr·fica em Turbo C++: Uma Abordagem Orientada a Objeto},
+  publisher =   {Ci√™ncia Moderna},
+  title =   {Programa√ß√£o Gr√°fica em Turbo C++: Uma Abordagem Orientada a Objeto},
   year =   {1991},
   address =   {Rio de Janeiro}
 }
 
 @Book{prog-cppw-EzzelBen-NT,
   author =   {Ben Ezzel},
-  title =   {ProgramaÁ„o em Window NT 3.1},
+  title =   {Programa√ß√£o em Window NT 3.1},
   publisher =   {IBPI},
   year =   {1993},
   address =   {Rio de Janeiro}
@@ -3649,10 +4802,10 @@ Peter Seibel},
 
 @Book{prog-cppw-WienerPinson,
   author =   {Richard S. Wiener and Lewis J. Pinson},
-  title =   {ProgramaÁ„o Orientada para Objeto e C+},
+  title =   {Programa√ß√£o Orientada para Objeto e C+},
   publisher =   {MacGraw-Hill},
   year =   {1991},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{prog-cppw-Schildt,
@@ -3660,12 +4813,12 @@ Peter Seibel},
   title =   {C Completo e Total},
   publisher =   {Mcgraw-Hill},
   year =   {1990},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{prog-cppw-Perry,
   author =   {Greg Perry},
-  title =   {ProgramaÁ„o Orientada Para Objeto com Turbo C++},
+  title =   {Programa√ß√£o Orientada Para Objeto com Turbo C++},
   publisher =   {Berkeley},
   year =   {1995}
 }
@@ -3691,18 +4844,18 @@ Peter Seibel},
 
 @Book{prog-cppw-Multimidia,
   author =   {Paul Perry},
-  title =   {Guia de Desenvolvimento MultimÌdia},
+  title =   {Guia de Desenvolvimento Multim√≠dia},
   publisher =   {Berkeley},
   year =   {1995},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{prog-cppw-TomSwan,
   author =   {Tom Swan},
-  title =   {ProgramaÁ„o AvanÁada em Borland C++ 4 para Windows},
+  title =   {Programa√ß√£o Avan√ßada em Borland C++ 4 para Windows},
   publisher =   {Berkeley},
   year =   {1994},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{prog-cppw-Norton,
@@ -3721,11 +4874,11 @@ Peter Seibel},
 }
 
 %--------------------------------------------------------------------
-% ## ProgramaÁ„o - Padrıes de Projeto
+% ## Programa√ß√£o - Padr√µes de Projeto
 %--------------------------------------------------------------------
 @Book{prog-padroes-EricFreemann,
   author = {Eric Freemann & Elizabeth Freemann},
-  title  = {Use a CabeÁa: Padrıes de Projeto},
+  title  = {Use a Cabe√ßa: Padr√µes de Projeto},
   publisher = {Editora OReilly},
   year  = {2009}
 }
@@ -3759,6 +4912,15 @@ Peter Seibel},
   Note = {ISBN 0-13-148906-2},
   pages = {736 p}
 }
+@Book{prog-padroes-CraigLarman-pt,
+  author = {Craig Larman},
+  title  = {Utilizando UML e Padr√µes: Uma introdu√ß√£o √† an√°lise e ao projeto orientados a objetos e ao desenvolvimento iterativo},
+  publisher = {Bookman},
+  year  = {2007},
+  Note = {ISBN 978-85-7780-047-6},
+  pages = {682 p}
+}
+
 @Book{prog-padroes-GregorHohpe,
   author = {Gregor Hohpe and Bobby Woolf},
   title  = {Enterprise Integration Patterns: Designing, Building, And Deploying Messaging Solutions},
@@ -3770,7 +4932,7 @@ Peter Seibel},
 }
 @Book{prog-padroes-Pablo,
   author = {Pablo Dall'Oglio},
-  title  = {PHP Programando com OrientaÁ„o a Objetos: Inclui Design Patterns},
+  title  = {PHP Programando com Orienta√ß√£o a Objetos: Inclui Design Patterns},
   publisher = {Novatec},
   year  = {2007},
   Note = {ISBN  978-85-7522-137-2 },
@@ -3778,7 +4940,7 @@ Peter Seibel},
 }
 @Book{prog-padroes-AlexandreAltair,
   author = {Alexandre Altair de Melo and Mauricio G. F. Nascimento},
-  title  = {PHP Profissional: Aprenda a desenvolver sistemas profissionais orientados a objetos com padrıes de projeto},
+  title  = {PHP Profissional: Aprenda a desenvolver sistemas profissionais orientados a objetos com padr√µes de projeto},
   publisher = {Novatec},
   year  = {2007},
   Note = {ISBN  978-85-7522-141-9},
@@ -3790,7 +4952,7 @@ Peter Seibel},
 %--------------------------------------------------------------------
 
 @Book{SL-Pacitti,
-  author =   {TÈrcio Pacitti.},
+  author =   {T√©rcio Pacitti.},
   title =   {Paradigmas do Software Aberto},
   year =   {2006},
   publisher =   {LTC},
@@ -3799,23 +4961,23 @@ Peter Seibel},
 
 @Book{SL-SergioAmadeo,
   author =   {Sergio Amadeo et all.},
-  title =   {Software Livre e Inclus„o Digital},
+  title =   {Software Livre e Inclus√£o Digital},
   year =   {2003},
   publisher =   {CONRAD},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{SL-IIEscInf,
   author =   {Marta M.D.Bertoldi et al.},
-  title =   {II Escola Regional de Inform·tica},
+  title =   {II Escola Regional de Inform√°tica},
   year =   {2002},
-  address =   {VitÛrio-ES},
+  address =   {Vit√≥rio-ES},
   publisher =   {CONRAD}
 }
 
 @Book{SL-1FISL-2000,
   author =   {Anais},
-  title =   {Anais do 1 FÛrum Internacional de Software Livre 2000},
+  title =   {Anais do 1 F√≥rum Internacional de Software Livre 2000},
   year =   {2000},
   address =   {Porto Alegre},
   publisher =   {UNISINOS}
@@ -3830,7 +4992,7 @@ Peter Seibel},
 
 @TechReport{SL-guialivre,
   author =   {Governo Federal},
-  title =   {Guia Livre - ReferÍncia de MigraÁ„o para Software Livre do Governo Federal },
+  title =   {Guia Livre - Refer√™ncia de Migra√ß√£o para Software Livre do Governo Federal },
   institution =  {Governo Federal},
   year =   {2004},
   url =   {http://www.governoeletronico.gov.br.}
@@ -3839,9 +5001,9 @@ Peter Seibel},
 @Misc{SL-licencaGPL,
   author =   {GNU},
   url =   {http://www.gnu.org},
-  OPTtitle =   {LicenÁa P˙blica Geral},
+  OPTtitle =   {Licen√ßa P√∫blica Geral},
   year =   {2004},
-  note =   {LicenÁa de Software Livre},
+  note =   {Licen√ßa de Software Livre},
 }
 
 @Misc{SL-filosofiaSL,
@@ -3879,7 +5041,7 @@ Peter Seibel},
 
 @Book{SL-linux-morimoto,
   author =   {Carlos Morimoto},
-  title =   {Linux Ferramentas TÈcnicas},
+  title =   {Linux Ferramentas T√©cnicas},
   publisher =   {Sulina},
   year =   {2005}
 }
@@ -3887,7 +5049,7 @@ Peter Seibel},
 @Book{SL-linux-openoffice1,
   author =   {Valdir Esteves},
   title =   {Dominando o processador de texto OpenOffice},
-  publisher =   {CiÍncia Moderna},
+  publisher =   {Ci√™ncia Moderna},
   year =   {2005}
 }
 
@@ -3914,11 +5076,11 @@ Peter Seibel},
 }
 
 @Book{SL-linux-Aprendendo,
-  author =   {Nilson CorrÍa Gondim},
+  author =   {Nilson Corr√™a Gondim},
   title =   {Aprendendo o Linux},
   publisher =   {IBPI-press},
   year =   {1995},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{SL-linux-RH9-bible,
@@ -3931,10 +5093,10 @@ Peter Seibel},
 
 @Book{SL-linux-ManualAdmin,
   author =   {Evi Nemeth et al.},
-  title =   {Manual de AdministraÁ„o do Sistema Unix},
+  title =   {Manual de Administra√ß√£o do Sistema Unix},
   publisher =   {Bookman},
   year =   {2001},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{SL-linux-GuiaEssencial,
@@ -3942,28 +5104,28 @@ Peter Seibel},
   title =   {Linux o Guia Essencial},
   publisher =   {Campus},
   year =   {2000},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{SL-linux-ConsultaRapida,
-  author =   {Eduardo MaÁan},
-  title =   {Unix - Comandos do Usu·rio},
+  author =   {Eduardo Ma√ßan},
+  title =   {Unix - Comandos do Usu√°rio},
   publisher =   {Novatec},
   year =   {2001},
-  address =   {S„o Paulo}
+  address =   {S√£o Paulo}
 }
 
 @Book{SL-linux-IntroducaoInformaticaM1,
-  author =   {Otton T. da Silveira Filho e MaurÌcio Kischnhevsky},
-  title =   {IntroduÁ„o a Inform·tica - MÛdulo 1},
+  author =   {Otton T. da Silveira Filho e Maur√≠cio Kischnhevsky},
+  title =   {Introdu√ß√£o a Inform√°tica - M√≥dulo 1},
   publisher =   {CEDERJ},
   year =   {2004},
   address =   {Rio de Janeiro}
 }
 
 @Book{SL-linux-IntroducaoInformaticaM2,
-  author =   {Otton T. da Silveira Filho e MaurÌcio Kischnhevsky},
-  title =   {IntroduÁ„o a Inform·tica  - MÛdulo 2},
+  author =   {Otton T. da Silveira Filho e Maur√≠cio Kischnhevsky},
+  title =   {Introdu√ß√£o a Inform√°tica  - M√≥dulo 2},
   publisher =   {CEDERJ},
   year =   {2004},
   address =   {Rio de Janeiro}
@@ -4061,8 +5223,8 @@ Peter Seibel},
   publisher =   {Addison-Wesley}
 }
 @manual{Manual-Latex-UFPR,
-author = {EmÌlio Eiji Kavamura},
-title = {FormataÁ„o de trabalhos acadÍmicos - LATEX2? - ABNT - UFPR},
+author = {Em√≠lio Eiji Kavamura},
+title = {Formata√ß√£o de trabalhos acad√™micos - LATEX2? - ABNT - UFPR},
 year = {2021},
 publisher = {UFPR},
 howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tutorial_latex.pdf}}
@@ -4117,7 +5279,7 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 }
 
 @Article{SL-indignacao,
-  title =   {Da indignaÁ„o a liberdade},
+  title =   {Da indigna√ß√£o a liberdade},
   author =   {Richard M. Stallman},
   edition =   {03},
   journal =   {RDL}
@@ -4131,7 +5293,7 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 }
 
 @Article{SL-fisl2000,
-  title =   {FÛrum internacional do software livre 2000},
+  title =   {F√≥rum internacional do software livre 2000},
   author =   {RDL},
   edition =   {6},
   journal =   {RDL}
@@ -4145,14 +5307,14 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 }
 
 @Article{SL-timoty,
-  title =   {O·sis do software livre},
+  title =   {O√°sis do software livre},
   author =   {Timoty Ney},
   edition =   {15},
   journal =   {RDL}
 }
 
 @Article{SL-padroesabertos,
-  title =   {Padrıes abertos},
+  title =   {Padr√µes abertos},
   author =   {Renato Martini},
   edition =   {17},
   journal =   {RDL}
@@ -4160,21 +5322,21 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
  
 
 @Article{SL-libesc,
-  title =   {Filosofia da liberdade a escolha da geraÁ„o GNU},
+  title =   {Filosofia da liberdade a escolha da gera√ß√£o GNU},
   author =   {Renato Martini},
   edition =   {19},
   journal =   {RDL}
 }
 
 @Article{SL-maddoghall,
-  title =   {Mostre-me o cÛdigo},
+  title =   {Mostre-me o c√≥digo},
   author =   {Jon "Maddog"  Hall},
   edition =   {20},
   journal =   {RDL}
 }
 
 @Article{SL-linux10anos,
-  title =   {Uma dÈcada com o Linux},
+  title =   {Uma d√©cada com o Linux},
   author =   {RDL},
   edition =   {20},
   journal =   {RDL}
@@ -4188,7 +5350,7 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 }
 
 @Article{SL-adminpub2,
-  title =   {Software livre na administraÁ„o p˙blica},
+  title =   {Software livre na administra√ß√£o p√∫blica},
   author =   {RDL},
   edition =   {37},
   journal =   {RDL}
@@ -4204,33 +5366,33 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 @Article{SL-nassif-potencial,
   author =   {Luiz Nassif},
   title =   {O potencial do software aberto},
-  journal =   {Jornal Folha de S„o Paulo},
+  journal =   {Jornal Folha de S√£o Paulo},
   year =   { 17 de abril de 2004},
 }
 
 @Article{SL-mundoLivreSA,
-  author =   {IstoÈ},
+  author =   {Isto√©},
   title =   {Mundo livre S/A},
-  journal =   {Revista IstoÈ},
+  journal =   {Revista Isto√©},
   year =   {2004},
   url =   {http://www.terra.com.br/istoe/1801/ciencia/1801_mundo_livre_sa.htm},
 }
 
 
 @Article{SL-adminpub,
-  author =   {Sim„o Pedro Chiovetti e Livia Oliveira Sobota},
-  title =   {Softwares Livres na AdministraÁ„o P˙blica},
+  author =   {Sim√£o Pedro Chiovetti e Livia Oliveira Sobota},
+  title =   {Softwares Livres na Administra√ß√£o P√∫blica},
   journal =   {Teoria e Debate},
   year =   {2004}
 }
 
 %--------------------------------------------------------------------
-% ## Software Livre Manuais para novos usu·rios
+% ## Software Livre Manuais para novos usu√°rios
 %--------------------------------------------------------------------
 
 @Book{SL-linuxnoescritorio,
   editor =   {Editora Abril},
-  title =   {Linux no escritÛrio},
+  title =   {Linux no escrit√≥rio},
   publisher =   { Editora Abril},
   year =   {2004}
 }
@@ -4253,26 +5415,26 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 }
 
 @Misc{Site-telecentrosSP,
-  author =   {Telecentros S„o Paulo},
+  author =   {Telecentros S√£o Paulo},
   url =   {http://www.telecentros.sp.gov.br}
 }
 
 
 @Misc{SL-declaracaobarcelona,
   author =   {Comunidade  Software Livre},
-  title =   {DeclaraÁ„o de Barcelona - Desafios para AmpliaÁ„o e ConsolidadÁ„o do Software Livre},
+  title =   {Declara√ß√£o de Barcelona - Desafios para Amplia√ß√£o e Consolidad√ß√£o do Software Livre},
   url =   {http://www.softwarelivre.org/forum2004/news/2297}
 }
 
 @Misc{SL-quempagaSL,
-  author =   {Ricardo B·nffy},
+  author =   {Ricardo B√°nffy},
   title =   {Quem paga a conta do software livre?},
   url =   {http://webinsider.uol.com.br/vernoticia. php?id=1946}
 }
 
 @Misc{SL-oqueeSL,
   author =   {Comunidade GNU},
-  title =   {O que È o Software Livre?},
+  title =   {O que √© o Software Livre?},
   url =   {http://www.gnu.org/philosophy/free-sw.pt.html}
 }
 
@@ -4283,8 +5445,8 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 }
 
 @Article{SL-admPub,
-  author =   {Sim„o Pedro Chiovetti and Livia Oliveira Sobota},
-  title =   {Softwares Livres  na AdministraÁ„o P˙blica},
+  author =   {Sim√£o Pedro Chiovetti and Livia Oliveira Sobota},
+  title =   {Softwares Livres  na Administra√ß√£o P√∫blica},
   journal =   {Teoria e Debate},
   year =   {2004},
   volume =   {58},
@@ -4293,7 +5455,7 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 
 @Misc{SL-prioridade,
   author =   {Ricardo Bimbo},
-  title =   {Software Livre È Prioridade},
+  title =   {Software Livre √© Prioridade},
   url =   {http://www.softwarelivre.org/articles/55}
 }
  
@@ -4305,18 +5467,18 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 
 @Misc{SL-5fisl-repercussoes,
   author =   {http://correioweb.com.br},
-  title =   { Repercussıes 5 FISL - m˙sica liberada È aceno polÌtico},
+  title =   { Repercuss√µes 5 FISL - m√∫sica liberada √© aceno pol√≠tico},
   url =   {http://www.softwarelivre.org/news/2597}
 }
 
 
 %--------------------------------------------------------------------
-% ## Planejamento, Gest„o 
+% ## Planejamento, Gest√£o 
 %--------------------------------------------------------------------
 @Book{gestao-ClaudioMouraCastro2,
   author =   {Claudio Moura Castro},
   editor =   {Ed. Pensa},
-  title =   {VocÍ sabe estudar?},
+  title =   {Voc√™ sabe estudar?},
   publisher =   {Ed. Pensa},
   year =   {2015},
   edition =   {1},
@@ -4326,7 +5488,7 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 @Book{gestao-DavidAlen-2,
   author =   {David Allen},
   editor =   {},
-  title =   {Gerencie sua mente n„o seu tempo},
+  title =   {Gerencie sua mente n√£o seu tempo},
   publisher =   {Ed. Landscape},
   year =   {2006},
   edition =   {1},
@@ -4336,7 +5498,7 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 @Book{gestao-DavidAlen-3,
   author =   {David Allen},
   editor =   {},
-  title =   {FaÁa tudo acontecer!},
+  title =   {Fa√ßa tudo acontecer!},
   publisher =   {Ed. Gente},
   year =   {2009},
   edition =   {1},
@@ -4344,7 +5506,7 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 }
 
 @Book{gestao-IcamiTiba,
-  author =   {IÁami Tiba},
+  author =   {I√ßami Tiba},
   editor =   {Integralle},
   title =   {Disciplina na Medida Certa},
   publisher =   {Integralle},
@@ -4354,7 +5516,7 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 
 @Book{gestao-Holtzapple,
   author =   {Holtzapple e Reece},
-  title =   {IntroduÁ„o a Engenharia},
+  title =   {Introdu√ß√£o a Engenharia},
   publisher =   {LTC},
   year =   {2006},
   adress =   {Rio de Janeiro}
@@ -4363,16 +5525,16 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 @Book{gestao-Bazzo,
   author =   {Valter Antonio Bazzo},
   editor =   {UFSC},
-  title =   {IntroduÁ„o a Engenharia - Conceitos, Ferramentas e Comportamentos - SÈrie Did·tica},
+  title =   {Introdu√ß√£o a Engenharia - Conceitos, Ferramentas e Comportamentos - S√©rie Did√°tica},
   publisher =   {Editora UFSC},
   year =   {2009},
-  adress =   {FlorianÛpolis}
+  adress =   {Florian√≥polis}
 }
 
 @Book{gestao-Thomas,
   author =   {Jose Eduardo Thomas},
-  title =   {Fundamentos de Engenharia de PetrÛleo},
-  publisher =   {Editora InterciÍncia},
+  title =   {Fundamentos de Engenharia de Petr√≥leo},
+  publisher =   {Editora Interci√™ncia},
   year =   {2001},
   edition =   {2},
   adress =   {Rio de Janeiro}
@@ -4380,15 +5542,15 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 
 @Book{gestao-Rocha,
   author =   {Luiz Alberto Santos Rocha et all},
-  title =   {PerfuraÁ„o Direcional},
-  publisher =   {Editora InterciÍncia},
+  title =   {Perfura√ß√£o Direcional},
+  publisher =   {Editora Interci√™ncia},
   year =   {2006},
   adress =   {Rio de Janeiro}
 }
 
 @Book{gestao-Cardoso,
   author =   {Luiz Claudio Cardoso},
-  title =   {PetrÛleo do PoÁo ao Posto},
+  title =   {Petr√≥leo do Po√ßo ao Posto},
   publisher =   {Editora Qualitymark},
   year =   {2005},
   edition =   {1},
@@ -4396,27 +5558,27 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 }
 
 @Misc{gestao-HistPet,
-  Tkey =   {Revista IstoÈ},
-  title =   {HistÛria do PetrÛleo no Brasil},
-  howpublished = {Revista IstoÈ},
+  Tkey =   {Revista Isto√©},
+  title =   {Hist√≥ria do Petr√≥leo no Brasil},
+  howpublished = {Revista Isto√©},
   year =   {2007}
 }
 
 @Book{gestao-JorgeFernandes,
   author =   {Jorge Fernandes},
-  title =   {O que È Engenharia?},
+  title =   {O que √© Engenharia?},
   url =   {http://www.dimap.ufrn.br/~jorge/textos/engsoft/conceitosgerais/OQueEhEngenharia.htm}
 }
 
 @Book{gestao-Afonso,
-  author =   {Ariston Alves Afonso e NÈlio Fleury},
-  title =   {Uma Breve HistÛria Da Engenharia},
+  author =   {Ariston Alves Afonso e N√©lio Fleury},
+  title =   {Uma Breve Hist√≥ria Da Engenharia},
   url =   {http://www.crea-go.org.br/informativo/artigos/2.htm}
 }
 
 @Book{gestao-dicionarioPetroleo,
-  author =   {Eloi Fern·ndez y Fern·ndez},
-  title =   {Dicion·rio do PetrÛleo},
+  author =   {Eloi Fern√°ndez y Fern√°ndez},
+  title =   {Dicion√°rio do Petr√≥leo},
   year =   {2009}
 }
 
@@ -4428,20 +5590,176 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 }
 
 %--------------------------------------------------------------------
-% ## Corros„o
+% ## Corros√£o
 %--------------------------------------------------------------------
 
+@Misc{corrosao-estevao,  
+  author =   {ESTEV√ÉO GUAITOLINI DA SILVA and FABRICIO DIAS DE OLIVEIRA},
+  title =   {Integridade Estrutural e Avalia√ß√£o da Corros√£o de Dutos Por M√©todos Semi-Emp√≠ricos},
+  month =   {agosto},
+  year =   {2013}
+}
+
+@InProceedings{corrosao-ACVNobrega,
+  author =   {A. C. V. da N√≥brega; A. F. F. Barbosa; D. R. da Silva; G.S. Pimenta; D.G. Peixoto},
+  title =   {ESTUDO DE CASO - CORROSAO INTERNA EM DUTOS TRANSPORTADORES DE G√ÅS NATURAL},
+  publisher = {II PDPETRO}
+}
+
+@Misc{corrosao-CarlosMazzini,
+  author =   {CARLOS EDUARDO MAZZINI},
+  title =   {Compara√ß√£o de M√©todos de Inspe√ß√£o de Integridade de Dutos: M√©todo PIG e CIS/DCVG},
+  month =   {Junho},
+  year =   {2009},
+  note =   {UFES TCC}
+}
+
 %--------------------------------------------------------------------
-% ## DANO DE FORMA«AO
+% ## DANO DE FORMA√áAO
 %--------------------------------------------------------------------
 %--------------------------------------------------------------------
 % ## BaSO4
 %--------------------------------------------------------------------
+@PhDThesis{mestrado-gladstone,
+  author	= {P. M. Gladstone},
+  title		= {Modelo Matem√°tico para Previs√£o da Queda da Produtividade de Po√ßos Devido √† Incrusta√ß√£o},
+  school	= {Univesidade Estadual do Norte Fluminense, Laborat√≥rio de Engenharia e Explora√ß√£o de Petr√≥leo},
+  year		= {2004},
+  type		= {Disserta√ß√£o de Mestrado},
+  address	= {Maca√©, RJ}
+}
+
+
+@Article{baso4-BaSO4-at-elevated-temperatures,
+  author = 	 {A. C. Todd and M. D. Yuan},
+  title = 	 {Barium and Strontium Sulfate Solid-Solution Scale Formation at Elevated Temperatures},
+  journal = 	 {SPE},
+  year = 	 {1992},
+  number = 	 {19762}
+}
+
+@Article{baso4-Nancollas,
+  author = 	 {G. H. Nancollas and M. M. Reddy},
+  title = 	 {The Kinetics of Crystallization of Scale-Forming Minerals},
+  journal = 	 {SPE},
+  year = 	 {1974},
+  number = 	 {4360}
+}
+
+@Article{baso4-Nancollas2,
+  author = 	 {G. H. Nancollas and B. T. Liu},
+  title = 	 {Crystal Growth and Dissolution of Barium Sulphate},
+  journal = 	 {SPE},
+  year = 	 {1975},
+  number = 	 {5300}
+}
+
+@Article{baso4-Wat-et-al,
+  author = 	 {R. M. S. Wat and K. S. Sorbie and A. C. Todd and P. Chen and P. Jiang},
+  title = 	 {Crystal Growth and Dissolution of Barium Sulphate},
+  journal = 	 {SPE},
+  year = 	 {1992},
+  number = 	 {23814}
+}
+
+@Article{baso4-Migration-Allaga,
+  author = 	 {D. A. Allaga and G. Wu and M. M. Sharma and L. W. Lake},
+  title = 	 {Barium and Calcium Sulfate Precipitation and Migration Inside Sandpacks},
+  journal = 	 {SPE},
+  year = 	 {1992},
+  number = 	 {19765},
+  volume	= {1}
+}
+
+@Article{baso4-Image-Analysis,
+  author = 	 {B. Bernard-Michel and M. N. Pons and H. Vivier},
+  title = 	 {Quantification, by Image Analysis, of Effect of Operational Conditions on Size and Shape of Precipitated Barium Sulphate},
+  journal = 	 {Chemical Engineering Journal},
+  year = 	 {2002},
+  number = 	 {87},
+  pages = 	 {135-147},
+  volume	= {1}
+}
+
+
+@Article{baso4-Falope,
+  author = 	 {G. O. Falope and A. G. Jones and R. Zauner},
+  title = 	 {On Modelling Continuous Agglomerative Crystal Precipitation Via Monte Carlo Simulation},
+  journal = 	 {Chemical Engineering Science},
+  year = 	 {2001},
+  number = 	 {56},
+  pages =        {2567-2574}
+
+}
+
+
+@inproceedings{baso4-Marchisio,
+  author = 	 {D. L. Marchisio and A. A. Baresi and M. Garbero and G. Baldi},
+  title = 	 {Study of Aggregation in Barium Sulphate Precipitation},
+  publisher	= {15th International Symposium on Industrial Crystallization},
+  year = 	 {2002},
+  number = 	 {171}
+}
+
+
+@inproceedings{baso4-cocrystallyzation-calcium,
+  author	= {A. J. B. Hennessy and G. M. Graham},
+  title		= {The effect of additives on the co-crystallisation of calcium with barium sulphate}, 
+  institution	= {Department of Petroleum Engineering, Heriot-Watt University},
+  journal = 	 {Journal of Crystal Growth},
+  address	= {Edinburgh, EH14 4AS, UK},
+  year		= {2002}
+}
 
 %--------------------------------------------------------------------
-% ## DANO DE FORMA«AO
+% ## DANO DE FORMA√áAO
 %--------------------------------------------------------------------
+@Article{df-siqueira-shecaira,
+  author = 	 {A. G. Siqueira and E. J. BONET and F. S. Shecaira},
+  title = 	 {A 3D Network Model of Rock
+Permeability Impairment Due to Suspended Particles in Injection Water},
+  journal = 	 {SPE},
+  year = 	 {2003},
+  number = 	 {82232}
+}
 
+@Article{df-sorbie-mackay,
+  author = 	 {K. S. Sorbie and E. J. Mackay},
+  title = 	 {Mixing of Injected, Connate and Aquifer brines in Waterflooding and its Relevance to Oilfield Scaling},
+  journal = 	 {Journal of Petroleum Science and Engineering},
+  year = 	 {2000},
+  number = 	 {27}
+}
+
+@Article{df-pavel,
+  author = 	 {P. G. Bedrikovetsky and R. P. Lopes and F. F. Ros√°rio and M. C. Bezerra and E. A. Lima},
+  title = 	 {Oilfield Scaling - Part I: Mathematical and Laboratorial Modelling},
+  journal = 	 {Society of Petroleum Engineers},
+  publisher =    {SPE Latin American and Caribbean Petroleum Engineering Conference},
+  adress =       {Port-Spain, Trinidad, West Indies},
+  year = 	 {2003},
+  number = 	 {81127},
+  volume	= {1}
+}
+
+@MastersThesis{df-mestrado-lopes,	
+  author	= {R. P. Lopes},
+  title		= {Cin√©tica de Precipita√ß√£o de Sulfato de B√°rio em Meio Poroso: Modelagem Matem√°tica e Laboratorial},
+  school	= {Univesidade Estadual do Norte Fluminense - Laborat√≥rio de Engenharia e Explora√ß√£o de Petr√≥leo},
+  year		= {2002},
+  type		= {Disserta√ß√£o de Mestrado},
+  address	= {Maca√©-RJ}
+}
+
+
+@Article{df-krueger,
+  author	= {R. F. Krueger},
+  title		= {An Overview of Formation Damage and Well Productivity in Oilfield Operations},
+  journal	= {SPE Reprint Series},
+  year		= {1990},
+  number	= {29},
+  pages		= {7-28}
+}
 
 %----------Grupo 7 Projetos de Engenharia
 
@@ -4450,22 +5768,22 @@ howpublished = {\url{https://bibliotecas.ufpr.br/wp-content/uploads/2022/02/tuto
 %--------------------------------------------------------------------
 @Book{projetos-projetoeletrico1,
   author =   {Afonso Manuel Souza Pires},
-  title =   {Projeto de InstalaÁıes ElÈtricas e TelecomunicaÁıes},
+  title =   {Projeto de Instala√ß√µes El√©tricas e Telecomunica√ß√µes},
   publisher =   {Instituto Superior de Engenharia de Coimbra},
   year =   {2012}
 }
 
 @Book{projetos-Pahl,
   author =  {Gerhard Pahl},
-  title =   {Projeto na Engenharia: Fundamentos do Desenvolvimento Eficaz de Produtos - MÈtodos e AplicaÁıes},
+  title =   {Projeto na Engenharia: Fundamentos do Desenvolvimento Eficaz de Produtos - M√©todos e Aplica√ß√µes},
   publisher =   {Blucher},
   year =   {2005},
   note = { ISBN-13: 978-8521203636}
 }
 
 @Book{projetos-introducao,
-  author =  {V·rios autores},
-  title =   {Projetos de engenharia - uma introduÁ„o},
+  author =  {V√°rios autores},
+  title =   {Projetos de engenharia - uma introdu√ß√£o},
   publisher =   {LTC},
   year =   {2017},
   note = {ISBN-13 : 978-8521634454}
@@ -4480,23 +5798,23 @@ note = {ISBN-13 : 978-8539910847}
 }
 
 @Book{projetos-gestao,
-  author =  {Secretaria de LogÌstica e Tecnologia da InformaÁ„o},
-  title =   {Fundamentos em Gest„o de Projetos - Construindo CompetÍncias para Gerenciar Projetos BRASIL},
-  publisher =   {MinistÈrio do Planejamento, OrÁamento e Gest„o (MPOG)},
+  author =  {Secretaria de Log√≠stica e Tecnologia da Informa√ß√£o},
+  title =   {Fundamentos em Gest√£o de Projetos - Construindo Compet√™ncias para Gerenciar Projetos BRASIL},
+  publisher =   {Minist√©rio do Planejamento, Or√ßamento e Gest√£o (MPOG)},
   year =   {2011}
 }
 
 @Book{projetos-Heldman,
   author =  {Heldman, Kim},
-  title =   {GerÍncia de projetos},
+  title =   {Ger√™ncia de projetos},
   publisher =   {Elsevier},
   year =   {2005},
   note = {ISBN 13 : 978-8535216844, Rio de Janeiro}
 }
 
 @Book{projetos-Menezes,
-  author =  { LuÌs CÈsar de Moura Menezes },
-  title =   {Gest„o de Projetos},
+  author =  { Lu√≠s C√©sar de Moura Menezes },
+  title =   {Gest√£o de Projetos},
   publisher =   {Atlas},
   year =   {2018}
 }
@@ -4518,19 +5836,104 @@ note = {ISBN-13 : 978-8539910847}
 
 @Book{projetos-Valeriano,
   author =  {Valeriano, Dalton },
-  title =   {Moderno GerÍnciamento de Projetos},
+  title =   {Moderno Ger√™nciamento de Projetos},
   publisher =   {Pearson},
   year =   {2015}
 }
 
 @Book{projetos-Woiler,
   author =  {Woiler, S},
-  title =   {Projetos: planejamento, elaboraÁ„o, an·lise},
+  title =   {Projetos: planejamento, elabora√ß√£o, an√°lise},
   publisher =   {Atlas},
   year =   {1996}
 }
 
-%----------Grupo 8 InteligÍncia Artificial
+%  Biblioteca da UENF
+@book{projeto-camargo2018gestao,
+  author = {Camargo, Robson},
+  title = {Gest√£o √Ågil de Projetos},
+  publisher = {Saraiva},
+  year = {2018},
+  note = {Biblioteca da UENF}
+}
+
+@book{projeto-larson2014gerenciamento,
+  author = {Larson, Erik W.},
+  title = {Gerenciamento de Projetos: O Essencial},
+  edition = {6},
+  publisher = {McGraw Hill Brasil},
+  year = {2014},
+  note = {Biblioteca da UENF}
+}
+
+@book{projeto-gido2012gestao,
+  author = {Gido, Jack and Clements, James P.},
+  title = {Gest√£o de Projetos},
+  publisher = {Cengage Learning},
+  year = {2012},
+  note = {Biblioteca da UENF}
+}
+
+@book{projeto-kerzner2017gerenciamento,
+  author = {Kerzner, Harold R.},
+  title = {Gerenciamento de Projetos: Uma Abordagem Sist√™mica para Planejamento, Programa√ß√£o e Controle},
+  publisher = {Blucher},
+  year = {2017},
+  note = {Biblioteca da UENF}
+}
+
+@book{projeto-monteiro2015fundamentos,
+  author = {Monteiro, Marly M.},
+  title = {Fundamentos em Gest√£o de Projetos},
+  edition = {5},
+  publisher = {Atlas},
+  year = {2015},
+  note = {Biblioteca da UENF}
+}
+
+@book{projeto-rocha2010gerenciamento,
+  author = {Rocha, Marta},
+  title = {Gerenciamento de Projetos: Teoria e Pr√°tica},
+  edition = {2},
+  publisher = {Atlas},
+  year = {2010},
+  note = {Biblioteca da UENF}
+}
+
+@book{projeto-cesar2012gestao,
+  author = {Cesar, Luiz},
+  title = {Gest√£o de Projetos: Abordagem Pr√°tica},
+  edition = {4},
+  publisher = {Atlas},
+  year = {2012},
+  note = {Biblioteca da UENF}
+}
+
+@book{projeto-henrique2019gestao,
+  author = {Henrique, Renato},
+  title = {Gest√£o Colaborativa de Projetos},
+  publisher = {Saraiva},
+  year = {2019},
+  note = {Biblioteca da UENF}
+}
+
+@book{projeto-cohn2010desenvolvimento,
+  author = {Cohn, Mike},
+  title = {Desenvolvimento de Software com Scrum},
+  publisher = {Bookman},
+  year = {2010},
+  note = {Biblioteca da UENF}
+}
+
+@book{projeto-schwaber2011scrum,
+  author = {Schwaber, Ken and Beedle, Mike},
+  title = {Scrum Essencial: Um Guia Pr√°tico para o Gerenciamento de Projetos √Ågeis},
+  publisher = {Alta Books},
+  year = {2011},
+  note = {Biblioteca da UENF}
+}
+
+%----------Grupo 8 Intelig√™ncia Artificial
 % ia-conceitos
 @Book{ia-conceitos-StuartRussell-20,
   author =   {Stuart Russell and Peter Norvig},
@@ -4543,7 +5946,7 @@ note = {ISBN-13 : 978-8539910847}
 @Book{ia-conceitos-StuartRussel-22-pt,
   author =   {Stuart J. Russell, Peter Norvig},
   editor =   {GEN LTC},
-  title =   {InteligÍncia Artificial - Uma Abordagem Moderna},
+  title =   {Intelig√™ncia Artificial - Uma Abordagem Moderna},
   edition =   {4},
   year =   {10 agosto 2022}
 }
@@ -4584,23 +5987,23 @@ note = {ISBN-13 : 978-8539910847}
 @Book{ia-conceitos-JohnPaulMueller-pt,
   author =   {John Paul Mueller, Luca Massaron},
   editor =   {Alta Books},
-  title =   {InteligÍncia Artificial Para Leigos},
+  title =   {Intelig√™ncia Artificial Para Leigos},
   edition =   {1},
   year =   {20 dezembro 2019}
 }
 
 @Book{ia-conceitos-AndreCarlosPonce,
-  author =   {AndrÈ Carlos Ponce de Leon Ferreira et al},
+  author =   {Andr√© Carlos Ponce de Leon Ferreira et al},
   editor =   {LTC},
-  title =   {InteligÍncia Artificial - Uma Abordagem de Aprendizado de M·quina},
+  title =   {Intelig√™ncia Artificial - Uma Abordagem de Aprendizado de M√°quina},
   edition =   {2},
-  year =   {12 marÁo 2021}
+  year =   {12 mar√ßo 2021}
 }
 
 @Book{ia-conceitos-MarcosAirton,
   author =   {Marcos Airton de Sousa Freitas, Gabriel Belmino Freitas},
   editor =   {},
-  title =   {InteligÍncia Artificial e Machine Learning: Teoria e AplicaÁıes}
+  title =   {Intelig√™ncia Artificial e Machine Learning: Teoria e Aplica√ß√µes}
 }
 
 % ia-redes
@@ -4623,9 +6026,9 @@ note = {ISBN-13 : 978-8539910847}
 }
 
 @Book{ia-bibliotecas-AurelienGeron,
-  author =   {AurÈlien GÈron},
+  author =   {Aur√©lien G√©ron},
   editor =   {Alta Books},
-  title =   {M„os ‡ obra: aprendizado de m·quina com Scikit-Learn, Keras & TensorFlow: Conceitos, ferramentas e tÈcnicas para a construÁ„o de sistemas inteligentes},
+  title =   {M√£os √† obra: aprendizado de m√°quina com Scikit-Learn, Keras & TensorFlow: Conceitos, ferramentas e t√©cnicas para a constru√ß√£o de sistemas inteligentes},
   edition =   {2},
   year =   {1 setembro 2021}
 }
@@ -4738,3 +6141,12 @@ note = {ISBN-13 : 978-8539910847}
   publisher={Packt Publishing}
 }
 
+%----------Grupo 9 Ferramentas
+% ferramentas-emacs
+@book{ferramentas-emacs-eglot-joao,
+  title={Eglot - Quick Start Guide},
+  author={Jo√£o Tavora},
+  isbn={},
+  url={https://joaotavora.github.io/eglot/},
+  year={2025}
+}
