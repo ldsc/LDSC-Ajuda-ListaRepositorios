@@ -4,7 +4,7 @@
 
 ** O que temos aqui?
 - Este arquivo que você esta lendo contém:
-  - Um resumo com informações do LENEP, do setor de Modelagem Matemática e Computacional e do Laboratório Desenvolvimento Software Científico e Aplicado - LDSC.
+  - Um resumo com informações do LENEP, do setor de Modelagem Matemática e Computacional e do Laboratório de Desenvolvimento Software Científico e Aplicado - LDSC.
   - Um resumo da metodologia adotada nos projetos desenvolvidos pelos alunos.
   - Uma lista de repositórios e projetos desenvolvidos em anos anteriores.
 
@@ -17,22 +17,44 @@
  - 2026/1 - primeiro semestre.
 
 ** O que é o LENEP?
-- Laboratório de Engenharia e Exploração de Petróleo (LENEP) - https://uenf.br/cct/lenep/
-- Vinculado ao CCT (Centro de Ciência e Tecnologia) da UENF.
+- LENEP - Laboratório de Engenharia e Exploração de Petróleo. https://uenf.br/cct/lenep/.
+- CCT - Centro de Ciência e Tecnologia. https://uenf.br/cct/
+- UENF - Universidade Estadual do Norte. https://uenf.br/portal/
 
 ** O que é o Setor de Modelagem Matemática e Computacional?
-- Setor do LENEP/CCT/UENF responsável por atividades de ensino, pesquisa e extensão na área de Matemática Aplicada e Computação aplicada a engenharia de exploração e produção de petróleo. Como exemplo de atuação do setor pode-se citar a formação de recursos humanos – alunos de iniciação científica, mestrado e doutorado; a realização de atividades de ensino – disciplinas do setor; o desenvolvimento de projetos de pesquisa nas áreas de Matemática Aplicada e Computação aplicada a geofísica, a engenharia de petróleo e a computação científica; incluindo a modelagem numérica computacional e o desenvolvimento de softwares científicos e aplicados.
+- Setor do LENEP/CCT/UENF responsável por atividades de ensino, pesquisa e extensão na área de Matemática e Computação Aplicada a Engenharia de Exploração e Produção de Petróleo. Como exemplo de atuação do setor pode-se citar a formação de recursos humanos – alunos de iniciação científica, mestrado e doutorado; a realização de atividades de ensino – disciplinas do setor; o desenvolvimento de projetos de pesquisa nas áreas de Matemática e Computação aplicada a geofísica, a engenharia de petróleo e a computação científica; incluindo a modelagem numérica computacional e o desenvolvimento de softwares científicos, educacionais e de engenharia.
 
-As atividades de pesquisa são desenvolvidas no Laboratório de Desenvolvimento de Software Científico – LDSC.
+** O que é o Laboratório de Desenvolvimento de Software Científico – LDSC?
 
-** O que é o LDSC?
-- Laboratório Desenvolvimento Software Científico e Aplicado - LDSC
+Ambiente com área de 100 m², que abriga até 16 pesquisadores que atuam na área de Modelagem Matemática e Computacional.
 
-** Áreas de Pesquisa Vinculadas:
-- Modelagem Computacional (Algoritmos).
+*** Objetivos do LDSC
+Desenvolver modelos matemáticos, algoritmos e softwares aplicados a engenharia de petróleo.
+
+*** Descrição das instalações do LDSC
+
+- Mesa de reuniões com 8 cadeiras;
+
+- 16 módulos de trabalho para pesquisadores/mestrandos/doutorandos. Cada módulo de trabalho é composto por mesa em L com gaveteiro e Workstations.
+ Equipamentos [requer atualização]
+
+Nome do equipamento: Workstation SUN ULTRA 40 M2; Quantidade: 16; Fabricante: SUN; Modelo: U40M2-2222SE/12GB/3x146GB/FX3500; SUN ULTRA 40 M2 (12 GB RAM e 1 monitor 21' ou dois monitores 19'); Aplicação: Desenvolvimento software científico e aplicado (utilizando preferencialmente software livre, C++ e biblioteca Qt).
+
+Servidor para armazenamento de dados (storage); Quantidade: 1; Fabricante: SUN; Modelo: Unidade de Armazenamento ST3120- 1.2TB-(4x300GB 15K-JBODACRR). Aplicação: Equipamento usado para armazenamento dos dados das simulações.
+
+Servidor para backup em fita (autoloader); Quantidade: 1; Fabricante: SUN; Modelo: SUN Biblioteca de fita SL24 OEM; Aplicação: Backup em fita dos resultados das simulações.
+
+Servidor para gerenciamento simulações. Quantidade: 2; Fabricante: SUN; Modelo: SUN X2200M2:2x2376,4x2GB SR; Servidor Sun Ultra 20 Proc. Opteron 148; Aplicação: Estes dois servidores são usados remotamente para: Compilação de softwares. Gerenciamento de simulações.
+
+Servidor para processamento dados. Quantidade: 2; Fabricante: Microstation; Modelo: Microstation 8 processadores opteron e 64GB RAM. Aplicação: Estes dois servidores são usados remotamente para: Compilação de softwares, simulações que exigem alto poder processamento; processamento paralelo.
+
+Impressora HP 4700dn. Quantidade: 1; Fabricante: HP; Modelo: HP Laserjet 4700dn; Aplicação: Impressão de documentos; relatórios; teses; artigos, etc.
+
+** Áreas de Pesquisa:
+- Modelagem Numérica Computacional (Algoritmos).
 - Modelagem de Software (UML).
 - Programação Orientada a Objeto.
-- Programação em C++.
+- Programação em C++/Python.
 - Programação Paralela e Concorrente.
 - Engenharia de Petróleo.
 - Gestão de Projetos de Engenharia (métodos tradicionais e ágeis).
@@ -46,8 +68,9 @@ As atividades de pesquisa são desenvolvidas no Laboratório de Desenvolvimento 
 - [[https://sites.google.com/view/professorandreduartebueno/ensino/programa%C3%A7%C3%A3o-paralela-e-concorrente][Disciplina Programação Paralela e Concorrente]].
 
 ** Links Externos:
+- [[https://github.com/ldsc][Site do *LDSC - Laboratório de Desenvolvimento de Software Científico e Aplicado* no github]].
+- [[https://sites.google.com/view/engenhariadepetroleo/pesquisa-e-inova%C3%A7%C3%A3o-laborat%C3%B3rios/modelagem-matem%C3%A1tica-e-computacional][Site da graduação, imagens do LDSC]]
 - [[https://sites.google.com/view/professorandreduartebueno/][Site do Professor André Duarte Bueno]].
-- [[https://github.com/ldsc][Site do *LDSC - Laboratório de Desenvolvimento de Software Científico e Aplicado* no github]]
 - [[https://sites.google.com/view/engenhariadepetroleo][Site do Curso de Graduação em Engenharia de Petróleo]].
 - [[https://uenf.br/cct/lenep][Site do LENEP]].
 
@@ -61,19 +84,19 @@ As atividades de pesquisa são desenvolvidas no Laboratório de Desenvolvimento 
 * Resumo da Metodologia de Projetos de Engenharia:
 
 A metodologia irá cobrir as etapas para o desenvolvimento de um projeto de engenharia completo.
+Utiliza o conceito de Nível de Maturidade Tecnológica ou TRL, e tem como base os desafios tecnológicos da Petrobras (basicamente a mesma estrutura).
 
-Fazemos uma relação com o conceito de Nível de Maturidade Tecnológica ou TRL.
-O TRL é utilizado nos projetos da Petrobras (os desafios tecnológicos da Petrobras).
+** Etapas:
 
-Etapas: 
+0 - O professor ou empresa de engenharia elabora um desafio tecnológico.
 
-0 - O professor ou empresa de engenharia elabora um desafio tecnológico ([[https://docs.google.com/forms/d/e/1FAIpQLSc1NaIUvKIFzECj3KPv6JRiD7kXFFd5MeAY1w-JI_yDjrbZmQ/viewform][formulário desafio tecnológico]]).
+Para isso poderá utilizar [[https://docs.google.com/forms/d/e/1FAIpQLSc1NaIUvKIFzECj3KPv6JRiD7kXFFd5MeAY1w-JI_yDjrbZmQ/viewform][formulário desafio tecnológico]] ou clonar o [[https://github.com/ldsc/LDSC-ProjetoEngenharia-1-PropostaDeDesafio-TituloDoDesafioTecnologico][Modelo de desafio tecnológico - github]]
+
 Uma lista de desafios é apresentada nesta [[https://docs.google.com/spreadsheets/d/1mFAjcRhzuePATaSSUSYo3_JaVmPkIi0L7ZfrQe0MMSU/edit?usp=sharing][planilha]].
-Uma lista de projetos antigos é apresentada ao longo deste documento.
-O repositório modelo para criar um desafio tecnológico esta aqui (basta clonar):
-  - https://github.com/ldsc/LDSC-ProjetoEngenharia-1-PropostaDeDesafio-TituloDoDesafioTecnologico
 
-1 - A equipe de alunos seleciona o projeto de seu interesse e elabora um pré-projeto (um esboço); Este pré-projeto é então levado ao professor/empresa que montou o desafio e ao professor da disciplina para aprovarem o pré-projeto.  A ideia aqui é ter certeza que os alunos entenderam o que o professor/empresa quer.
+Uma lista de projetos antigos é apresentada ao longo deste documento.
+
+1 - A equipe de alunos seleciona o projeto de seu interesse e elabora um pré-projeto (um esboço); Este pré-projeto é então levado ao professor/empresa que montou o desafio e ao professor da disciplina para aprovarem o pré-projeto.  A ideia aqui é ter certeza que os alunos entenderam o que o professor/empresa quer e que o mesmo esta dentro do escopo do setor e da engenharia de petróleo.
 
 2- Os alunos montam o projeto (detalhamento do pré-projeto; documento formal que descreve o que vai ser feito).
 Ex: os contratos de projeto que assinamos com a Petrobras.
@@ -85,11 +108,10 @@ O repositório modelo para o projeto completo esta aqui (basta clonar):
 
 4- Os alunos desenvolvem o software em si (ciclos de planejamento/refinar a modelagem; implementar os códigos; realizar testes; montar a documentação).
 
-5- Entrega/defesa do produto final.
+5- Entrega e defesa do produto final.
 
 
 * Lista de Repositórios do LDSC:
-https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 
 ** Repositórios de Ajuda:
 *** Título: LDSC-Ajuda-DocumentosAuxiliares
@@ -107,21 +129,6 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   - Este arquivo contem informações básicas e a lista de repositórios do LDSC.
 - Área:
   - Modelagem computacional.
-
-
-- Link no github:
-  - https://github.com/ldsc/UENF-CCT-LENEP-Repositorio-Documentos
-- Resumo:
-  - Arquivos da UENF, CCT, LENEP para apoio a alunos.
-- Área:
-  - Administrativa.
-
-- Link no github:
-  - https://github.com/ldsc/UENF-CCT-LENEP-Repositorio-Documentos
-- Resumo:
-  - Arquivos da UENF, CCT, LENEP para apoio a alunos.
-- Área:
-  - Administrativa.
 
 *** Título: UENF-CCT-LENEP-Repositorio-Documentos
 - Link no github:
@@ -221,6 +228,8 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 
 ** Repositórios de Softwares Desenvolvidos:
 
+*** Site com informações e imagens de software na página do Prof.Bueno
+- https://sites.google.com/view/professorandreduartebueno/softwares-desenvolvidos/soft-processamento-de-imagens
 *** Título: Software LVP - Laboratório Virtual de Petrofísica
 - Link no github:
   - https://github.com/ldsc/lvp
@@ -278,7 +287,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   - adicionar...
 - Resumo:
   - Software de Análise de Imagens Livre.
-  - Autor: Thiago Schauwer.
+  - Autor: Thiago Schauwer e André Bueno.
 - Área:
   - Análise e processamento de imagens.
   - Dano a formação.
@@ -290,7 +299,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   - https://github.com/ldsc/TCMP-2D
 - Resumo:
   - Transferência de Calor em Meios Porosos 2D (Linguagem: C++/Qt; Método Numérico: FTCS/BTCS).
-  - Autor: Guilherme Lima.
+  - Autor: Guilherme Lima e André Bueno.
   - Publicação:
     - [[https://github.com/ldsc/TCMP-2D/blob/master/doc/ManualTecnico/ProjetoEngenharia-GuilhermeLima.pdf][TCC]] 
     - [[https://github.com/ldsc/TCMP-2D/blob/master/doc/ManualTecnico/R3-SimuladorBidimensionaldeConducaoTransientedeCaloremMeiosPorosos-CCMP-2D.pdf][SimuladorBidimensionaldeConducaoTransientedeCaloremMeiosPorosos-CCMP-2D]]
@@ -310,17 +319,15 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Transferência de calor.
 - Autor:
-  - Nikolas Almeida Pinto.
+  - Nikolas Almeida Pinto e André Bueno.
   - Publicação:
     - [[https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D/blob/master/doc/ManualTecnico/TCC-NikolasAlmeidaPinto.pdf][TCC]] 
     - [[https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D/blob/master/doc/ManualTecnico/Apresentacao_Nicholas_TCC2.pptx][Apresentacao]]
 
 
-*** Título: Software SAIL
-- Link:
-  - https://sites.google.com/view/professorandreduartebueno/softwares-desenvolvidos/soft-processamento-de-imagens
-
-** Repositórios de Projetos Desenvolvidos por Alunos:
+** Repositórios de Projetos Desenvolvidos por Alunos da Disciplina
+Site da disciplina
+[[https://sites.google.com/view/professorandreduartebueno/ensino/projeto-de-software-aplicado][Projeto de Software Aplicado à Engenharia - Programação Prática]]
 
 *** Título: ProjetoEngenharia-AnaliseDoEfeitoDePeliculaAPartirIPR-PocosVerticais-EscoamentoMonofasico
 - Link no github:
@@ -734,7 +741,10 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimuladorDePlanejamentoDasAtividadesDoEstudanteEngenharia
 - Resumo:
-  -
+  - O presente trabalho descreve o desenvolvimento de um software educacional voltado para alunos de Engenharia de Petróleo e áreas afins, com ênfase no estudo e na aplicação dos principais conceitos da disciplina de Engenharia de Poços. O software reúne ferramentas de visualização, análise, simulação e cálculo, abordando os principais tópicos da ementa da disciplina LEP01353 - Engenharia de Poço, ministrada no Laboratório de Engenharia e Exploração de Petróleo (LENEP/CCT/UENF) desde o período letivo 2024/01.
+  - Com uma interface intuitiva, o sistema visa facilitar o aprendizado e o aprofundamento dos usuários, podendo ser utilizado tanto por estudantes da disciplina quanto por outros interessados, independentemente de sua vinculação institucional. Sua proposta é contribuir com o ensino de Engenharia de Poços em contextos didáticos diversos, reforçando o caráter educacional do projeto.
+  - Este documento apresenta a estruturação e o desenvolvimento do projeto, destacando as metodologias utilizadas para garantir sua funcionalidade e relevância no processo de ensino-aprendizagem. O desenvolvimento foi conduzido com base em metodologias ágeis e no uso de controle de versões via Git/GitHub, práticas amplamente adotadas no mercado de trabalho. O software estará disponível publicamente por meio de repositório específico, conforme o link abaixo:
+
 *** Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESolucaoDeProblemasEmEngenhariaDePoco
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SoftwareEducacionalParaAnaliseESolucaoDeProblemasEmEngenhariaDePoco
@@ -747,13 +757,23 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Resumo:
   -
 
-*** Título:
+*** Título: Modelo
 - Link no github:
   -
 - Resumo:
   -
 
+
 ** Repositórios de Projetos Didáticos:
+
+*** Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESolucaoDeProblemasEmEngenhariaDePoco
+- Link no github:
+  - https://github.com/ldsc/ProjetoEngenharia-SoftwareEducacionalParaAnaliseESolucaoDeProblemasEmEngenhariaDePoco
+- Resumo:
+  - O presente trabalho descreve o desenvolvimento de um software educacional voltado para alunos de Engenharia de Petróleo e áreas afins, com ênfase no estudo e na aplicação dos principais conceitos da disciplina de Engenharia de Poços. O software reúne ferramentas de visualização, análise, simulação e cálculo, abordando os principais tópicos da ementa da disciplina LEP01353 - Engenharia de Poço, ministrada no Laboratório de Engenharia e Exploração de Petróleo (LENEP/CCT/UENF) desde o período letivo 2024/01.
+  - Com uma interface intuitiva, o sistema visa facilitar o aprendizado e o aprofundamento dos usuários, podendo ser utilizado tanto por estudantes da disciplina quanto por outros interessados, independentemente de sua vinculação institucional. Sua proposta é contribuir com o ensino de Engenharia de Poços em contextos didáticos diversos, reforçando o caráter educacional do projeto.
+  - Este documento apresenta a estruturação e o desenvolvimento do projeto, destacando as metodologias utilizadas para garantir sua funcionalidade e relevância no processo de ensino-aprendizagem. O desenvolvimento foi conduzido com base em metodologias ágeis e no uso de controle de versões via Git/GitHub, práticas amplamente adotadas no mercado de trabalho. O software estará disponível publicamente por meio de repositório específico, conforme o link abaixo:
+
 *** Título: TCMP-2D
 - Link no github:
   - https://github.com/ldsc/TCMP-2D
@@ -814,7 +834,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Resumo:
   - Projeto de cunho didático que visa ensinar conceitos de modelagem de sistemas de engenharia de forma incremental. A cada nova versão novos conceitos e funcionalidades são apresentados. Inclui modelos UML e códigos.
 
-*** Título:
+*** Título: Modelo
 - Link no github:
   -
 - Resumo:
@@ -852,6 +872,15 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   -
 
 ** Repositórios de Manuais:
+
+*** Título: LDSC-Ajuda-DocumentosAuxiliares
+- Link no github:
+  - https://github.com/ldsc/LDSC-Ajuda-DocumentosAuxiliares
+- Resumo:
+  - Informações sobre softwares e sistemas utilizados nas disciplinas de modelagem computacional do LENEP/CCT/UENF.
+- Área:
+  - Modelagem computacional.
+
 *** Título: ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo
 - Link no github:
   - https://github.com/ldsc/ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo
@@ -864,17 +893,24 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Resumo:
   - É o projeto de engenharia com informações do site do curso de engenharia de petróleo https://sites.google.com/view/engenhariadepetroleo/.
 
-*** Título:
-- Link no github:
-  -
+*** Título: Lista de programas utilizados
+- Link:
+  - https://sites.google.com/view/professorandreduartebueno/ensino/lista-de-programas-a-serem-utilizados
 - Resumo:
-  -
+  - Informações sobre softwares utilizados.
+
+*** Título: Referências Bibliográficas
+- Link:
+  - https://sites.google.com/view/professorandreduartebueno/ensino/bibliografia-programa%C3%A7%C3%A3o
+- Resumo:
+  - Informações sobre referencias bibliográficas utilizadas.
 
 ** Repositórios de Livros:
 *** Título: Livro-0-BaseComum
 - Link no github:
   - https://github.com/ldsc/Livro-0-BaseComum
 - Resumo:
+  - Conjunto de arquivos do LyX/LaTeX/TeX usados como base para construção de material didático pedagógico.
   -
 
 *** Título: Livro-2-IntroducaoAoProjetoDeEngenharia-ProjetoCientifico-Tecnologico-Produtos-AndreDuarteBueno
@@ -882,7 +918,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   - https://github.com/ldsc/Livro-2-IntroducaoAoProjetoDeEngenharia-ProjetoCientifico-Tecnologico-Produtos-AndreDuarteBueno
 - Resumo:
   -
-*** Título: Livro-8-UsandoEmacs
+*** Título: Livro-8-UsandoEmacs-AndreDuarteBueno
 - Link no github:
   - https://github.com/ldsc/Livro-8-UsandoEmacs
 - Resumo:
@@ -894,7 +930,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Resumo:
   -
 
-*** Título: Livro-10-UsandoGitGithub
+*** Título: Livro-10-UsandoGitGithub-AndreDuarteBueno
 - Link no github:
   - https://github.com/ldsc/Livro-10-UsandoGitGithub
 - Resumo:
@@ -912,10 +948,28 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Link no github:
   - https://github.com/ldsc/CGnuplot
 - Resumo:
-  -
+  - Permite comunicação direta com o [[http://www.gnuplot.info/][software gnuplot]].
+  - Gnuplot is a portable command-line driven graphing utility for Linux, Windows, macOS, OS/2, VMS, and other platforms. The source code is copyrighted but freely distributed (you don't have to pay for it). It was originally created to allow scientists and students to visualize mathematical functions and data interactively, but has grown to support many non-interactive uses such as web scripting. It is also used as a plotting engine by third-party applications like Octave. Gnuplot has been supported and under active development since 1986.
+
+*** Título: QCustomPlot
+- Link:
+  - https://www.qcustomplot.com/
+- Resumo:
+  - QCustomPlot is a Qt C++ widget for plotting and data visualization. It has no further dependencies and is well documented. This plotting library focuses on making good looking, publication quality 2D plots, graphs and charts, as well as offering high performance for realtime visualization applications. Have a look at the Setting Up and the Basic Plotting tutorials to get started.
+  - QCustomPlot can export to various formats such as vectorized PDF files and rasterized images like PNG, JPG and BMP. QCustomPlot is the solution for displaying of realtime data inside the application as well as producing high quality plots for other media.
 
 *** Título:
 - Link no github:
   -
 - Resumo:
   -
+
+* Como exportar orgmode para markdow
+No emacs:
+- Carregar a biblioteca de exportação:
+  load-library ox-md
+- Exportar para markdow e abrir no navegador
+  C-c C-e m o
+- É possível adicionar o carregamento no seu arquivo de configuração do emacs:
+(with-eval-after-load 'org
+    (require 'ox-md))
