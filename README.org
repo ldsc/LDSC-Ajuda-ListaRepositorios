@@ -92,7 +92,7 @@ O repositório modelo para o projeto completo esta aqui (basta clonar):
 https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 
 ** Repositórios de Ajuda:
-** Título: LDSC-Ajuda-DocumentosAuxiliares
+*** Título: LDSC-Ajuda-DocumentosAuxiliares
 - Link no github:
   - https://github.com/ldsc/LDSC-Ajuda-DocumentosAuxiliares
 - Resumo:
@@ -100,7 +100,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Modelagem computacional.
 
-** Título: LDSC-Ajuda-ListaRepositorios
+*** Título: LDSC-Ajuda-ListaRepositorios
 - Link no github:
   - https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Resumo:
@@ -123,7 +123,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Administrativa.
 
-** Título: UENF-CCT-LENEP-Repositorio-Documentos
+*** Título: UENF-CCT-LENEP-Repositorio-Documentos
 - Link no github:
   - https://github.com/ldsc/UENF-CCT-LENEP-Repositorio-Documentos
 - Resumo:
@@ -133,7 +133,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 
 ** Repositórios de Modelos:
 
-** Título: LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas-ModeloProfessorBueno
+*** Título: LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas-ModeloProfessorBueno
 - Link no github:
   - https://github.com/ldsc/LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas-ModeloProfessorBueno
 - Resumo:
@@ -141,7 +141,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Modelagem computacional.
 
-** Título: LDSC-ProjetoEngenharia-1-PropostaDeDesafio-TituloDoDesafioTecnologico
+*** Título: LDSC-ProjetoEngenharia-1-PropostaDeDesafio-TituloDoDesafioTecnologico
 - Link no github:
   - https://github.com/ldsc/LDSC-ProjetoEngenharia-1-PropostaDeDesafio-TituloDoDesafioTecnologico
 - Resumo:
@@ -151,7 +151,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   - Modelagem computacional.
   - Engenharia de petróleo.
 
-** Título: LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloCompleto
+*** Título: LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloCompleto
 - Link no github:
   - https://github.com/ldsc/LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloCompleto
 - Resumo:
@@ -162,20 +162,20 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   - Modelagem computacional.
   - Engenharia de petróleo.
 
-** Título: LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloAntigoDesativado
+*** Título: LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloAntigoDesativado
 - Link no github:
   - https://github.com/ldsc/LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloAntigoDesativado
 - Resumo:
   - Modelo de projeto de engenharia (usado até 2023/2).
   - Não incluia a parte de gestão (metodologia, desafio tecnológico, pré-projeto e projeto).
 
-** Título: LDSC-Modelo-MicroProjetoSoftware-TituloProjeto
+*** Título: LDSC-Modelo-MicroProjetoSoftware-TituloProjeto
 - Link no github:
   - https://github.com/ldsc/LDSC-Modelo-MicroProjetoSoftware-TituloProjeto
 - Resumo:
   - Um modelo de projeto mais enxuto. Use para pequenos exemplos de projetos, curta duração, didáticos.
 
-** Título: LDSC-Modelo-TrabalhoAcademico-01-OrganizacaoPessoal
+*** Título: LDSC-Modelo-TrabalhoAcademico-01-OrganizacaoPessoal
 - Link no github:
   - https://github.com/ldsc/LDSC-Modelo-TrabalhoAcademico-01-OrganizacaoPessoal
 - Resumo:
@@ -185,7 +185,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   - Ensino.
   - Gestão pessoal.
 
-** Título: LDSC-Modelo-TrabalhoAcademico-02-ArquivoUnico
+*** Título: LDSC-Modelo-TrabalhoAcademico-02-ArquivoUnico
 - Link no github:
   - https://github.com/ldsc/LDSC-Modelo-TrabalhoAcademico-02-ArquivoUnico
 - Resumo:
@@ -193,7 +193,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Ensino.
 
-** Título: LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto
+*** Título: LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto
 - Link no github:
   - https://github.com/ldsc/LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto
 - Resumo:
@@ -204,7 +204,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 
 ** Repositórios de Bibliotecas Desenvolvidas:
 
-** Título: Biblioteca lib_ldsc
+*** Título: Biblioteca lib_ldsc
 - Link no github:
   - https://github.com/ldsc/lib_ldsc
 - Resumo:
@@ -221,7 +221,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 
 ** Repositórios de Softwares Desenvolvidos:
 
-** Título: Software LVP - Laboratório Virtual de Petrofísica
+*** Título: Software LVP - Laboratório Virtual de Petrofísica
 - Link no github:
   - https://github.com/ldsc/lvp
 - Resumo:
@@ -249,7 +249,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Análise e processamento de imagens.
 
-** Título: Simulat - Simulador Transferência Calor e Massa em Meios Porosos
+*** Título: Simulat - Simulador Transferência Calor e Massa em Meios Porosos
 - Link no github:
   - https://github.com/ldsc/simulat
 - Resumo:
@@ -262,7 +262,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   - Transferência de calor e massa.
   - Conforto ambiental.
 
-** Título: Software-CaracterizacaoDeRochaDigitalUsando-IA-InteligenciaArtificial-SegmentacaoImagens
+*** Título: Software-CaracterizacaoDeRochaDigitalUsando-IA-InteligenciaArtificial-SegmentacaoImagens
 - Link no github:
   - https://github.com/ldsc/Software-CaracterizacaoDeRochaDigitalUsando-IA-InteligenciaArtificial-SegmentacaoImagens
 - Resumo:
@@ -273,7 +273,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Análise e processamento de imagens. 
 
-** Título: SAIL - Software de Análise de Imagens Livre
+*** Título: SAIL - Software de Análise de Imagens Livre
 - Link no github:
   - adicionar...
 - Resumo:
@@ -285,7 +285,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   - Engenharia de reservatório.
   - Petrofísica.
 
-** Título: TCMP-2D
+*** Título: TCMP-2D
 - Link no github:
   - https://github.com/ldsc/TCMP-2D
 - Resumo:
@@ -298,7 +298,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Transferência de calor.
 
-** Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D
+*** Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D
 - Resumo:
@@ -316,13 +316,13 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
     - [[https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D/blob/master/doc/ManualTecnico/Apresentacao_Nicholas_TCC2.pptx][Apresentacao]]
 
 
-** Título: Software SAIL
+*** Título: Software SAIL
 - Link:
   - https://sites.google.com/view/professorandreduartebueno/softwares-desenvolvidos/soft-processamento-de-imagens
 
 ** Repositórios de Projetos Desenvolvidos por Alunos:
 
-** Título: ProjetoEngenharia-AnaliseDoEfeitoDePeliculaAPartirIPR-PocosVerticais-EscoamentoMonofasico
+*** Título: ProjetoEngenharia-AnaliseDoEfeitoDePeliculaAPartirIPR-PocosVerticais-EscoamentoMonofasico
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-AnaliseDoEfeitoDePeliculaAPartirIPR-PocosVerticais-EscoamentoMonofasico
 - Resumo:
@@ -332,7 +332,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-AnaliseQuedaPressaoDevidoMigracaoFinosOcasionadaInjecaoAguaBaixaSalinidade
+*** Título: ProjetoEngenharia-AnaliseQuedaPressaoDevidoMigracaoFinosOcasionadaInjecaoAguaBaixaSalinidade
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-AnaliseQuedaPressaoDevidoMigracaoFinosOcasionadaInjecaoAguaBaixaSalinidade
 - Resumo:
@@ -341,7 +341,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-AplicacaoCorrelacoesCalculoParametrosReservartorioPropriedadesFluidos-Blackoil
+*** Título: ProjetoEngenharia-AplicacaoCorrelacoesCalculoParametrosReservartorioPropriedadesFluidos-Blackoil
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-AplicacaoCorrelacoesCalculoParametrosReservartorioPropriedadesFluidos-Blackoil
 - Resumo:
@@ -350,7 +350,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-AutomacaoDaDefinicaoDoVolumeElementarRepresentativo
+*** Título: ProjetoEngenharia-AutomacaoDaDefinicaoDoVolumeElementarRepresentativo
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-AutomacaoDaDefinicaoDoVolumeElementarRepresentativo
 - Resumo:
@@ -362,7 +362,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Petrofísica.
 
-** Título: ProjetoEngenharia-AvaliacaoCondicaoExperimentalSeparacaoComponentesDoPetroleoPorCromatografiaLiquida
+*** Título: ProjetoEngenharia-AvaliacaoCondicaoExperimentalSeparacaoComponentesDoPetroleoPorCromatografiaLiquida
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-AvaliacaoCondicaoExperimentalSeparacaoComponentesDoPetroleoPorCromatografiaLiquida
 - Resumo:
@@ -370,7 +370,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Geoquímica.
 
-** Título: ProjetoEngenharia-AvaliacaoDasCondicoesExperimentaisParaSeparacaoDeComponentesDoPetroleoPorCromatogr
+*** Título: ProjetoEngenharia-AvaliacaoDasCondicoesExperimentaisParaSeparacaoDeComponentesDoPetroleoPorCromatogr
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-AvaliacaoDasCondicoesExperimentaisParaSeparacaoDeComponentesDoPetroleoPorCromatogr
 - Resumo:
@@ -379,7 +379,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Geoquímica.
 
-** Título: ProjetoEngenharia-AvaliacaoFormacoesPorDadosDeTestesDePressao
+*** Título: ProjetoEngenharia-AvaliacaoFormacoesPorDadosDeTestesDePressao
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-AvaliacaoFormacoesPorDadosDeTestesDePressao
 - Resumo:
@@ -388,7 +388,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-BancoDeDadosFluidosPerfuracao
+*** Título: ProjetoEngenharia-BancoDeDadosFluidosPerfuracao
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-BancoDeDadosFluidosPerfuracao
 - Resumo:
@@ -397,7 +397,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de poço.
 
-** Título: ProjetoEngenharia-CalculoDaTrajetoriaDirecionalParaperfuracaoDePocosDePetroleo-TIPO-1-BUILD-AND-HOLD
+*** Título: ProjetoEngenharia-CalculoDaTrajetoriaDirecionalParaperfuracaoDePocosDePetroleo-TIPO-1-BUILD-AND-HOLD
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-CalculoDaTrajetoriaDirecionalParaperfuracaoDePocosDePetroleo-TIPO-1-BUILD-AND-HOLD
 - Resumo:
@@ -406,7 +406,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de poço.
 
-** Título: ProjetoEngenharia-CalculoDosFatoresDeRecuperacaoAvancadaDePetroleoAPartirDeTesteDeFluxoEmMeiosPoroso
+*** Título: ProjetoEngenharia-CalculoDosFatoresDeRecuperacaoAvancadaDePetroleoAPartirDeTesteDeFluxoEmMeiosPoroso
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-CalculoDosFatoresDeRecuperacaoAvancadaDePetroleoAPartirDeTesteDeFluxoEmMeiosPoroso
 - Resumo:
@@ -422,7 +422,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-CalculoIndiceProdutividadePocos
+*** Título: ProjetoEngenharia-CalculoIndiceProdutividadePocos
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-CalculoIndiceProdutividadePocos
 - Resumo:
@@ -430,7 +430,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de poço.
 
-** Título: ProjetoEngenharia-CalculoPerdaCargaDistribuidaFluidoNoDecorrerEscoamento
+*** Título: ProjetoEngenharia-CalculoPerdaCargaDistribuidaFluidoNoDecorrerEscoamento
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-CalculoPerdaCargaDistribuidaFluidoNoDecorrerEscoamento
 - Resumo:
@@ -440,7 +440,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   - Engenharia de elevação e escoamento.
   - Engenharia de poço.
 
-** Título: ProjetoEngenharia-CalculoVolumesFluidosPerfuracaoCimentacaoTubosETempoPerfuracao
+*** Título: ProjetoEngenharia-CalculoVolumesFluidosPerfuracaoCimentacaoTubosETempoPerfuracao
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-CalculoVolumesFluidosPerfuracaoCimentacaoTubosETempoPerfuracao
 - Resumo:
@@ -448,7 +448,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de poço.
 
-** Título: ProjetoEngenharia-CorrelacoesPVT
+*** Título: ProjetoEngenharia-CorrelacoesPVT
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-CorrelacoesPVT
 - Resumo:
@@ -456,7 +456,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-ESPPERFORMANCE-SimuladorDeCurvasDeDesempenhoDe-BCS-HEAD-ePerdasCarga
+*** Título: ProjetoEngenharia-ESPPERFORMANCE-SimuladorDeCurvasDeDesempenhoDe-BCS-HEAD-ePerdasCarga
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-ESPPERFORMANCE-SimuladorDeCurvasDeDesempenhoDe-BCS-HEAD-ePerdasCarga
 - Resumo:
@@ -465,7 +465,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de elevação e escoamento.
 
-** Título: ProjetoEngenharia-FluxoMonofasicoReativoEmMeiosPorosos
+*** Título: ProjetoEngenharia-FluxoMonofasicoReativoEmMeiosPorosos
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-FluxoMonofasicoReativoEmMeiosPorosos
 - Resumo:
@@ -473,7 +473,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-ModelosDeAquiferosAnaliticos
+*** Título: ProjetoEngenharia-ModelosDeAquiferosAnaliticos
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-ModelosDeAquiferosAnaliticos
 - Resumo:
@@ -482,7 +482,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-ModelosDeDeslocamentoImiscivelParaRecuperacaoSecundariaDePetroleo
+*** Título: ProjetoEngenharia-ModelosDeDeslocamentoImiscivelParaRecuperacaoSecundariaDePetroleo
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-ModelosDeDeslocamentoImiscivelParaRecuperacaoSecundariaDePetroleo
 - Resumo:
@@ -491,7 +491,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-PrevisaoComportamentoDeReservatoriosDeOleoComCapaDeGasOuGasEmSolucaoEOleo-GasComIn
+*** Título: ProjetoEngenharia-PrevisaoComportamentoDeReservatoriosDeOleoComCapaDeGasOuGasEmSolucaoEOleo-GasComIn
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-PrevisaoComportamentoDeReservatoriosDeOleoComCapaDeGasOuGasEmSolucaoEOleo-GasComIn
 - Resumo:
@@ -500,7 +500,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-PropriedadesFisicasRochasSedimentaresUtilizandoDadosObtidosPorAnaliseDeImagens
+*** Título: ProjetoEngenharia-PropriedadesFisicasRochasSedimentaresUtilizandoDadosObtidosPorAnaliseDeImagens
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-PropriedadesFisicasRochasSedimentaresUtilizandoDadosObtidosPorAnaliseDeImagens
 - Resumo:
@@ -510,7 +510,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Petrofísica.
 
-** Título: ProjetoEngenharia-SimulacaoDeCurvasIPRUtilizandoModelosEmpiricosEmPocosVerticais
+*** Título: ProjetoEngenharia-SimulacaoDeCurvasIPRUtilizandoModelosEmpiricosEmPocosVerticais
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimulacaoDeCurvasIPRUtilizandoModelosEmpiricosEmPocosVerticais
 - Resumo:
@@ -520,7 +520,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-SimulacaoPropriedadesTermodinamicasSubstanciasSimplesECompostas
+*** Título: ProjetoEngenharia-SimulacaoPropriedadesTermodinamicasSubstanciasSimplesECompostas
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimulacaoPropriedadesTermodinamicasSubstanciasSimplesECompostas
 - Resumo:
@@ -529,7 +529,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-SimuladorDeEstimativaDeReservaUtilizandoEBM-EnfoqueReservatoriosGas
+*** Título: ProjetoEngenharia-SimuladorDeEstimativaDeReservaUtilizandoEBM-EnfoqueReservatoriosGas
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimuladorDeEstimativaDeReservaUtilizandoEBM-EnfoqueReservatoriosGas
 - Resumo:
@@ -541,7 +541,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-SimuladorDeReservatorioMonofasico2D
+*** Título: ProjetoEngenharia-SimuladorDeReservatorioMonofasico2D
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimuladorDeReservatorioMonofasico2D
 - Resumo:
@@ -549,7 +549,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-SimuladorDeTracoSismico
+*** Título: ProjetoEngenharia-SimuladorDeTracoSismico
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimuladorDeTracoSismico
 - Resumo:
@@ -557,7 +557,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Geofísica.
 
-** Título: ProjetoEngenharia-SimuladorHidraulicaPerfuracaoPoco
+*** Título: ProjetoEngenharia-SimuladorHidraulicaPerfuracaoPoco
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimuladorHidraulicaPerfuracaoPoco
 - Resumo:
@@ -565,7 +565,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-SimuladorPropriedadesMaterialSubmetidoCorrosaoPorDioxidoDeCarbono
+*** Título: ProjetoEngenharia-SimuladorPropriedadesMaterialSubmetidoCorrosaoPorDioxidoDeCarbono
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimuladorPropriedadesMaterialSubmetidoCorrosaoPorDioxidoDeCarbono
 - Resumo:
@@ -573,7 +573,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Corrosão.
 
-** Título: rojetoEngenharia-SimuladorReservatorio2D
+*** Título: rojetoEngenharia-SimuladorReservatorio2D
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimuladorReservatorio2D
 - Resumo:
@@ -583,7 +583,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-SimuladorSolucoesAnaliticasAdmensionaisEqDifusividadeHidraulicaFluxosLinearERadial
+*** Título: ProjetoEngenharia-SimuladorSolucoesAnaliticasAdmensionaisEqDifusividadeHidraulicaFluxosLinearERadial
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimuladorSolucoesAnaliticasAdmensionaisEqDifusividadeHidraulicaFluxosLinearERadial
 - Resumo:
@@ -592,7 +592,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-SimuladorSubstituicaoFluidoEmodelagemAVO
+*** Título: ProjetoEngenharia-SimuladorSubstituicaoFluidoEmodelagemAVO
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimuladorSubstituicaoFluidoEmodelagemAVO
 - Resumo:
@@ -601,7 +601,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Geofísica
 
-** Título: ProjetoEngenharia-SoftwareCaracterizacaoDeReservatoriosIntegradoAAnalisePetrofisica
+*** Título: ProjetoEngenharia-SoftwareCaracterizacaoDeReservatoriosIntegradoAAnalisePetrofisica
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SoftwareCaracterizacaoDeReservatoriosIntegradoAAnalisePetrofisica
 - Resumo:
@@ -610,7 +610,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Petrofísica.
 
-** Título: ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT
+*** Título: ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT
 - Resumo:
@@ -618,7 +618,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Equipamentos de laboratório.
 
-** Título: rojetoEngenharia-SoftwareDeComunicacao-MedidorLCR
+*** Título: rojetoEngenharia-SoftwareDeComunicacao-MedidorLCR
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SoftwareDeComunicacao-MedidorLCR
 - Resumo:
@@ -626,7 +626,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Equipamentos de laboratório.
 
-** Título: ProjetoEngenharia-SoftwareParaCalculoDeIncrustacaoNaProducaoDePetroleo
+*** Título: ProjetoEngenharia-SoftwareParaCalculoDeIncrustacaoNaProducaoDePetroleo
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SoftwareParaCalculoDeIncrustacaoNaProducaoDePetroleo
 - Resumo:
@@ -635,7 +635,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   - Engenharia de reservatório.
   - Petrofísica.
 
-** Título: ProjetoEngenharia-SoftwareParaCalculoDePropriedadesReologicasDeFluidosDePerfuracao
+*** Título: ProjetoEngenharia-SoftwareParaCalculoDePropriedadesReologicasDeFluidosDePerfuracao
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SoftwareParaCalculoDePropriedadesReologicasDeFluidosDePerfuracao
 - Resumo:
@@ -643,7 +643,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de poço.
 
-** Título: ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas
+*** Título: ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas
 - Resumo:
@@ -657,7 +657,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Geoquímica.
 
-** Título: ProjetoEngenharia-SoftwareQueCalculaPropriedadesPetrofisicasPocoAPartirEquacoesDaFisica
+*** Título: ProjetoEngenharia-SoftwareQueCalculaPropriedadesPetrofisicasPocoAPartirEquacoesDaFisica
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SoftwareQueCalculaPropriedadesPetrofisicasPocoAPartirEquacoesDaFisica
 - Resumo:
@@ -670,7 +670,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Petrofísica.
 
-** Título: ProjetoEngenharia-SPTSP-Helmholtz
+*** Título: ProjetoEngenharia-SPTSP-Helmholtz
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SPTSP-Helmholtz
 - Resumo:
@@ -680,7 +680,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Engenharia de reservatório.
 
-** Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D
+*** Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D
 - Resumo:
@@ -692,7 +692,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Transferência de calor.
 
-** Título: ProjetoEngenharia-TratamentoEstatisticoDadosGeoquimicos
+*** Título: ProjetoEngenharia-TratamentoEstatisticoDadosGeoquimicos
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-TratamentoEstatisticoDadosGeoquimicos
 - Resumo:
@@ -701,60 +701,60 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Geoquímica.
 
-** Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESelecaoDeInibidoresDeCorrosao
+*** Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESelecaoDeInibidoresDeCorrosao
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SoftwareEducacionalParaAnaliseESelecaoDeInibidoresDeCorrosao
 - Resumo:
   -
 
-** Título: ProjetoEngenharia-SimuladorDePropriedadesPoroelasticas
+*** Título: ProjetoEngenharia-SimuladorDePropriedadesPoroelasticas
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimuladorDePropriedadesPoroelasticas
 - Resumo:
   -
 
-** Título: ProjetoEngenharia-GeoLogViewer-FerramentaDeLeituraEVisualizacaoDeDadosGeof-sicosDeArquivos-LAS
+*** Título: ProjetoEngenharia-GeoLogViewer-FerramentaDeLeituraEVisualizacaoDeDadosGeof-sicosDeArquivos-LAS
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-GeoLogViewer-FerramentaDeLeituraEVisualizacaoDeDadosGeof-sicosDeArquivos-LAS
 - Resumo:
   -
 
-** Título: ProjetoEngenharia-SoftwareAnaliseEncrustacaoAmostrasSalmouras
+*** Título: ProjetoEngenharia-SoftwareAnaliseEncrustacaoAmostrasSalmouras
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SoftwareAnaliseEncrustacaoAmostrasSalmouras
 - Resumo:
   -
 
-** Título: ProjetoEngenharia-SimuladorDoEfeitoSismoeletrico
+*** Título: ProjetoEngenharia-SimuladorDoEfeitoSismoeletrico
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimuladorDoEfeitoSismoeletrico
 - Resumo:
   -
-** Título: ProjetoEngenharia-SimuladorDePlanejamentoDasAtividadesDoEstudanteEngenharia
+*** Título: ProjetoEngenharia-SimuladorDePlanejamentoDasAtividadesDoEstudanteEngenharia
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimuladorDePlanejamentoDasAtividadesDoEstudanteEngenharia
 - Resumo:
   -
-** Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESolucaoDeProblemasEmEngenhariaDePoco
+*** Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESolucaoDeProblemasEmEngenhariaDePoco
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SoftwareEducacionalParaAnaliseESolucaoDeProblemasEmEngenhariaDePoco
 - Resumo:
   -
 
-** Título: ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas
+*** Título: ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas
 - Resumo:
   -
 
-** Título:
+*** Título:
 - Link no github:
   -
 - Resumo:
   -
 
 ** Repositórios de Projetos Didáticos:
-** Título: TCMP-2D
+*** Título: TCMP-2D
 - Link no github:
   - https://github.com/ldsc/TCMP-2D
 - Resumo:
@@ -767,7 +767,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Transferência de calor.
 
-** Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D
+*** Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D
 - Resumo:
@@ -784,123 +784,123 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
     - [[https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D/blob/master/doc/ManualTecnico/TCC-NikolasAlmeidaPinto.pdf][TCC]] 
     - [[https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D/blob/master/doc/ManualTecnico/Apresentacao_Nicholas_TCC2.pptx][Apresentacao]]
 
-** Título: ProjetoEngenharia-SistemaAcademico (didático)
+*** Título: ProjetoEngenharia-SistemaAcademico (didático)
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SistemaAcademico
 - Resumo:
   - Mostrar o desenvolvimento de modelos UML com um exemplo administrativo conhecido dos alunos, o sistema acadêmico.
 
-** Título: MicroProjetoSoftware-RedePercolacao-2D
+*** Título: MicroProjetoSoftware-RedePercolacao-2D
 - Link no github:
   - https://github.com/ldsc/MicroProjetoSoftware-RedePercolacao-2D
 - Resumo:
   - Exemplo de micro projeto, visa mostrar a construção e uso de redes de percolação em 2D.
 
-** Título: ProjetoEngenharia-Didatico-00-AnimacoesMatematicasFisicas
+*** Título: ProjetoEngenharia-Didatico-00-AnimacoesMatematicasFisicas
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-Didatico-00-AnimacoesMatematicasFisicas
 - Resumo:
   - Mostra o uso de animações em 2D.
 
-** Título: ProjetoEngenharia-Didatico-01-MetNum-IntegracaoNumerica
+*** Título: ProjetoEngenharia-Didatico-01-MetNum-IntegracaoNumerica
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-Didatico-01-MetNum-IntegracaoNumerica
 - Resumo:
   - Projeto de cunho didático que visa ensinar conceitos de programação em C++ de forma progressiva. Parte de exemplos usando paradigma da programação estruturada e depois mostra diferentes versões orientadas a objeto. A cada nova versão novas funcionalidades e novos conceitos de programação e C++ são apresentados. Inclui modelos UML e códigos. Inclui exemplos com uso de gnuplot, Qt-CustomPlot e Qt.
 
-** Título: ProjetoEngenharia-Didatico-03-Equipamentos-SistemaInterruptorLampada
+*** Título: ProjetoEngenharia-Didatico-03-Equipamentos-SistemaInterruptorLampada
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-Didatico-03-Equipamentos-SistemaInterruptorLampada
 - Resumo:
   - Projeto de cunho didático que visa ensinar conceitos de modelagem de sistemas de engenharia de forma incremental. A cada nova versão novos conceitos e funcionalidades são apresentados. Inclui modelos UML e códigos.
 
-** Título:
+*** Título:
 - Link no github:
   -
 - Resumo:
   -
 
 ** Repositórios de Dados:
-** Título: CursoGraduacao-EngenhariaPetroleo-7-Dados-e-AnalisesDoCurso
+*** Título: CursoGraduacao-EngenhariaPetroleo-7-Dados-e-AnalisesDoCurso
 - Link no github:
   - https://github.com/ldsc/CursoGraduacao-EngenhariaPetroleo-7-Dados-e-AnalisesDoCurso
 - Resumo:
   -
 
-** Título: ProjetoExemplo-DisciplinaProjetoEngenharia
+*** Título: ProjetoExemplo-DisciplinaProjetoEngenharia
 - Link no github:
   - https://github.com/ldsc/ProjetoExemplo-DisciplinaProjetoEngenharia
 - Resumo:
   -
 
-** Título: ModeloDiretorio-Disciplina
+*** Título: ModeloDiretorio-Disciplina
 - Link no github:
   - https://github.com/ldsc/ModeloDiretorio-Disciplina
 - Resumo:
   -
 
-** Título: ModeloDiretorio-Administrativo
+*** Título: ModeloDiretorio-Administrativo
 - Link no github:
   - https://github.com/ldsc/ModeloDiretorio-Administrativo
 - Resumo:
   -
 
-** Título:
+*** Título:
 - Link no github:
   -
 - Resumo:
   -
 
 ** Repositórios de Manuais:
-** Título: ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo
+*** Título: ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo
 - Link no github:
   - https://github.com/ldsc/ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo
 - Resumo:
   - Explica de forma contextualizada o sistema acadêmico da UENF.
 
-** Título: Aplicativo-SiteDoCursoDeEngenhariaDePetroleo-UENF
+*** Título: Aplicativo-SiteDoCursoDeEngenhariaDePetroleo-UENF
 - Link no github:
   - https://github.com/ldsc/Aplicativo-SiteDoCursoDeEngenhariaDePetroleo-UENF
 - Resumo:
   - É o projeto de engenharia com informações do site do curso de engenharia de petróleo https://sites.google.com/view/engenhariadepetroleo/.
 
-** Título:
+*** Título:
 - Link no github:
   -
 - Resumo:
   -
 
 ** Repositórios de Livros:
-** Título: Livro-0-BaseComum
+*** Título: Livro-0-BaseComum
 - Link no github:
   - https://github.com/ldsc/Livro-0-BaseComum
 - Resumo:
   -
 
-** Título: Livro-2-IntroducaoAoProjetoDeEngenharia-ProjetoCientifico-Tecnologico-Produtos-AndreDuarteBueno
+*** Título: Livro-2-IntroducaoAoProjetoDeEngenharia-ProjetoCientifico-Tecnologico-Produtos-AndreDuarteBueno
 - Link no github:
   - https://github.com/ldsc/Livro-2-IntroducaoAoProjetoDeEngenharia-ProjetoCientifico-Tecnologico-Produtos-AndreDuarteBueno
 - Resumo:
   -
-** Título: Livro-8-UsandoEmacs
+*** Título: Livro-8-UsandoEmacs
 - Link no github:
   - https://github.com/ldsc/Livro-8-UsandoEmacs
 - Resumo:
   -
 
-** Título: Livro-9-UsandoGnuplot-AndreDuarteBueno
+*** Título: Livro-9-UsandoGnuplot-AndreDuarteBueno
 - Link no github:
   - https://github.com/ldsc/Livro-9-UsandoGnuplot-AndreDuarteBueno
 - Resumo:
   -
 
-** Título: Livro-10-UsandoGitGithub
+*** Título: Livro-10-UsandoGitGithub
 - Link no github:
   - https://github.com/ldsc/Livro-10-UsandoGitGithub
 - Resumo:
   -
 
-** Título:
+*** Título:
 
 - Link no github:
   -
@@ -908,13 +908,13 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   -
 
 ** Repositórios de Bibliotecas Usadas:
-** Título: CGnuplot
+*** Título: CGnuplot
 - Link no github:
   - https://github.com/ldsc/CGnuplot
 - Resumo:
   -
 
-** Título:
+*** Título:
 - Link no github:
   -
 - Resumo:
