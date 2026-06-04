@@ -51,7 +51,7 @@ As atividades de pesquisa são desenvolvidas no Laboratório de Desenvolvimento 
 - [[https://sites.google.com/view/engenhariadepetroleo][Site do Curso de Graduação em Engenharia de Petróleo]].
 - [[https://uenf.br/cct/lenep][Site do LENEP]].
 
-* Contato:
+** Contato:
 - André Duarte Bueno
   - [[mailto:andreduartebueno@gmail.com][andreduartebueno@gmail.com]]
   - [[mailto:bueno@lenep.uenf.br][bueno@lenep.uenf.br]]
@@ -91,7 +91,7 @@ O repositório modelo para o projeto completo esta aqui (basta clonar):
 * Lista de Repositórios do LDSC:
 https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 
-* Repositórios de Ajuda:
+** Repositórios de Ajuda:
 ** Título: LDSC-Ajuda-DocumentosAuxiliares
 - Link no github:
   - https://github.com/ldsc/LDSC-Ajuda-DocumentosAuxiliares
@@ -131,8 +131,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Administrativa.
 
-
-* Repositórios com Modelos:
+** Repositórios de Modelos:
 
 ** Título: LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas-ModeloProfessorBueno
 - Link no github:
@@ -203,7 +202,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
   - Metodologia científica.
   - Organização/gestão pessoal.
 
-* Repositórios de Bibliotecas Desenvolvidas:
+** Repositórios de Bibliotecas Desenvolvidas:
 
 ** Título: Biblioteca lib_ldsc
 - Link no github:
@@ -220,8 +219,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Área:
   - Análise e processamento de imagens.
 
-
-* Repositórios de Softwares Desenvolvidos:
+** Repositórios de Softwares Desenvolvidos:
 
 ** Título: Software LVP - Laboratório Virtual de Petrofísica
 - Link no github:
@@ -322,7 +320,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Link:
   - https://sites.google.com/view/professorandreduartebueno/softwares-desenvolvidos/soft-processamento-de-imagens
 
-* Repositórios de Projetos Desenvolvidos por Alunos:
+** Repositórios de Projetos Desenvolvidos por Alunos:
 
 ** Título: ProjetoEngenharia-AnaliseDoEfeitoDePeliculaAPartirIPR-PocosVerticais-EscoamentoMonofasico
 - Link no github:
@@ -755,8 +753,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Resumo:
   -
 
-
-* Repositórios com Projetos Didáticos:
+** Repositórios de Projetos Didáticos:
 ** Título: TCMP-2D
 - Link no github:
   - https://github.com/ldsc/TCMP-2D
@@ -823,8 +820,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Resumo:
   -
 
-
-* Repositórios de Dados:
+** Repositórios de Dados:
 ** Título: CursoGraduacao-EngenhariaPetroleo-7-Dados-e-AnalisesDoCurso
 - Link no github:
   - https://github.com/ldsc/CursoGraduacao-EngenhariaPetroleo-7-Dados-e-AnalisesDoCurso
@@ -855,8 +851,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Resumo:
   -
 
-
-* Repositórios de Manuais:
+** Repositórios de Manuais:
 ** Título: ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo
 - Link no github:
   - https://github.com/ldsc/ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo
@@ -875,7 +870,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Resumo:
   -
 
-* Repositórios de Livros:
+** Repositórios de Livros:
 ** Título: Livro-0-BaseComum
 - Link no github:
   - https://github.com/ldsc/Livro-0-BaseComum
@@ -912,7 +907,7 @@ https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Resumo:
   -
 
-* Repositórios de Bibliotecas Usadas:
+** Repositórios de Bibliotecas Usadas:
 ** Título: CGnuplot
 - Link no github:
   - https://github.com/ldsc/CGnuplot
