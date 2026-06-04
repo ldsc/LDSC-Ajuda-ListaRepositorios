@@ -1,25 +1,34 @@
 #+TITLE: LDSC-Ajuda-ListaRepositorios
 
-* Link:
-- https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
+* Sobre:
+
+** O que temos aqui?
 - Este arquivo que você esta lendo contém:
-  - um resumo da metodologia adotada.
-  - uma lista de repositórios e projetos desenvolvidos em anos anteriores.
+  - Um resumo com informações do LENEP, do setor de Modelagem Matemática e Computacional e do Laboratório Desenvolvimento Software Científico e Aplicado - LDSC.
+  - Um resumo da metodologia adotada nos projetos desenvolvidos pelos alunos.
+  - Uma lista de repositórios e projetos desenvolvidos em anos anteriores.
 
-* Versão: 
-- 1.1.
+- https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 
-* Data:
-- 2026/1 - primeiro semestre.
-  
-* Autor de Contato:
-- André Duarte Bueno
-  - [[mailto:andreduartebueno@gmail.com][andreduartebueno@gmail.com]]
-  - [[mailto:bueno@lenep.uenf.br][bueno@lenep.uenf.br]]
-  - [[https://sites.google.com/view/professorandreduartebueno/][site do professor]]
-  - [[https://sites.google.com/view/professorandreduartebueno/ensino/introdu%C3%A7%C3%A3o-ao-projeto-de-engenharia][site da disciplina de introdução ao projeto de engenharia]].
-  
-* Áreas de Pesquisa Vinculadas:
+- Versão:
+ - 1.1.
+
+- Data:
+ - 2026/1 - primeiro semestre.
+
+** O que é o LENEP?
+- Laboratório de Engenharia e Exploração de Petróleo (LENEP) - https://uenf.br/cct/lenep/
+- Vinculado ao CCT (Centro de Ciência e Tecnologia) da UENF.
+
+** O que é o Setor de Modelagem Matemática e Computacional?
+- Setor do LENEP/CCT/UENF responsável por atividades de ensino, pesquisa e extensão na área de Matemática Aplicada e Computação aplicada a engenharia de exploração e produção de petróleo. Como exemplo de atuação do setor pode-se citar a formação de recursos humanos – alunos de iniciação científica, mestrado e doutorado; a realização de atividades de ensino – disciplinas do setor; o desenvolvimento de projetos de pesquisa nas áreas de Matemática Aplicada e Computação aplicada a geofísica, a engenharia de petróleo e a computação científica; incluindo a modelagem numérica computacional e o desenvolvimento de softwares científicos e aplicados.
+
+As atividades de pesquisa são desenvolvidas no Laboratório de Desenvolvimento de Software Científico – LDSC.
+
+** O que é o LDSC?
+- Laboratório Desenvolvimento Software Científico e Aplicado - LDSC
+
+** Áreas de Pesquisa Vinculadas:
 - Modelagem Computacional (Algoritmos).
 - Modelagem de Software (UML).
 - Programação Orientada a Objeto.
@@ -29,22 +38,30 @@
 - Gestão de Projetos de Engenharia (métodos tradicionais e ágeis).
 - Administração (gestão de projetos e processos).
 
-* Disciplinas Vinculadas:
+** Disciplinas Vinculadas:
 - [[https://sites.google.com/view/professorandreduartebueno/ensino/fundamentos-de-programa%C3%A7%C3%A3o-em-c][Disciplina Fundamentos de Ciência da Computação]].
 - [[https://sites.google.com/view/professorandreduartebueno/ensino/introdu%C3%A7%C3%A3o-ao-projeto-de-engenharia][Disciplina Introdução ao Projeto de Engenharia]].
 - [[https://sites.google.com/view/professorandreduartebueno/ensino/prog-orientada-objeto-c-2024][Disciplina Programação Orientada a Objeto com C++]].
 - [[https://sites.google.com/view/professorandreduartebueno/ensino/projeto-de-software-aplicado][Disciplina Projeto de Software Aplicado]].
 - [[https://sites.google.com/view/professorandreduartebueno/ensino/programa%C3%A7%C3%A3o-paralela-e-concorrente][Disciplina Programação Paralela e Concorrente]].
 
-* Links Externos:
+** Links Externos:
 - [[https://sites.google.com/view/professorandreduartebueno/][Site do Professor André Duarte Bueno]].
 - [[https://github.com/ldsc][Site do *LDSC - Laboratório de Desenvolvimento de Software Científico e Aplicado* no github]]
 - [[https://sites.google.com/view/engenhariadepetroleo][Site do Curso de Graduação em Engenharia de Petróleo]].
 - [[https://uenf.br/cct/lenep][Site do LENEP]].
 
+* Contato:
+- André Duarte Bueno
+  - [[mailto:andreduartebueno@gmail.com][andreduartebueno@gmail.com]]
+  - [[mailto:bueno@lenep.uenf.br][bueno@lenep.uenf.br]]
+  - [[https://sites.google.com/view/professorandreduartebueno/][site do professor]]
+  - [[https://sites.google.com/view/professorandreduartebueno/ensino/introdu%C3%A7%C3%A3o-ao-projeto-de-engenharia][site da disciplina de introdução ao projeto de engenharia]].
+
 * Resumo da Metodologia de Projetos de Engenharia:
 
 A metodologia irá cobrir as etapas para o desenvolvimento de um projeto de engenharia completo.
+
 Fazemos uma relação com o conceito de Nível de Maturidade Tecnológica ou TRL.
 O TRL é utilizado nos projetos da Petrobras (os desafios tecnológicos da Petrobras).
 
@@ -53,11 +70,16 @@ Etapas:
 0 - O professor ou empresa de engenharia elabora um desafio tecnológico ([[https://docs.google.com/forms/d/e/1FAIpQLSc1NaIUvKIFzECj3KPv6JRiD7kXFFd5MeAY1w-JI_yDjrbZmQ/viewform][formulário desafio tecnológico]]).
 Uma lista de desafios é apresentada nesta [[https://docs.google.com/spreadsheets/d/1mFAjcRhzuePATaSSUSYo3_JaVmPkIi0L7ZfrQe0MMSU/edit?usp=sharing][planilha]].
 Uma lista de projetos antigos é apresentada ao longo deste documento.
+O repositório modelo para criar um desafio tecnológico esta aqui (basta clonar):
+  - https://github.com/ldsc/LDSC-ProjetoEngenharia-1-PropostaDeDesafio-TituloDoDesafioTecnologico
 
 1 - A equipe de alunos seleciona o projeto de seu interesse e elabora um pré-projeto (um esboço); Este pré-projeto é então levado ao professor/empresa que montou o desafio e ao professor da disciplina para aprovarem o pré-projeto.  A ideia aqui é ter certeza que os alunos entenderam o que o professor/empresa quer.
 
 2- Os alunos montam o projeto (detalhamento do pré-projeto; documento formal que descreve o que vai ser feito).
 Ex: os contratos de projeto que assinamos com a Petrobras.
+
+O repositório modelo para o projeto completo esta aqui (basta clonar):
+  - https://github.com/ldsc/LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloCompleto
 
 3- Os alunos fazem a modelagem de engenharia com acompanhamento dos professores.
 
@@ -66,10 +88,10 @@ Ex: os contratos de projeto que assinamos com a Petrobras.
 5- Entrega/defesa do produto final.
 
 
-* Lista de Repositórios do LDSC
-Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositórios com informações em geral, modelos de documentos e projetos, exemplos de projetos desenvolvidos em anos anteriores.
+* Lista de Repositórios do LDSC:
+https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 
-* Repositórios de Ajuda
+* Repositórios de Ajuda:
 ** Título: LDSC-Ajuda-DocumentosAuxiliares
 - Link no github:
   - https://github.com/ldsc/LDSC-Ajuda-DocumentosAuxiliares
@@ -110,7 +132,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
   - Administrativa.
 
 
-* Repositórios com Modelos
+* Repositórios com Modelos:
 
 ** Título: LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas-ModeloProfessorBueno
 - Link no github:
@@ -181,7 +203,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
   - Metodologia científica.
   - Organização/gestão pessoal.
 
-* Repositórios de Bibliotecas Desenvolvidas
+* Repositórios de Bibliotecas Desenvolvidas:
 
 ** Título: Biblioteca lib_ldsc
 - Link no github:
@@ -199,7 +221,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
   - Análise e processamento de imagens.
 
 
-* Repositórios de Softwares Desenvolvidos
+* Repositórios de Softwares Desenvolvidos:
 
 ** Título: Software LVP - Laboratório Virtual de Petrofísica
 - Link no github:
@@ -296,7 +318,11 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     - [[https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D/blob/master/doc/ManualTecnico/Apresentacao_Nicholas_TCC2.pptx][Apresentacao]]
 
 
-* Repositórios de Projetos Desenvolvidos por Alunos
+** Título: Software SAIL
+- Link:
+  - https://sites.google.com/view/professorandreduartebueno/softwares-desenvolvidos/soft-processamento-de-imagens
+
+* Repositórios de Projetos Desenvolvidos por Alunos:
 
 ** Título: ProjetoEngenharia-AnaliseDoEfeitoDePeliculaAPartirIPR-PocosVerticais-EscoamentoMonofasico
 - Link no github:
@@ -677,20 +703,17 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
 - Área:
   - Geoquímica.
 
-
 ** Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESelecaoDeInibidoresDeCorrosao
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SoftwareEducacionalParaAnaliseESelecaoDeInibidoresDeCorrosao
 - Resumo:
   -
 
-
 ** Título: ProjetoEngenharia-SimuladorDePropriedadesPoroelasticas
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SimuladorDePropriedadesPoroelasticas
 - Resumo:
   -
-
 
 ** Título: ProjetoEngenharia-GeoLogViewer-FerramentaDeLeituraEVisualizacaoDeDadosGeof-sicosDeArquivos-LAS
 - Link no github:
@@ -733,8 +756,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
   -
 
 
-* Repositórios com Projetos Didáticos
-
+* Repositórios com Projetos Didáticos:
 ** Título: TCMP-2D
 - Link no github:
   - https://github.com/ldsc/TCMP-2D
@@ -802,8 +824,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
   -
 
 
-* Repositórios de Dados
-
+* Repositórios de Dados:
 ** Título: CursoGraduacao-EngenhariaPetroleo-7-Dados-e-AnalisesDoCurso
 - Link no github:
   - https://github.com/ldsc/CursoGraduacao-EngenhariaPetroleo-7-Dados-e-AnalisesDoCurso
@@ -835,8 +856,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
   -
 
 
-* Repositórios de Manuais
-
+* Repositórios de Manuais:
 ** Título: ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo
 - Link no github:
   - https://github.com/ldsc/ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo
@@ -855,7 +875,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
 - Resumo:
   -
 
-* Repositórios de Livros
+* Repositórios de Livros:
 ** Título: Livro-0-BaseComum
 - Link no github:
   - https://github.com/ldsc/Livro-0-BaseComum
@@ -892,8 +912,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
 - Resumo:
   -
 
-* Repositórios de Bibliotecas Usadas
-
+* Repositórios de Bibliotecas Usadas:
 ** Título: CGnuplot
 - Link no github:
   - https://github.com/ldsc/CGnuplot

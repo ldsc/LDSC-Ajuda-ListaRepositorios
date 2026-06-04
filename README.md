@@ -1,157 +1,172 @@
 
 # Table of Contents
 
-1.  [Link:](#org5c203fa)
-2.  [Versão:](#org022e19c)
-3.  [Data:](#orgb22b662)
-4.  [Autor de Contato:](#org912acb3)
-5.  [Áreas de Pesquisa Vinculadas:](#org20f159c)
-6.  [Disciplinas Vinculadas:](#orgdff7153)
-7.  [Links Externos:](#org3c6a17b)
-8.  [Resumo da Metodologia de Projetos de Engenharia:](#org3118314)
-9.  [Lista de Repositórios do LDSC](#org69d0ee1)
-10. [Repositórios de Ajuda](#orgd94cddd)
-    1.  [Título: LDSC-Ajuda-DocumentosAuxiliares](#orgaf8009a)
-    2.  [Título: LDSC-Ajuda-ListaRepositorios](#org0e27781)
-    3.  [Título: UENF-CCT-LENEP-Repositorio-Documentos](#orga952b2f)
-11. [Repositórios com Modelos](#org467724c)
-    1.  [Título: LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas-ModeloProfessorBueno](#org47deb41)
-    2.  [Título: LDSC-ProjetoEngenharia-1-PropostaDeDesafio-TituloDoDesafioTecnologico](#orgfc9c847)
-    3.  [Título: LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloCompleto](#orga0a7447)
-    4.  [Título: LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloAntigoDesativado](#org54ad088)
-    5.  [Título: LDSC-Modelo-MicroProjetoSoftware-TituloProjeto](#org49d6d89)
-    6.  [Título: LDSC-Modelo-TrabalhoAcademico-01-OrganizacaoPessoal](#orgd2d3853)
-    7.  [Título: LDSC-Modelo-TrabalhoAcademico-02-ArquivoUnico](#orgbe761ba)
-    8.  [Título: LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto](#orge82bb39)
-12. [Repositórios de Bibliotecas Desenvolvidas](#org1be2474)
-    1.  [Título: Biblioteca lib<sub>ldsc</sub>](#orgdce8d7d)
-13. [Repositórios de Softwares Desenvolvidos](#orgc7e6037)
-    1.  [Título: Software LVP - Laboratório Virtual de Petrofísica](#orga4d68d5)
-    2.  [Título: Simulat - Simulador Transferência Calor e Massa em Meios Porosos](#org8616b8a)
-    3.  [Título: Software-CaracterizacaoDeRochaDigitalUsando-IA-InteligenciaArtificial-SegmentacaoImagens](#orgaa97cfc)
-    4.  [Título: SAIL - Software de Análise de Imagens Livre](#orgf3eda5c)
-    5.  [Título: TCMP-2D](#orgdb17557)
-    6.  [Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D](#org5a93468)
-14. [Repositórios de Projetos Desenvolvidos por Alunos](#orge5218f0)
-    1.  [Título: ProjetoEngenharia-AnaliseDoEfeitoDePeliculaAPartirIPR-PocosVerticais-EscoamentoMonofasico](#org081a675)
-    2.  [Título: ProjetoEngenharia-AnaliseQuedaPressaoDevidoMigracaoFinosOcasionadaInjecaoAguaBaixaSalinidade](#orga9e55a0)
-    3.  [Título: ProjetoEngenharia-AplicacaoCorrelacoesCalculoParametrosReservartorioPropriedadesFluidos-Blackoil](#orgab71d44)
-    4.  [Título: ProjetoEngenharia-AutomacaoDaDefinicaoDoVolumeElementarRepresentativo](#org39b449e)
-    5.  [Título: ProjetoEngenharia-AvaliacaoCondicaoExperimentalSeparacaoComponentesDoPetroleoPorCromatografiaLiquida](#orgdb33a74)
-    6.  [Título: ProjetoEngenharia-AvaliacaoDasCondicoesExperimentaisParaSeparacaoDeComponentesDoPetroleoPorCromatogr](#orgec68779)
-    7.  [Título: ProjetoEngenharia-AvaliacaoFormacoesPorDadosDeTestesDePressao](#org0c1cd97)
-    8.  [Título: ProjetoEngenharia-BancoDeDadosFluidosPerfuracao](#org0061428)
-    9.  [Título: ProjetoEngenharia-CalculoDaTrajetoriaDirecionalParaperfuracaoDePocosDePetroleo-TIPO-1-BUILD-AND-HOLD](#orgd6daa61)
-    10. [Título: ProjetoEngenharia-CalculoDosFatoresDeRecuperacaoAvancadaDePetroleoAPartirDeTesteDeFluxoEmMeiosPoroso](#org96c1f70)
-    11. [Título: ProjetoEngenharia-CalculoIndiceProdutividadePocos](#org4421102)
-    12. [Título: ProjetoEngenharia-CalculoPerdaCargaDistribuidaFluidoNoDecorrerEscoamento](#org4e4fcee)
-    13. [Título: ProjetoEngenharia-CalculoVolumesFluidosPerfuracaoCimentacaoTubosETempoPerfuracao](#orga9bf48c)
-    14. [Título: ProjetoEngenharia-CorrelacoesPVT](#orga3eee5a)
-    15. [Título: ProjetoEngenharia-ESPPERFORMANCE-SimuladorDeCurvasDeDesempenhoDe-BCS-HEAD-ePerdasCarga](#orga79e200)
-    16. [Título: ProjetoEngenharia-FluxoMonofasicoReativoEmMeiosPorosos](#orge9ac32b)
-    17. [Título: ProjetoEngenharia-ModelosDeAquiferosAnaliticos](#org720358d)
-    18. [Título: ProjetoEngenharia-ModelosDeDeslocamentoImiscivelParaRecuperacaoSecundariaDePetroleo](#org44cc1b1)
-    19. [Título: ProjetoEngenharia-PrevisaoComportamentoDeReservatoriosDeOleoComCapaDeGasOuGasEmSolucaoEOleo-GasComIn](#org69500e9)
-    20. [Título: ProjetoEngenharia-PropriedadesFisicasRochasSedimentaresUtilizandoDadosObtidosPorAnaliseDeImagens](#org1a4966a)
-    21. [Título: ProjetoEngenharia-SimulacaoDeCurvasIPRUtilizandoModelosEmpiricosEmPocosVerticais](#org2cb9525)
-    22. [Título: ProjetoEngenharia-SimulacaoPropriedadesTermodinamicasSubstanciasSimplesECompostas](#org30a0b46)
-    23. [Título: ProjetoEngenharia-SimuladorDeEstimativaDeReservaUtilizandoEBM-EnfoqueReservatoriosGas](#org05604dd)
-    24. [Título: ProjetoEngenharia-SimuladorDeReservatorioMonofasico2D](#org11c0a7e)
-    25. [Título: ProjetoEngenharia-SimuladorDeTracoSismico](#orgf313ae1)
-    26. [Título: ProjetoEngenharia-SimuladorHidraulicaPerfuracaoPoco](#org786a53e)
-    27. [Título: ProjetoEngenharia-SimuladorPropriedadesMaterialSubmetidoCorrosaoPorDioxidoDeCarbono](#orge0d495b)
-    28. [Título: rojetoEngenharia-SimuladorReservatorio2D](#orgaebfbe8)
-    29. [Título: ProjetoEngenharia-SimuladorSolucoesAnaliticasAdmensionaisEqDifusividadeHidraulicaFluxosLinearERadial](#org7bb2e32)
-    30. [Título: ProjetoEngenharia-SimuladorSubstituicaoFluidoEmodelagemAVO](#orga9365f4)
-    31. [Título: ProjetoEngenharia-SoftwareCaracterizacaoDeReservatoriosIntegradoAAnalisePetrofisica](#org2e871d3)
-    32. [Título: ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT](#org78a0cc5)
-    33. [Título: rojetoEngenharia-SoftwareDeComunicacao-MedidorLCR](#org73f37fd)
-    34. [Título: ProjetoEngenharia-SoftwareParaCalculoDeIncrustacaoNaProducaoDePetroleo](#orge1f011c)
-    35. [Título: ProjetoEngenharia-SoftwareParaCalculoDePropriedadesReologicasDeFluidosDePerfuracao](#org8f57b55)
-    36. [Título: ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas](#org13428af)
-    37. [Título: ProjetoEngenharia-SoftwareQueCalculaPropriedadesPetrofisicasPocoAPartirEquacoesDaFisica](#orga0bf3f2)
-    38. [Título: ProjetoEngenharia-SPTSP-Helmholtz](#org7c82984)
-    39. [Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D](#org1e6313a)
-    40. [Título: ProjetoEngenharia-TratamentoEstatisticoDadosGeoquimicos](#org24312bd)
-    41. [Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESelecaoDeInibidoresDeCorrosao](#org4ac48c8)
-    42. [Título: ProjetoEngenharia-SimuladorDePropriedadesPoroelasticas](#orgd063656)
-    43. [Título: ProjetoEngenharia-GeoLogViewer-FerramentaDeLeituraEVisualizacaoDeDadosGeof-sicosDeArquivos-LAS](#org327f7a7)
-    44. [Título: ProjetoEngenharia-SoftwareAnaliseEncrustacaoAmostrasSalmouras](#orge10670f)
-    45. [Título: ProjetoEngenharia-SimuladorDoEfeitoSismoeletrico](#org3a2a364)
-    46. [Título: ProjetoEngenharia-SimuladorDePlanejamentoDasAtividadesDoEstudanteEngenharia](#orgc364f01)
-    47. [Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESolucaoDeProblemasEmEngenhariaDePoco](#org7bd37ce)
-    48. [Título: ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas](#orgb32b13c)
-    49. [Título:](#org57b72fd)
-15. [Repositórios com Projetos Didáticos](#org3f0d704)
-    1.  [Título: TCMP-2D](#org3abeaf2)
-    2.  [Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D](#org47a7d88)
-    3.  [Título: ProjetoEngenharia-SistemaAcademico (didático)](#orgf6042ff)
-    4.  [Título: MicroProjetoSoftware-RedePercolacao-2D](#org35a1d3d)
-    5.  [Título: ProjetoEngenharia-Didatico-00-AnimacoesMatematicasFisicas](#orgd7267d9)
-    6.  [Título: ProjetoEngenharia-Didatico-01-MetNum-IntegracaoNumerica](#orgacc9e40)
-    7.  [Título: ProjetoEngenharia-Didatico-03-Equipamentos-SistemaInterruptorLampada](#org13281f0)
-    8.  [Título:](#orge5a5a15)
-16. [Repositórios de Dados](#orgd390f3d)
-    1.  [Título: CursoGraduacao-EngenhariaPetroleo-7-Dados-e-AnalisesDoCurso](#org805bbc2)
-    2.  [Título: ProjetoExemplo-DisciplinaProjetoEngenharia](#orgc4c29fe)
-    3.  [Título: ModeloDiretorio-Disciplina](#org7bda213)
-    4.  [Título: ModeloDiretorio-Administrativo](#org1b30c84)
-    5.  [Título:](#org421659f)
-17. [Repositórios de Manuais](#org2b7ad95)
-    1.  [Título: ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo](#org1368a20)
-    2.  [Título: Aplicativo-SiteDoCursoDeEngenhariaDePetroleo-UENF](#orgf188b44)
-    3.  [Título:](#org0c1c9dd)
-18. [Repositórios de Livros](#orgc3fc695)
-    1.  [Título: Livro-0-BaseComum](#org3d6f3a9)
-    2.  [Título: Livro-2-IntroducaoAoProjetoDeEngenharia-ProjetoCientifico-Tecnologico-Produtos-AndreDuarteBueno](#org06d5023)
-    3.  [Título: Livro-8-UsandoEmacs](#org47e638c)
-    4.  [Título: Livro-9-UsandoGnuplot-AndreDuarteBueno](#orgaff80d7)
-    5.  [Título: Livro-10-UsandoGitGithub](#orgc5fae61)
-    6.  [Título:](#orgad62aa1)
-19. [Repositórios de Bibliotecas Usadas](#org3f5d8ef)
-    1.  [Título: CGnuplot](#org04b7622)
-    2.  [Título:](#org47e9437)
+1.  [Sobre:](#org384b1d3)
+    1.  [O que temos aqui?](#org2f665bd)
+    2.  [O que é o LENEP?](#org8cb013e)
+    3.  [O que é o Setor de Modelagem Matemática e Computacional?](#orge9f633f)
+    4.  [O que é o LDSC?](#org13e6cbb)
+    5.  [Áreas de Pesquisa Vinculadas:](#org70f7dcd)
+    6.  [Disciplinas Vinculadas:](#orgb1f08c9)
+    7.  [Links Externos:](#org2ee0c5e)
+2.  [Contato:](#org16b4a94)
+3.  [Resumo da Metodologia de Projetos de Engenharia:](#orgdd59432)
+4.  [Lista de Repositórios do LDSC:](#orgf29803a)
+5.  [Repositórios de Ajuda:](#orgc50e787)
+    1.  [Título: LDSC-Ajuda-DocumentosAuxiliares](#org3daf065)
+    2.  [Título: LDSC-Ajuda-ListaRepositorios](#org7b72499)
+    3.  [Título: UENF-CCT-LENEP-Repositorio-Documentos](#orgbad7473)
+6.  [Repositórios com Modelos:](#orge318bb7)
+    1.  [Título: LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas-ModeloProfessorBueno](#org67aa890)
+    2.  [Título: LDSC-ProjetoEngenharia-1-PropostaDeDesafio-TituloDoDesafioTecnologico](#org78f3243)
+    3.  [Título: LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloCompleto](#org5e81b11)
+    4.  [Título: LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloAntigoDesativado](#orgef5832d)
+    5.  [Título: LDSC-Modelo-MicroProjetoSoftware-TituloProjeto](#orgbb0f3ab)
+    6.  [Título: LDSC-Modelo-TrabalhoAcademico-01-OrganizacaoPessoal](#orgcde0429)
+    7.  [Título: LDSC-Modelo-TrabalhoAcademico-02-ArquivoUnico](#orgc5597e3)
+    8.  [Título: LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto](#org8770a8c)
+7.  [Repositórios de Bibliotecas Desenvolvidas:](#org99c658f)
+    1.  [Título: Biblioteca lib<sub>ldsc</sub>](#orgbb82c4d)
+8.  [Repositórios de Softwares Desenvolvidos:](#orge6aafa7)
+    1.  [Título: Software LVP - Laboratório Virtual de Petrofísica](#org44108e2)
+    2.  [Título: Simulat - Simulador Transferência Calor e Massa em Meios Porosos](#orgb14ae01)
+    3.  [Título: Software-CaracterizacaoDeRochaDigitalUsando-IA-InteligenciaArtificial-SegmentacaoImagens](#orgb8cddc5)
+    4.  [Título: SAIL - Software de Análise de Imagens Livre](#org83e471f)
+    5.  [Título: TCMP-2D](#orge555c10)
+    6.  [Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D](#orgc7e52c3)
+    7.  [Título: Software SAIL](#orgfc1f701)
+9.  [Repositórios de Projetos Desenvolvidos por Alunos:](#orgc7aa92a)
+    1.  [Título: ProjetoEngenharia-AnaliseDoEfeitoDePeliculaAPartirIPR-PocosVerticais-EscoamentoMonofasico](#orgd17a874)
+    2.  [Título: ProjetoEngenharia-AnaliseQuedaPressaoDevidoMigracaoFinosOcasionadaInjecaoAguaBaixaSalinidade](#orgaf27f86)
+    3.  [Título: ProjetoEngenharia-AplicacaoCorrelacoesCalculoParametrosReservartorioPropriedadesFluidos-Blackoil](#org5439aa5)
+    4.  [Título: ProjetoEngenharia-AutomacaoDaDefinicaoDoVolumeElementarRepresentativo](#orge4367b1)
+    5.  [Título: ProjetoEngenharia-AvaliacaoCondicaoExperimentalSeparacaoComponentesDoPetroleoPorCromatografiaLiquida](#org3baf595)
+    6.  [Título: ProjetoEngenharia-AvaliacaoDasCondicoesExperimentaisParaSeparacaoDeComponentesDoPetroleoPorCromatogr](#org589c530)
+    7.  [Título: ProjetoEngenharia-AvaliacaoFormacoesPorDadosDeTestesDePressao](#orgeb5ebee)
+    8.  [Título: ProjetoEngenharia-BancoDeDadosFluidosPerfuracao](#org3626c75)
+    9.  [Título: ProjetoEngenharia-CalculoDaTrajetoriaDirecionalParaperfuracaoDePocosDePetroleo-TIPO-1-BUILD-AND-HOLD](#org5ca0abe)
+    10. [Título: ProjetoEngenharia-CalculoDosFatoresDeRecuperacaoAvancadaDePetroleoAPartirDeTesteDeFluxoEmMeiosPoroso](#org1aa5504)
+    11. [Título: ProjetoEngenharia-CalculoIndiceProdutividadePocos](#orgedd7ccf)
+    12. [Título: ProjetoEngenharia-CalculoPerdaCargaDistribuidaFluidoNoDecorrerEscoamento](#orgb8ed8f8)
+    13. [Título: ProjetoEngenharia-CalculoVolumesFluidosPerfuracaoCimentacaoTubosETempoPerfuracao](#org4a4e7a1)
+    14. [Título: ProjetoEngenharia-CorrelacoesPVT](#org69d7e62)
+    15. [Título: ProjetoEngenharia-ESPPERFORMANCE-SimuladorDeCurvasDeDesempenhoDe-BCS-HEAD-ePerdasCarga](#org1111b39)
+    16. [Título: ProjetoEngenharia-FluxoMonofasicoReativoEmMeiosPorosos](#orgc7a528b)
+    17. [Título: ProjetoEngenharia-ModelosDeAquiferosAnaliticos](#org05629c0)
+    18. [Título: ProjetoEngenharia-ModelosDeDeslocamentoImiscivelParaRecuperacaoSecundariaDePetroleo](#org4d67a27)
+    19. [Título: ProjetoEngenharia-PrevisaoComportamentoDeReservatoriosDeOleoComCapaDeGasOuGasEmSolucaoEOleo-GasComIn](#orgf44f563)
+    20. [Título: ProjetoEngenharia-PropriedadesFisicasRochasSedimentaresUtilizandoDadosObtidosPorAnaliseDeImagens](#org7e6ce03)
+    21. [Título: ProjetoEngenharia-SimulacaoDeCurvasIPRUtilizandoModelosEmpiricosEmPocosVerticais](#orga0226fb)
+    22. [Título: ProjetoEngenharia-SimulacaoPropriedadesTermodinamicasSubstanciasSimplesECompostas](#orgb7b48f6)
+    23. [Título: ProjetoEngenharia-SimuladorDeEstimativaDeReservaUtilizandoEBM-EnfoqueReservatoriosGas](#orge30abbd)
+    24. [Título: ProjetoEngenharia-SimuladorDeReservatorioMonofasico2D](#orgeffa13c)
+    25. [Título: ProjetoEngenharia-SimuladorDeTracoSismico](#org9aade08)
+    26. [Título: ProjetoEngenharia-SimuladorHidraulicaPerfuracaoPoco](#orgdc3a0d8)
+    27. [Título: ProjetoEngenharia-SimuladorPropriedadesMaterialSubmetidoCorrosaoPorDioxidoDeCarbono](#org9e8bc2a)
+    28. [Título: rojetoEngenharia-SimuladorReservatorio2D](#orgc257ab2)
+    29. [Título: ProjetoEngenharia-SimuladorSolucoesAnaliticasAdmensionaisEqDifusividadeHidraulicaFluxosLinearERadial](#orgd8825b9)
+    30. [Título: ProjetoEngenharia-SimuladorSubstituicaoFluidoEmodelagemAVO](#org330f666)
+    31. [Título: ProjetoEngenharia-SoftwareCaracterizacaoDeReservatoriosIntegradoAAnalisePetrofisica](#org5152792)
+    32. [Título: ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT](#org18d26cf)
+    33. [Título: rojetoEngenharia-SoftwareDeComunicacao-MedidorLCR](#org61b3c22)
+    34. [Título: ProjetoEngenharia-SoftwareParaCalculoDeIncrustacaoNaProducaoDePetroleo](#org3986e9e)
+    35. [Título: ProjetoEngenharia-SoftwareParaCalculoDePropriedadesReologicasDeFluidosDePerfuracao](#org32266ce)
+    36. [Título: ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas](#org52821f5)
+    37. [Título: ProjetoEngenharia-SoftwareQueCalculaPropriedadesPetrofisicasPocoAPartirEquacoesDaFisica](#org15baf6b)
+    38. [Título: ProjetoEngenharia-SPTSP-Helmholtz](#org8cc9e26)
+    39. [Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D](#org228f58c)
+    40. [Título: ProjetoEngenharia-TratamentoEstatisticoDadosGeoquimicos](#org0f0f2a7)
+    41. [Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESelecaoDeInibidoresDeCorrosao](#orgd79f14e)
+    42. [Título: ProjetoEngenharia-SimuladorDePropriedadesPoroelasticas](#org61a2e41)
+    43. [Título: ProjetoEngenharia-GeoLogViewer-FerramentaDeLeituraEVisualizacaoDeDadosGeof-sicosDeArquivos-LAS](#org0fc7fee)
+    44. [Título: ProjetoEngenharia-SoftwareAnaliseEncrustacaoAmostrasSalmouras](#orgb4c740f)
+    45. [Título: ProjetoEngenharia-SimuladorDoEfeitoSismoeletrico](#org8310503)
+    46. [Título: ProjetoEngenharia-SimuladorDePlanejamentoDasAtividadesDoEstudanteEngenharia](#orge549428)
+    47. [Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESolucaoDeProblemasEmEngenhariaDePoco](#org561de4f)
+    48. [Título: ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas](#org2292623)
+    49. [Título:](#org9f59b90)
+10. [Repositórios com Projetos Didáticos:](#org6c9e1d1)
+    1.  [Título: TCMP-2D](#org186b3dc)
+    2.  [Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D](#orgfb6276d)
+    3.  [Título: ProjetoEngenharia-SistemaAcademico (didático)](#org893a2f3)
+    4.  [Título: MicroProjetoSoftware-RedePercolacao-2D](#org10eb74b)
+    5.  [Título: ProjetoEngenharia-Didatico-00-AnimacoesMatematicasFisicas](#orgc9e541d)
+    6.  [Título: ProjetoEngenharia-Didatico-01-MetNum-IntegracaoNumerica](#org35f17ee)
+    7.  [Título: ProjetoEngenharia-Didatico-03-Equipamentos-SistemaInterruptorLampada](#orgc2f76d4)
+    8.  [Título:](#org3e2e790)
+11. [Repositórios de Dados:](#orgadf6774)
+    1.  [Título: CursoGraduacao-EngenhariaPetroleo-7-Dados-e-AnalisesDoCurso](#org81b0ca0)
+    2.  [Título: ProjetoExemplo-DisciplinaProjetoEngenharia](#org5e6e126)
+    3.  [Título: ModeloDiretorio-Disciplina](#org2e34722)
+    4.  [Título: ModeloDiretorio-Administrativo](#orgf7bf729)
+    5.  [Título:](#org7370ac6)
+12. [Repositórios de Manuais:](#org119f8f6)
+    1.  [Título: ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo](#orgf12000b)
+    2.  [Título: Aplicativo-SiteDoCursoDeEngenhariaDePetroleo-UENF](#org14cb8c2)
+    3.  [Título:](#orga71702f)
+13. [Repositórios de Livros:](#org50db16a)
+    1.  [Título: Livro-0-BaseComum](#org2cbab95)
+    2.  [Título: Livro-2-IntroducaoAoProjetoDeEngenharia-ProjetoCientifico-Tecnologico-Produtos-AndreDuarteBueno](#org4359b3d)
+    3.  [Título: Livro-8-UsandoEmacs](#orgb16128f)
+    4.  [Título: Livro-9-UsandoGnuplot-AndreDuarteBueno](#orgb633508)
+    5.  [Título: Livro-10-UsandoGitGithub](#orgc927476)
+    6.  [Título:](#org1af09a0)
+14. [Repositórios de Bibliotecas Usadas:](#orgee81cd7)
+    1.  [Título: CGnuplot](#orgdb0f9b5)
+    2.  [Título:](#org8463d61)
 
 
 
-<a id="org5c203fa"></a>
+<a id="org384b1d3"></a>
 
-# Link:
+# Sobre:
+
+
+<a id="org2f665bd"></a>
+
+## O que temos aqui?
+
+-   Este arquivo que você esta lendo contém:
+    -   Um resumo com informações do LENEP, do setor de Modelagem Matemática e Computacional e do Laboratório Desenvolvimento Software Científico e Aplicado - LDSC.
+    -   Um resumo da metodologia adotada nos projetos desenvolvidos pelos alunos.
+    -   Uma lista de repositórios e projetos desenvolvidos em anos anteriores.
 
 -   <https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios>
--   Este arquivo que você esta lendo contém:
-    -   um resumo da metodologia adotada.
-    -   uma lista de repositórios e projetos desenvolvidos em anos anteriores.
+
+-   Versão:
+    -   1.1.
+
+-   Data:
+    -   2026/1 - primeiro semestre.
 
 
-<a id="org022e19c"></a>
+<a id="org8cb013e"></a>
 
-# Versão:
+## O que é o LENEP?
 
--   1.1.
-
-
-<a id="orgb22b662"></a>
-
-# Data:
-
--   2026/1 - primeiro semestre.
+-   Laboratório de Engenharia e Exploração de Petróleo (LENEP) - <https://uenf.br/cct/lenep/>
+-   Vinculado ao CCT (Centro de Ciência e Tecnologia) da UENF.
 
 
-<a id="org912acb3"></a>
+<a id="orge9f633f"></a>
 
-# Autor de Contato:
+## O que é o Setor de Modelagem Matemática e Computacional?
 
--   André Duarte Bueno
-    -   [andreduartebueno@gmail.com](mailto:andreduartebueno@gmail.com)
-    -   [bueno@lenep.uenf.br](mailto:bueno@lenep.uenf.br)
-    -   [site do professor](https://sites.google.com/view/professorandreduartebueno/)
-    -   [site da disciplina de introdução ao projeto de engenharia](https://sites.google.com/view/professorandreduartebueno/ensino/introdu%C3%A7%C3%A3o-ao-projeto-de-engenharia).
+-   Setor do LENEP/CCT/UENF responsável por atividades de ensino, pesquisa e extensão na área de Matemática Aplicada e Computação aplicada a engenharia de exploração e produção de petróleo. Como exemplo de atuação do setor pode-se citar a formação de recursos humanos – alunos de iniciação científica, mestrado e doutorado; a realização de atividades de ensino – disciplinas do setor; o desenvolvimento de projetos de pesquisa nas áreas de Matemática Aplicada e Computação aplicada a geofísica, a engenharia de petróleo e a computação científica; incluindo a modelagem numérica computacional e o desenvolvimento de softwares científicos e aplicados.
+
+As atividades de pesquisa são desenvolvidas no Laboratório de Desenvolvimento de Software Científico – LDSC.
 
 
-<a id="org20f159c"></a>
+<a id="org13e6cbb"></a>
 
-# Áreas de Pesquisa Vinculadas:
+## O que é o LDSC?
+
+-   Laboratório Desenvolvimento Software Científico e Aplicado - LDSC
+
+
+<a id="org70f7dcd"></a>
+
+## Áreas de Pesquisa Vinculadas:
 
 -   Modelagem Computacional (Algoritmos).
 -   Modelagem de Software (UML).
@@ -163,9 +178,9 @@
 -   Administração (gestão de projetos e processos).
 
 
-<a id="orgdff7153"></a>
+<a id="orgb1f08c9"></a>
 
-# Disciplinas Vinculadas:
+## Disciplinas Vinculadas:
 
 -   [Disciplina Fundamentos de Ciência da Computação](https://sites.google.com/view/professorandreduartebueno/ensino/fundamentos-de-programa%C3%A7%C3%A3o-em-c).
 -   [Disciplina Introdução ao Projeto de Engenharia](https://sites.google.com/view/professorandreduartebueno/ensino/introdu%C3%A7%C3%A3o-ao-projeto-de-engenharia).
@@ -174,9 +189,9 @@
 -   [Disciplina Programação Paralela e Concorrente](https://sites.google.com/view/professorandreduartebueno/ensino/programa%C3%A7%C3%A3o-paralela-e-concorrente).
 
 
-<a id="org3c6a17b"></a>
+<a id="org2ee0c5e"></a>
 
-# Links Externos:
+## Links Externos:
 
 -   [Site do Professor André Duarte Bueno](https://sites.google.com/view/professorandreduartebueno/).
 -   [Site do **LDSC - Laboratório de Desenvolvimento de Software Científico e Aplicado** no github](https://github.com/ldsc)
@@ -184,11 +199,23 @@
 -   [Site do LENEP](https://uenf.br/cct/lenep).
 
 
-<a id="org3118314"></a>
+<a id="org16b4a94"></a>
+
+# Contato:
+
+-   André Duarte Bueno
+    -   [andreduartebueno@gmail.com](mailto:andreduartebueno@gmail.com)
+    -   [bueno@lenep.uenf.br](mailto:bueno@lenep.uenf.br)
+    -   [site do professor](https://sites.google.com/view/professorandreduartebueno/)
+    -   [site da disciplina de introdução ao projeto de engenharia](https://sites.google.com/view/professorandreduartebueno/ensino/introdu%C3%A7%C3%A3o-ao-projeto-de-engenharia).
+
+
+<a id="orgdd59432"></a>
 
 # Resumo da Metodologia de Projetos de Engenharia:
 
 A metodologia irá cobrir as etapas para o desenvolvimento de um projeto de engenharia completo.
+
 Fazemos uma relação com o conceito de Nível de Maturidade Tecnológica ou TRL.
 O TRL é utilizado nos projetos da Petrobras (os desafios tecnológicos da Petrobras).
 
@@ -197,11 +224,18 @@ Etapas:
 0 - O professor ou empresa de engenharia elabora um desafio tecnológico ([formulário desafio tecnológico](https://docs.google.com/forms/d/e/1FAIpQLSc1NaIUvKIFzECj3KPv6JRiD7kXFFd5MeAY1w-JI_yDjrbZmQ/viewform)).
 Uma lista de desafios é apresentada nesta [planilha](https://docs.google.com/spreadsheets/d/1mFAjcRhzuePATaSSUSYo3_JaVmPkIi0L7ZfrQe0MMSU/edit?usp=sharing).
 Uma lista de projetos antigos é apresentada ao longo deste documento.
+O repositório modelo para criar um desafio tecnológico esta aqui (basta clonar):
+
+-   <https://github.com/ldsc/LDSC-ProjetoEngenharia-1-PropostaDeDesafio-TituloDoDesafioTecnologico>
 
 1 - A equipe de alunos seleciona o projeto de seu interesse e elabora um pré-projeto (um esboço); Este pré-projeto é então levado ao professor/empresa que montou o desafio e ao professor da disciplina para aprovarem o pré-projeto.  A ideia aqui é ter certeza que os alunos entenderam o que o professor/empresa quer.
 
 2- Os alunos montam o projeto (detalhamento do pré-projeto; documento formal que descreve o que vai ser feito).
 Ex: os contratos de projeto que assinamos com a Petrobras.
+
+O repositório modelo para o projeto completo esta aqui (basta clonar):
+
+-   <https://github.com/ldsc/LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloCompleto>
 
 3- Os alunos fazem a modelagem de engenharia com acompanhamento dos professores.
 
@@ -210,19 +244,19 @@ Ex: os contratos de projeto que assinamos com a Petrobras.
 5- Entrega/defesa do produto final.
 
 
-<a id="org69d0ee1"></a>
+<a id="orgf29803a"></a>
 
-# Lista de Repositórios do LDSC
+# Lista de Repositórios do LDSC:
 
-Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositórios com informações em geral, modelos de documentos e projetos, exemplos de projetos desenvolvidos em anos anteriores.
-
-
-<a id="orgd94cddd"></a>
-
-# Repositórios de Ajuda
+<https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios>
 
 
-<a id="orgaf8009a"></a>
+<a id="orgc50e787"></a>
+
+# Repositórios de Ajuda:
+
+
+<a id="org3daf065"></a>
 
 ## Título: LDSC-Ajuda-DocumentosAuxiliares
 
@@ -234,7 +268,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Modelagem computacional.
 
 
-<a id="org0e27781"></a>
+<a id="org7b72499"></a>
 
 ## Título: LDSC-Ajuda-ListaRepositorios
 
@@ -260,7 +294,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Administrativa.
 
 
-<a id="orga952b2f"></a>
+<a id="orgbad7473"></a>
 
 ## Título: UENF-CCT-LENEP-Repositorio-Documentos
 
@@ -272,12 +306,12 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Administrativa.
 
 
-<a id="org467724c"></a>
+<a id="orge318bb7"></a>
 
-# Repositórios com Modelos
+# Repositórios com Modelos:
 
 
-<a id="org47deb41"></a>
+<a id="org67aa890"></a>
 
 ## Título: LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas-ModeloProfessorBueno
 
@@ -289,7 +323,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Modelagem computacional.
 
 
-<a id="orgfc9c847"></a>
+<a id="org78f3243"></a>
 
 ## Título: LDSC-ProjetoEngenharia-1-PropostaDeDesafio-TituloDoDesafioTecnologico
 
@@ -303,7 +337,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de petróleo.
 
 
-<a id="orga0a7447"></a>
+<a id="org5e81b11"></a>
 
 ## Título: LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloCompleto
 
@@ -318,7 +352,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de petróleo.
 
 
-<a id="org54ad088"></a>
+<a id="orgef5832d"></a>
 
 ## Título: LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloAntigoDesativado
 
@@ -329,7 +363,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Não incluia a parte de gestão (metodologia, desafio tecnológico, pré-projeto e projeto).
 
 
-<a id="org49d6d89"></a>
+<a id="orgbb0f3ab"></a>
 
 ## Título: LDSC-Modelo-MicroProjetoSoftware-TituloProjeto
 
@@ -339,7 +373,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Um modelo de projeto mais enxuto. Use para pequenos exemplos de projetos, curta duração, didáticos.
 
 
-<a id="orgd2d3853"></a>
+<a id="orgcde0429"></a>
 
 ## Título: LDSC-Modelo-TrabalhoAcademico-01-OrganizacaoPessoal
 
@@ -353,7 +387,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Gestão pessoal.
 
 
-<a id="orgbe761ba"></a>
+<a id="orgc5597e3"></a>
 
 ## Título: LDSC-Modelo-TrabalhoAcademico-02-ArquivoUnico
 
@@ -365,7 +399,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Ensino.
 
 
-<a id="orge82bb39"></a>
+<a id="org8770a8c"></a>
 
 ## Título: LDSC-Modelo-DiretorioAlunoBolsista-TCC-IC-MSC-DSC-Projeto
 
@@ -378,12 +412,12 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Organização/gestão pessoal.
 
 
-<a id="org1be2474"></a>
+<a id="org99c658f"></a>
 
-# Repositórios de Bibliotecas Desenvolvidas
+# Repositórios de Bibliotecas Desenvolvidas:
 
 
-<a id="orgdce8d7d"></a>
+<a id="orgbb82c4d"></a>
 
 ## Título: Biblioteca lib<sub>ldsc</sub>
 
@@ -402,12 +436,12 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Análise e processamento de imagens.
 
 
-<a id="orgc7e6037"></a>
+<a id="orge6aafa7"></a>
 
-# Repositórios de Softwares Desenvolvidos
+# Repositórios de Softwares Desenvolvidos:
 
 
-<a id="orga4d68d5"></a>
+<a id="org44108e2"></a>
 
 ## Título: Software LVP - Laboratório Virtual de Petrofísica
 
@@ -442,7 +476,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Análise e processamento de imagens.
 
 
-<a id="org8616b8a"></a>
+<a id="orgb14ae01"></a>
 
 ## Título: Simulat - Simulador Transferência Calor e Massa em Meios Porosos
 
@@ -459,7 +493,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Conforto ambiental.
 
 
-<a id="orgaa97cfc"></a>
+<a id="orgb8cddc5"></a>
 
 ## Título: Software-CaracterizacaoDeRochaDigitalUsando-IA-InteligenciaArtificial-SegmentacaoImagens
 
@@ -474,7 +508,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Análise e processamento de imagens.
 
 
-<a id="orgf3eda5c"></a>
+<a id="org83e471f"></a>
 
 ## Título: SAIL - Software de Análise de Imagens Livre
 
@@ -490,7 +524,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Petrofísica.
 
 
-<a id="orgdb17557"></a>
+<a id="orge555c10"></a>
 
 ## Título: TCMP-2D
 
@@ -507,7 +541,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Transferência de calor.
 
 
-<a id="org5a93468"></a>
+<a id="orgc7e52c3"></a>
 
 ## Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D
 
@@ -528,12 +562,20 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
         -   [Apresentacao](https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D/blob/master/doc/ManualTecnico/Apresentacao_Nicholas_TCC2.pptx)
 
 
-<a id="orge5218f0"></a>
+<a id="orgfc1f701"></a>
 
-# Repositórios de Projetos Desenvolvidos por Alunos
+## Título: Software SAIL
+
+-   Link:
+    -   <https://sites.google.com/view/professorandreduartebueno/softwares-desenvolvidos/soft-processamento-de-imagens>
 
 
-<a id="org081a675"></a>
+<a id="orgc7aa92a"></a>
+
+# Repositórios de Projetos Desenvolvidos por Alunos:
+
+
+<a id="orgd17a874"></a>
 
 ## Título: ProjetoEngenharia-AnaliseDoEfeitoDePeliculaAPartirIPR-PocosVerticais-EscoamentoMonofasico
 
@@ -547,7 +589,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="orga9e55a0"></a>
+<a id="orgaf27f86"></a>
 
 ## Título: ProjetoEngenharia-AnaliseQuedaPressaoDevidoMigracaoFinosOcasionadaInjecaoAguaBaixaSalinidade
 
@@ -560,7 +602,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="orgab71d44"></a>
+<a id="org5439aa5"></a>
 
 ## Título: ProjetoEngenharia-AplicacaoCorrelacoesCalculoParametrosReservartorioPropriedadesFluidos-Blackoil
 
@@ -573,7 +615,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="org39b449e"></a>
+<a id="orge4367b1"></a>
 
 ## Título: ProjetoEngenharia-AutomacaoDaDefinicaoDoVolumeElementarRepresentativo
 
@@ -589,7 +631,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Petrofísica.
 
 
-<a id="orgdb33a74"></a>
+<a id="org3baf595"></a>
 
 ## Título: ProjetoEngenharia-AvaliacaoCondicaoExperimentalSeparacaoComponentesDoPetroleoPorCromatografiaLiquida
 
@@ -601,7 +643,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Geoquímica.
 
 
-<a id="orgec68779"></a>
+<a id="org589c530"></a>
 
 ## Título: ProjetoEngenharia-AvaliacaoDasCondicoesExperimentaisParaSeparacaoDeComponentesDoPetroleoPorCromatogr
 
@@ -614,7 +656,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Geoquímica.
 
 
-<a id="org0c1cd97"></a>
+<a id="orgeb5ebee"></a>
 
 ## Título: ProjetoEngenharia-AvaliacaoFormacoesPorDadosDeTestesDePressao
 
@@ -627,7 +669,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="org0061428"></a>
+<a id="org3626c75"></a>
 
 ## Título: ProjetoEngenharia-BancoDeDadosFluidosPerfuracao
 
@@ -640,7 +682,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de poço.
 
 
-<a id="orgd6daa61"></a>
+<a id="org5ca0abe"></a>
 
 ## Título: ProjetoEngenharia-CalculoDaTrajetoriaDirecionalParaperfuracaoDePocosDePetroleo-TIPO-1-BUILD-AND-HOLD
 
@@ -653,7 +695,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de poço.
 
 
-<a id="org96c1f70"></a>
+<a id="org1aa5504"></a>
 
 ## Título: ProjetoEngenharia-CalculoDosFatoresDeRecuperacaoAvancadaDePetroleoAPartirDeTesteDeFluxoEmMeiosPoroso
 
@@ -673,7 +715,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="org4421102"></a>
+<a id="orgedd7ccf"></a>
 
 ## Título: ProjetoEngenharia-CalculoIndiceProdutividadePocos
 
@@ -685,7 +727,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de poço.
 
 
-<a id="org4e4fcee"></a>
+<a id="orgb8ed8f8"></a>
 
 ## Título: ProjetoEngenharia-CalculoPerdaCargaDistribuidaFluidoNoDecorrerEscoamento
 
@@ -699,7 +741,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de poço.
 
 
-<a id="orga9bf48c"></a>
+<a id="org4a4e7a1"></a>
 
 ## Título: ProjetoEngenharia-CalculoVolumesFluidosPerfuracaoCimentacaoTubosETempoPerfuracao
 
@@ -711,7 +753,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de poço.
 
 
-<a id="orga3eee5a"></a>
+<a id="org69d7e62"></a>
 
 ## Título: ProjetoEngenharia-CorrelacoesPVT
 
@@ -723,7 +765,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="orga79e200"></a>
+<a id="org1111b39"></a>
 
 ## Título: ProjetoEngenharia-ESPPERFORMANCE-SimuladorDeCurvasDeDesempenhoDe-BCS-HEAD-ePerdasCarga
 
@@ -736,7 +778,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de elevação e escoamento.
 
 
-<a id="orge9ac32b"></a>
+<a id="orgc7a528b"></a>
 
 ## Título: ProjetoEngenharia-FluxoMonofasicoReativoEmMeiosPorosos
 
@@ -748,7 +790,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="org720358d"></a>
+<a id="org05629c0"></a>
 
 ## Título: ProjetoEngenharia-ModelosDeAquiferosAnaliticos
 
@@ -761,7 +803,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="org44cc1b1"></a>
+<a id="org4d67a27"></a>
 
 ## Título: ProjetoEngenharia-ModelosDeDeslocamentoImiscivelParaRecuperacaoSecundariaDePetroleo
 
@@ -774,7 +816,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="org69500e9"></a>
+<a id="orgf44f563"></a>
 
 ## Título: ProjetoEngenharia-PrevisaoComportamentoDeReservatoriosDeOleoComCapaDeGasOuGasEmSolucaoEOleo-GasComIn
 
@@ -787,7 +829,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="org1a4966a"></a>
+<a id="org7e6ce03"></a>
 
 ## Título: ProjetoEngenharia-PropriedadesFisicasRochasSedimentaresUtilizandoDadosObtidosPorAnaliseDeImagens
 
@@ -801,7 +843,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Petrofísica.
 
 
-<a id="org2cb9525"></a>
+<a id="orga0226fb"></a>
 
 ## Título: ProjetoEngenharia-SimulacaoDeCurvasIPRUtilizandoModelosEmpiricosEmPocosVerticais
 
@@ -815,7 +857,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="org30a0b46"></a>
+<a id="orgb7b48f6"></a>
 
 ## Título: ProjetoEngenharia-SimulacaoPropriedadesTermodinamicasSubstanciasSimplesECompostas
 
@@ -828,7 +870,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="org05604dd"></a>
+<a id="orge30abbd"></a>
 
 ## Título: ProjetoEngenharia-SimuladorDeEstimativaDeReservaUtilizandoEBM-EnfoqueReservatoriosGas
 
@@ -844,7 +886,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="org11c0a7e"></a>
+<a id="orgeffa13c"></a>
 
 ## Título: ProjetoEngenharia-SimuladorDeReservatorioMonofasico2D
 
@@ -856,7 +898,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="orgf313ae1"></a>
+<a id="org9aade08"></a>
 
 ## Título: ProjetoEngenharia-SimuladorDeTracoSismico
 
@@ -868,7 +910,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Geofísica.
 
 
-<a id="org786a53e"></a>
+<a id="orgdc3a0d8"></a>
 
 ## Título: ProjetoEngenharia-SimuladorHidraulicaPerfuracaoPoco
 
@@ -880,7 +922,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="orge0d495b"></a>
+<a id="org9e8bc2a"></a>
 
 ## Título: ProjetoEngenharia-SimuladorPropriedadesMaterialSubmetidoCorrosaoPorDioxidoDeCarbono
 
@@ -892,7 +934,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Corrosão.
 
 
-<a id="orgaebfbe8"></a>
+<a id="orgc257ab2"></a>
 
 ## Título: rojetoEngenharia-SimuladorReservatorio2D
 
@@ -906,7 +948,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="org7bb2e32"></a>
+<a id="orgd8825b9"></a>
 
 ## Título: ProjetoEngenharia-SimuladorSolucoesAnaliticasAdmensionaisEqDifusividadeHidraulicaFluxosLinearERadial
 
@@ -919,7 +961,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="orga9365f4"></a>
+<a id="org330f666"></a>
 
 ## Título: ProjetoEngenharia-SimuladorSubstituicaoFluidoEmodelagemAVO
 
@@ -932,7 +974,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Geofísica
 
 
-<a id="org2e871d3"></a>
+<a id="org5152792"></a>
 
 ## Título: ProjetoEngenharia-SoftwareCaracterizacaoDeReservatoriosIntegradoAAnalisePetrofisica
 
@@ -945,7 +987,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Petrofísica.
 
 
-<a id="org78a0cc5"></a>
+<a id="org18d26cf"></a>
 
 ## Título: ProjetoEngenharia-SoftwareControlador-MedidorDeBancadaAz-pH-mV-ORP-Cond-TDS-SALT
 
@@ -957,7 +999,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Equipamentos de laboratório.
 
 
-<a id="org73f37fd"></a>
+<a id="org61b3c22"></a>
 
 ## Título: rojetoEngenharia-SoftwareDeComunicacao-MedidorLCR
 
@@ -969,7 +1011,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Equipamentos de laboratório.
 
 
-<a id="orge1f011c"></a>
+<a id="org3986e9e"></a>
 
 ## Título: ProjetoEngenharia-SoftwareParaCalculoDeIncrustacaoNaProducaoDePetroleo
 
@@ -982,7 +1024,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Petrofísica.
 
 
-<a id="org8f57b55"></a>
+<a id="org32266ce"></a>
 
 ## Título: ProjetoEngenharia-SoftwareParaCalculoDePropriedadesReologicasDeFluidosDePerfuracao
 
@@ -994,7 +1036,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de poço.
 
 
-<a id="org13428af"></a>
+<a id="org52821f5"></a>
 
 ## Título: ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas
 
@@ -1012,7 +1054,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Geoquímica.
 
 
-<a id="orga0bf3f2"></a>
+<a id="org15baf6b"></a>
 
 ## Título: ProjetoEngenharia-SoftwareQueCalculaPropriedadesPetrofisicasPocoAPartirEquacoesDaFisica
 
@@ -1029,7 +1071,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Petrofísica.
 
 
-<a id="org7c82984"></a>
+<a id="org8cc9e26"></a>
 
 ## Título: ProjetoEngenharia-SPTSP-Helmholtz
 
@@ -1043,7 +1085,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Engenharia de reservatório.
 
 
-<a id="org1e6313a"></a>
+<a id="org228f58c"></a>
 
 ## Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D
 
@@ -1059,7 +1101,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Transferência de calor.
 
 
-<a id="org24312bd"></a>
+<a id="org0f0f2a7"></a>
 
 ## Título: ProjetoEngenharia-TratamentoEstatisticoDadosGeoquimicos
 
@@ -1072,7 +1114,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Geoquímica.
 
 
-<a id="org4ac48c8"></a>
+<a id="orgd79f14e"></a>
 
 ## Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESelecaoDeInibidoresDeCorrosao
 
@@ -1082,7 +1124,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="orgd063656"></a>
+<a id="org61a2e41"></a>
 
 ## Título: ProjetoEngenharia-SimuladorDePropriedadesPoroelasticas
 
@@ -1092,7 +1134,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="org327f7a7"></a>
+<a id="org0fc7fee"></a>
 
 ## Título: ProjetoEngenharia-GeoLogViewer-FerramentaDeLeituraEVisualizacaoDeDadosGeof-sicosDeArquivos-LAS
 
@@ -1102,7 +1144,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="orge10670f"></a>
+<a id="orgb4c740f"></a>
 
 ## Título: ProjetoEngenharia-SoftwareAnaliseEncrustacaoAmostrasSalmouras
 
@@ -1112,7 +1154,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="org3a2a364"></a>
+<a id="org8310503"></a>
 
 ## Título: ProjetoEngenharia-SimuladorDoEfeitoSismoeletrico
 
@@ -1122,7 +1164,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="orgc364f01"></a>
+<a id="orge549428"></a>
 
 ## Título: ProjetoEngenharia-SimuladorDePlanejamentoDasAtividadesDoEstudanteEngenharia
 
@@ -1132,7 +1174,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="org7bd37ce"></a>
+<a id="org561de4f"></a>
 
 ## Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESolucaoDeProblemasEmEngenhariaDePoco
 
@@ -1142,7 +1184,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="orgb32b13c"></a>
+<a id="org2292623"></a>
 
 ## Título: ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas
 
@@ -1152,7 +1194,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="org57b72fd"></a>
+<a id="org9f59b90"></a>
 
 ## Título:
 
@@ -1162,12 +1204,12 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="org3f0d704"></a>
+<a id="org6c9e1d1"></a>
 
-# Repositórios com Projetos Didáticos
+# Repositórios com Projetos Didáticos:
 
 
-<a id="org3abeaf2"></a>
+<a id="org186b3dc"></a>
 
 ## Título: TCMP-2D
 
@@ -1184,7 +1226,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Transferência de calor.
 
 
-<a id="org47a7d88"></a>
+<a id="orgfb6276d"></a>
 
 ## Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D
 
@@ -1205,7 +1247,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
         -   [Apresentacao](https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D/blob/master/doc/ManualTecnico/Apresentacao_Nicholas_TCC2.pptx)
 
 
-<a id="orgf6042ff"></a>
+<a id="org893a2f3"></a>
 
 ## Título: ProjetoEngenharia-SistemaAcademico (didático)
 
@@ -1215,7 +1257,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Mostrar o desenvolvimento de modelos UML com um exemplo administrativo conhecido dos alunos, o sistema acadêmico.
 
 
-<a id="org35a1d3d"></a>
+<a id="org10eb74b"></a>
 
 ## Título: MicroProjetoSoftware-RedePercolacao-2D
 
@@ -1225,7 +1267,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Exemplo de micro projeto, visa mostrar a construção e uso de redes de percolação em 2D.
 
 
-<a id="orgd7267d9"></a>
+<a id="orgc9e541d"></a>
 
 ## Título: ProjetoEngenharia-Didatico-00-AnimacoesMatematicasFisicas
 
@@ -1235,7 +1277,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Mostra o uso de animações em 2D.
 
 
-<a id="orgacc9e40"></a>
+<a id="org35f17ee"></a>
 
 ## Título: ProjetoEngenharia-Didatico-01-MetNum-IntegracaoNumerica
 
@@ -1245,7 +1287,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Projeto de cunho didático que visa ensinar conceitos de programação em C++ de forma progressiva. Parte de exemplos usando paradigma da programação estruturada e depois mostra diferentes versões orientadas a objeto. A cada nova versão novas funcionalidades e novos conceitos de programação e C++ são apresentados. Inclui modelos UML e códigos. Inclui exemplos com uso de gnuplot, Qt-CustomPlot e Qt.
 
 
-<a id="org13281f0"></a>
+<a id="orgc2f76d4"></a>
 
 ## Título: ProjetoEngenharia-Didatico-03-Equipamentos-SistemaInterruptorLampada
 
@@ -1255,7 +1297,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Projeto de cunho didático que visa ensinar conceitos de modelagem de sistemas de engenharia de forma incremental. A cada nova versão novos conceitos e funcionalidades são apresentados. Inclui modelos UML e códigos.
 
 
-<a id="orge5a5a15"></a>
+<a id="org3e2e790"></a>
 
 ## Título:
 
@@ -1265,12 +1307,12 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="orgd390f3d"></a>
+<a id="orgadf6774"></a>
 
-# Repositórios de Dados
+# Repositórios de Dados:
 
 
-<a id="org805bbc2"></a>
+<a id="org81b0ca0"></a>
 
 ## Título: CursoGraduacao-EngenhariaPetroleo-7-Dados-e-AnalisesDoCurso
 
@@ -1280,7 +1322,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="orgc4c29fe"></a>
+<a id="org5e6e126"></a>
 
 ## Título: ProjetoExemplo-DisciplinaProjetoEngenharia
 
@@ -1290,7 +1332,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="org7bda213"></a>
+<a id="org2e34722"></a>
 
 ## Título: ModeloDiretorio-Disciplina
 
@@ -1300,7 +1342,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="org1b30c84"></a>
+<a id="orgf7bf729"></a>
 
 ## Título: ModeloDiretorio-Administrativo
 
@@ -1310,7 +1352,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="org421659f"></a>
+<a id="org7370ac6"></a>
 
 ## Título:
 
@@ -1320,12 +1362,12 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="org2b7ad95"></a>
+<a id="org119f8f6"></a>
 
-# Repositórios de Manuais
+# Repositórios de Manuais:
 
 
-<a id="org1368a20"></a>
+<a id="orgf12000b"></a>
 
 ## Título: ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo
 
@@ -1335,7 +1377,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   Explica de forma contextualizada o sistema acadêmico da UENF.
 
 
-<a id="orgf188b44"></a>
+<a id="org14cb8c2"></a>
 
 ## Título: Aplicativo-SiteDoCursoDeEngenhariaDePetroleo-UENF
 
@@ -1345,7 +1387,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -   É o projeto de engenharia com informações do site do curso de engenharia de petróleo <https://sites.google.com/view/engenhariadepetroleo/>.
 
 
-<a id="org0c1c9dd"></a>
+<a id="orga71702f"></a>
 
 ## Título:
 
@@ -1355,12 +1397,12 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="orgc3fc695"></a>
+<a id="org50db16a"></a>
 
-# Repositórios de Livros
+# Repositórios de Livros:
 
 
-<a id="org3d6f3a9"></a>
+<a id="org2cbab95"></a>
 
 ## Título: Livro-0-BaseComum
 
@@ -1370,7 +1412,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="org06d5023"></a>
+<a id="org4359b3d"></a>
 
 ## Título: Livro-2-IntroducaoAoProjetoDeEngenharia-ProjetoCientifico-Tecnologico-Produtos-AndreDuarteBueno
 
@@ -1380,7 +1422,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="org47e638c"></a>
+<a id="orgb16128f"></a>
 
 ## Título: Livro-8-UsandoEmacs
 
@@ -1390,7 +1432,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="orgaff80d7"></a>
+<a id="orgb633508"></a>
 
 ## Título: Livro-9-UsandoGnuplot-AndreDuarteBueno
 
@@ -1400,7 +1442,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="orgc5fae61"></a>
+<a id="orgc927476"></a>
 
 ## Título: Livro-10-UsandoGitGithub
 
@@ -1410,7 +1452,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="orgad62aa1"></a>
+<a id="org1af09a0"></a>
 
 ## Título:
 
@@ -1420,12 +1462,12 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="org3f5d8ef"></a>
+<a id="orgee81cd7"></a>
 
-# Repositórios de Bibliotecas Usadas
+# Repositórios de Bibliotecas Usadas:
 
 
-<a id="org04b7622"></a>
+<a id="orgdb0f9b5"></a>
 
 ## Título: CGnuplot
 
@@ -1435,7 +1477,7 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     -
 
 
-<a id="org47e9437"></a>
+<a id="org8463d61"></a>
 
 ## Título:
 
