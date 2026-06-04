@@ -1,27 +1,25 @@
-#+TITLE:    LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas
+#+TITLE: LDSC-Ajuda-ListaRepositorios
 
 * Link:
-
-- O repositório https://github.com/ldsc/LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas contém informações sobre a metodologia adotada no desenvolvimento do projeto de engenharia.
-
+- https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
 - Este arquivo que você esta lendo contém:
   - um resumo da metodologia adotada.
   - uma lista de repositórios e projetos desenvolvidos em anos anteriores.
 
 * Versão: 
-- 1.0.
+- 1.1.
 
 * Data:
-- 2024/1 - primeiro semestre.
+- 2026/1 - primeiro semestre.
   
 * Autor de Contato:
 - André Duarte Bueno
-- [[mailto:andreduartebueno@gmail.com][andreduartebueno@gmail.com]]
-- [[mailto:bueno@lenep.uenf.br][bueno@lenep.uenf.br]]
-- [[https://sites.google.com/view/professorandreduartebueno/][site do professor]]
-- [[https://sites.google.com/view/professorandreduartebueno/ensino/introdu%C3%A7%C3%A3o-ao-projeto-de-engenharia][site da disciplina de introdução ao projeto de engenharia]]. 
+  - [[mailto:andreduartebueno@gmail.com][andreduartebueno@gmail.com]]
+  - [[mailto:bueno@lenep.uenf.br][bueno@lenep.uenf.br]]
+  - [[https://sites.google.com/view/professorandreduartebueno/][site do professor]]
+  - [[https://sites.google.com/view/professorandreduartebueno/ensino/introdu%C3%A7%C3%A3o-ao-projeto-de-engenharia][site da disciplina de introdução ao projeto de engenharia]].
   
-* Áreas de pesquisa vinculadas:
+* Áreas de Pesquisa Vinculadas:
 - Modelagem Computacional (Algoritmos).
 - Modelagem de Software (UML).
 - Programação Orientada a Objeto.
@@ -31,19 +29,20 @@
 - Gestão de Projetos de Engenharia (métodos tradicionais e ágeis).
 - Administração (gestão de projetos e processos).
 
-* Disciplinas vinculadas:
+* Disciplinas Vinculadas:
 - [[https://sites.google.com/view/professorandreduartebueno/ensino/fundamentos-de-programa%C3%A7%C3%A3o-em-c][Disciplina Fundamentos de Ciência da Computação]].
 - [[https://sites.google.com/view/professorandreduartebueno/ensino/introdu%C3%A7%C3%A3o-ao-projeto-de-engenharia][Disciplina Introdução ao Projeto de Engenharia]].
 - [[https://sites.google.com/view/professorandreduartebueno/ensino/prog-orientada-objeto-c-2024][Disciplina Programação Orientada a Objeto com C++]].
 - [[https://sites.google.com/view/professorandreduartebueno/ensino/projeto-de-software-aplicado][Disciplina Projeto de Software Aplicado]].
 - [[https://sites.google.com/view/professorandreduartebueno/ensino/programa%C3%A7%C3%A3o-paralela-e-concorrente][Disciplina Programação Paralela e Concorrente]].
-    
-* Links:
+
+* Links Externos:
 - [[https://sites.google.com/view/professorandreduartebueno/][Site do Professor André Duarte Bueno]].
-- [[https://github.com/ldsc][Site do *LDSC - Laboratório de Desenvolvimento de Software Científico e Aplicado* no github]].
+- [[https://github.com/ldsc][Site do *LDSC - Laboratório de Desenvolvimento de Software Científico e Aplicado* no github]]
+- [[https://sites.google.com/view/engenhariadepetroleo][Site do Curso de Graduação em Engenharia de Petróleo]].
 - [[https://uenf.br/cct/lenep][Site do LENEP]].
 
-* Resumo da metodologia
+* Resumo da Metodologia de Projetos de Engenharia:
 
 A metodologia irá cobrir as etapas para o desenvolvimento de um projeto de engenharia completo.
 Fazemos uma relação com o conceito de Nível de Maturidade Tecnológica ou TRL.
@@ -70,15 +69,7 @@ Ex: os contratos de projeto que assinamos com a Petrobras.
 * Lista de Repositórios do LDSC
 Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositórios com informações em geral, modelos de documentos e projetos, exemplos de projetos desenvolvidos em anos anteriores.
 
-* <<1>>Repositórios com instruções e modelos
-** Título: UENF-CCT-LENEP-Repositorio-Documentos
-- Link no github:
-  - https://github.com/ldsc/UENF-CCT-LENEP-Repositorio-Documentos
-- Resumo:
-  - Arquivos da UENF, CCT, LENEP para apoio a alunos.
-- Área:
-  - Administrativa.
-
+* Repositórios de Ajuda
 ** Título: LDSC-Ajuda-DocumentosAuxiliares
 - Link no github:
   - https://github.com/ldsc/LDSC-Ajuda-DocumentosAuxiliares
@@ -87,9 +78,43 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
 - Área:
   - Modelagem computacional.
 
-** Título: LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas
+** Título: LDSC-Ajuda-ListaRepositorios
 - Link no github:
-  - https://github.com/ldsc/LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas
+  - https://github.com/ldsc/LDSC-Ajuda-ListaRepositorios
+- Resumo:
+  - Este arquivo contem informações básicas e a lista de repositórios do LDSC.
+- Área:
+  - Modelagem computacional.
+
+
+- Link no github:
+  - https://github.com/ldsc/UENF-CCT-LENEP-Repositorio-Documentos
+- Resumo:
+  - Arquivos da UENF, CCT, LENEP para apoio a alunos.
+- Área:
+  - Administrativa.
+
+- Link no github:
+  - https://github.com/ldsc/UENF-CCT-LENEP-Repositorio-Documentos
+- Resumo:
+  - Arquivos da UENF, CCT, LENEP para apoio a alunos.
+- Área:
+  - Administrativa.
+
+** Título: UENF-CCT-LENEP-Repositorio-Documentos
+- Link no github:
+  - https://github.com/ldsc/UENF-CCT-LENEP-Repositorio-Documentos
+- Resumo:
+  - Arquivos da UENF, CCT, LENEP para apoio a alunos.
+- Área:
+  - Administrativa.
+
+
+* Repositórios com Modelos
+
+** Título: LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas-ModeloProfessorBueno
+- Link no github:
+  - https://github.com/ldsc/LDSC-ProjetoEngenharia-0-Metodologia-Instrucoes-Etapas-ModeloProfessorBueno
 - Resumo:
   - Repositório com informações sobre a metodologia adotada no desenvolvimento do projeto de engenharia vinculado as disciplinas de modelagem computacional.
 - Área:
@@ -123,6 +148,12 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
   - Modelo de projeto de engenharia (usado até 2023/2).
   - Não incluia a parte de gestão (metodologia, desafio tecnológico, pré-projeto e projeto).
 
+** Título: LDSC-Modelo-MicroProjetoSoftware-TituloProjeto
+- Link no github:
+  - https://github.com/ldsc/LDSC-Modelo-MicroProjetoSoftware-TituloProjeto
+- Resumo:
+  - Um modelo de projeto mais enxuto. Use para pequenos exemplos de projetos, curta duração, didáticos.
+
 ** Título: LDSC-Modelo-TrabalhoAcademico-01-OrganizacaoPessoal
 - Link no github:
   - https://github.com/ldsc/LDSC-Modelo-TrabalhoAcademico-01-OrganizacaoPessoal
@@ -149,7 +180,8 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
 - Área:
   - Metodologia científica.
   - Organização/gestão pessoal.
-* <<2>>Repositórios de bibliotecas desenvolvidas
+
+* Repositórios de Bibliotecas Desenvolvidas
 
 ** Título: Biblioteca lib_ldsc
 - Link no github:
@@ -165,7 +197,9 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
   - Apresentação:  [[https://github.com/ldsc/lib_ldsc/blob/master/doc/ManualTecnico/ApresentacaoLinhaPesquisaAnaliseDeImagens-ProcParalelo-Bueno-2023-reduzida.pdf][Apresentação linhas de pesquisa que usam a lib_ldsc]]
 - Área:
   - Análise e processamento de imagens.
-* <<3>>Repositórios de softwares desenvolvidos
+
+
+* Repositórios de Softwares Desenvolvidos
 
 ** Título: Software LVP - Laboratório Virtual de Petrofísica
 - Link no github:
@@ -260,8 +294,9 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
   - Publicação:
     - [[https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D/blob/master/doc/ManualTecnico/TCC-NikolasAlmeidaPinto.pdf][TCC]] 
     - [[https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D/blob/master/doc/ManualTecnico/Apresentacao_Nicholas_TCC2.pptx][Apresentacao]]
-- 
-* <<4>>Repositórios de projetos desenvolvidos
+
+
+* Repositórios de Projetos Desenvolvidos por Alunos
 
 ** Título: ProjetoEngenharia-AnaliseDoEfeitoDePeliculaAPartirIPR-PocosVerticais-EscoamentoMonofasico
 - Link no github:
@@ -641,7 +676,64 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
   - O objetivo geral do software é propor uma série de tratamentos estatísticos como a regressão linear e os testes de hipóteses, bem como alguns testes que identificam valores anômalos (outliers).Este trabalho implementa alguns testes que identificam valores anômalos (outliers), que são: Teste do escore z modificado, Teste de Grubbs, Teste de Dixon, Teste de Cochran e Teste de Doerffel , além de testes de hipóteses e regressão linear que são aplicados em dados geoquímicos.
 - Área:
   - Geoquímica.
-* <<5>>Repositórios com projetos didáticos
+
+
+** Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESelecaoDeInibidoresDeCorrosao
+- Link no github:
+  - https://github.com/ldsc/ProjetoEngenharia-SoftwareEducacionalParaAnaliseESelecaoDeInibidoresDeCorrosao
+- Resumo:
+  -
+
+
+** Título: ProjetoEngenharia-SimuladorDePropriedadesPoroelasticas
+- Link no github:
+  - https://github.com/ldsc/ProjetoEngenharia-SimuladorDePropriedadesPoroelasticas
+- Resumo:
+  -
+
+
+** Título: ProjetoEngenharia-GeoLogViewer-FerramentaDeLeituraEVisualizacaoDeDadosGeof-sicosDeArquivos-LAS
+- Link no github:
+  - https://github.com/ldsc/ProjetoEngenharia-GeoLogViewer-FerramentaDeLeituraEVisualizacaoDeDadosGeof-sicosDeArquivos-LAS
+- Resumo:
+  -
+
+** Título: ProjetoEngenharia-SoftwareAnaliseEncrustacaoAmostrasSalmouras
+- Link no github:
+  - https://github.com/ldsc/ProjetoEngenharia-SoftwareAnaliseEncrustacaoAmostrasSalmouras
+- Resumo:
+  -
+
+** Título: ProjetoEngenharia-SimuladorDoEfeitoSismoeletrico
+- Link no github:
+  - https://github.com/ldsc/ProjetoEngenharia-SimuladorDoEfeitoSismoeletrico
+- Resumo:
+  -
+** Título: ProjetoEngenharia-SimuladorDePlanejamentoDasAtividadesDoEstudanteEngenharia
+- Link no github:
+  - https://github.com/ldsc/ProjetoEngenharia-SimuladorDePlanejamentoDasAtividadesDoEstudanteEngenharia
+- Resumo:
+  -
+** Título: ProjetoEngenharia-SoftwareEducacionalParaAnaliseESolucaoDeProblemasEmEngenhariaDePoco
+- Link no github:
+  - https://github.com/ldsc/ProjetoEngenharia-SoftwareEducacionalParaAnaliseESolucaoDeProblemasEmEngenhariaDePoco
+- Resumo:
+  -
+
+** Título: ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas
+- Link no github:
+  - https://github.com/ldsc/ProjetoEngenharia-SoftwareParaTratamentosDeDados-FT-ICR-MS-e-Aplica-esGeoquimicas
+- Resumo:
+  -
+
+** Título:
+- Link no github:
+  -
+- Resumo:
+  -
+
+
+* Repositórios com Projetos Didáticos
 
 ** Título: TCMP-2D
 - Link no github:
@@ -655,7 +747,6 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
 
 - Área:
   - Transferência de calor.
-
 
 ** Título: ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D
 - Link no github:
@@ -674,10 +765,143 @@ Veja a seguir uma lista de repositórios do LDSC, estão disponíveis repositór
     - [[https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D/blob/master/doc/ManualTecnico/TCC-NikolasAlmeidaPinto.pdf][TCC]] 
     - [[https://github.com/ldsc/ProjetoEngenharia-STC-3D-SimuladorDeTransferenciaDeCalor-3D/blob/master/doc/ManualTecnico/Apresentacao_Nicholas_TCC2.pptx][Apresentacao]]
 
-
 ** Título: ProjetoEngenharia-SistemaAcademico (didático)
 - Link no github:
   - https://github.com/ldsc/ProjetoEngenharia-SistemaAcademico
 - Resumo:
   - Mostrar o desenvolvimento de modelos UML com um exemplo administrativo conhecido dos alunos, o sistema acadêmico.
 
+** Título: MicroProjetoSoftware-RedePercolacao-2D
+- Link no github:
+  - https://github.com/ldsc/MicroProjetoSoftware-RedePercolacao-2D
+- Resumo:
+  - Exemplo de micro projeto, visa mostrar a construção e uso de redes de percolação em 2D.
+
+** Título: ProjetoEngenharia-Didatico-00-AnimacoesMatematicasFisicas
+- Link no github:
+  - https://github.com/ldsc/ProjetoEngenharia-Didatico-00-AnimacoesMatematicasFisicas
+- Resumo:
+  - Mostra o uso de animações em 2D.
+
+** Título: ProjetoEngenharia-Didatico-01-MetNum-IntegracaoNumerica
+- Link no github:
+  - https://github.com/ldsc/ProjetoEngenharia-Didatico-01-MetNum-IntegracaoNumerica
+- Resumo:
+  - Projeto de cunho didático que visa ensinar conceitos de programação em C++ de forma progressiva. Parte de exemplos usando paradigma da programação estruturada e depois mostra diferentes versões orientadas a objeto. A cada nova versão novas funcionalidades e novos conceitos de programação e C++ são apresentados. Inclui modelos UML e códigos. Inclui exemplos com uso de gnuplot, Qt-CustomPlot e Qt.
+
+** Título: ProjetoEngenharia-Didatico-03-Equipamentos-SistemaInterruptorLampada
+- Link no github:
+  - https://github.com/ldsc/ProjetoEngenharia-Didatico-03-Equipamentos-SistemaInterruptorLampada
+- Resumo:
+  - Projeto de cunho didático que visa ensinar conceitos de modelagem de sistemas de engenharia de forma incremental. A cada nova versão novos conceitos e funcionalidades são apresentados. Inclui modelos UML e códigos.
+
+** Título:
+- Link no github:
+  -
+- Resumo:
+  -
+
+
+* Repositórios de Dados
+
+** Título: CursoGraduacao-EngenhariaPetroleo-7-Dados-e-AnalisesDoCurso
+- Link no github:
+  - https://github.com/ldsc/CursoGraduacao-EngenhariaPetroleo-7-Dados-e-AnalisesDoCurso
+- Resumo:
+  -
+
+** Título: ProjetoExemplo-DisciplinaProjetoEngenharia
+- Link no github:
+  - https://github.com/ldsc/ProjetoExemplo-DisciplinaProjetoEngenharia
+- Resumo:
+  -
+
+** Título: ModeloDiretorio-Disciplina
+- Link no github:
+  - https://github.com/ldsc/ModeloDiretorio-Disciplina
+- Resumo:
+  -
+
+** Título: ModeloDiretorio-Administrativo
+- Link no github:
+  - https://github.com/ldsc/ModeloDiretorio-Administrativo
+- Resumo:
+  -
+
+** Título:
+- Link no github:
+  -
+- Resumo:
+  -
+
+
+* Repositórios de Manuais
+
+** Título: ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo
+- Link no github:
+  - https://github.com/ldsc/ManualContextualizadoDoSistemaAcademico-UENF-EngenhariaDePetroleo
+- Resumo:
+  - Explica de forma contextualizada o sistema acadêmico da UENF.
+
+** Título: Aplicativo-SiteDoCursoDeEngenhariaDePetroleo-UENF
+- Link no github:
+  - https://github.com/ldsc/Aplicativo-SiteDoCursoDeEngenhariaDePetroleo-UENF
+- Resumo:
+  - É o projeto de engenharia com informações do site do curso de engenharia de petróleo https://sites.google.com/view/engenhariadepetroleo/.
+
+** Título:
+- Link no github:
+  -
+- Resumo:
+  -
+
+* Repositórios de Livros
+** Título: Livro-0-BaseComum
+- Link no github:
+  - https://github.com/ldsc/Livro-0-BaseComum
+- Resumo:
+  -
+
+** Título: Livro-2-IntroducaoAoProjetoDeEngenharia-ProjetoCientifico-Tecnologico-Produtos-AndreDuarteBueno
+- Link no github:
+  - https://github.com/ldsc/Livro-2-IntroducaoAoProjetoDeEngenharia-ProjetoCientifico-Tecnologico-Produtos-AndreDuarteBueno
+- Resumo:
+  -
+** Título: Livro-8-UsandoEmacs
+- Link no github:
+  - https://github.com/ldsc/Livro-8-UsandoEmacs
+- Resumo:
+  -
+
+** Título: Livro-9-UsandoGnuplot-AndreDuarteBueno
+- Link no github:
+  - https://github.com/ldsc/Livro-9-UsandoGnuplot-AndreDuarteBueno
+- Resumo:
+  -
+
+** Título: Livro-10-UsandoGitGithub
+- Link no github:
+  - https://github.com/ldsc/Livro-10-UsandoGitGithub
+- Resumo:
+  -
+
+** Título:
+
+- Link no github:
+  -
+- Resumo:
+  -
+
+* Repositórios de Bibliotecas Usadas
+
+** Título: CGnuplot
+- Link no github:
+  - https://github.com/ldsc/CGnuplot
+- Resumo:
+  -
+
+** Título:
+- Link no github:
+  -
+- Resumo:
+  -
